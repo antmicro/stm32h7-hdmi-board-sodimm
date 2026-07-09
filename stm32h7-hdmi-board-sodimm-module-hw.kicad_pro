@@ -8,7 +8,7 @@
       "internal_id": "",
       "mfg": "",
       "mpn": "",
-      "sch_revision": ""
+      "sch_revision": "1.0.0"
     },
     "layer_pairs": [],
     "layer_presets": [],
@@ -416,7 +416,7 @@
         "uuid": "92fcd7c5-798f-49cd-ae80-ce2fa78a6354"
       }
     ],
-    "used_designators": "J1,U1-8,#PWR1-34,C1-57",
+    "used_designators": "R1-32,C1-57,#PWR1-34,U1-8,J1",
     "variants": []
   },
   "sheets": [
@@ -433,7 +433,7 @@
       "SDR-BANK-1"
     ],
     [
-      "704782cd-5322-4074-876a-5fa2f5a6a968",
+      "ea9e5958-6df2-4973-b365-7ad6c75e8680",
       "SDR-BANK-2"
     ]
   ],
