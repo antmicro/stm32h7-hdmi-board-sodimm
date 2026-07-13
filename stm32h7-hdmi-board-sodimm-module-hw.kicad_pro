@@ -669,7 +669,7 @@
         "uuid": "92fcd7c5-798f-49cd-ae80-ce2fa78a6354"
       }
     ],
-    "used_designators": "RN1-8,#FLG1-2,J1-2,U1-8,#PWR1-36,C1-64,TP1-2,R1-32",
+    "used_designators": "RN1-8,#FLG1-2,J1-2,U1-16,#PWR1-52,C1-96,TP1-2,R1-32",
     "variants": []
   },
   "sheets": [
@@ -682,12 +682,36 @@
       "SODIMM"
     ],
     [
-      "87443631-e2d6-4bf3-9047-419296ee953b",
-      "SDR-BANK-1"
+      "8065b630-3bb7-47f1-baca-00560e3eccce",
+      "SDR"
     ],
     [
-      "ea9e5958-6df2-4973-b365-7ad6c75e8680",
-      "SDR-BANK-2"
+      "5dc00c1d-6d73-4075-9f40-456de291661b",
+      "SDR1"
+    ],
+    [
+      "64f9e65c-9d05-4be1-9e31-4d16c11f0fb0",
+      "SDR2"
+    ],
+    [
+      "ddf45e09-ef7c-4334-8682-44a40fb9ac25",
+      "SDR3"
+    ],
+    [
+      "cd52d890-d841-4c0b-b74f-cecd82eab78c",
+      "SDR4"
+    ],
+    [
+      "b905e1ec-7c3f-48f7-ae55-d927b88852a9",
+      "SDR5"
+    ],
+    [
+      "87a2e1a4-69b4-4323-9d30-934d29179e2b",
+      "SDR6"
+    ],
+    [
+      "b4e055d1-7bf1-4790-ab55-efe4bf9542a5",
+      "SDR7"
     ]
   ],
   "text_variables": {},

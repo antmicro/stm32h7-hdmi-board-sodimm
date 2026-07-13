@@ -227,7 +227,6 @@
 			)
 		)
 		(property ki_fp_filters "C_*")
-		(path "/ea9e5958-6df2-4973-b365-7ad6c75e8680/62d46911-8d60-4e61-9f39-80b01a1aec4e")
 		(sheetname "/SDR-BANK-2/")
 		(sheetfile "sdr-bank-1.kicad_sch")
 		(units
@@ -7234,7 +7233,6 @@
 			)
 		)
 		(property ki_fp_filters "C_*")
-		(path "/ea9e5958-6df2-4973-b365-7ad6c75e8680/223bf5dd-1b19-4f98-ac9d-2613611f5e54")
 		(sheetname "/SDR-BANK-2/")
 		(sheetfile "sdr-bank-1.kicad_sch")
 		(units
@@ -14241,7 +14239,6 @@
 			)
 		)
 		(property ki_fp_filters "C_*")
-		(path "/87443631-e2d6-4bf3-9047-419296ee953b/b733e6bf-d265-4bc9-81f4-ddc936885def")
 		(sheetname "/SDR-BANK-1/")
 		(sheetfile "sdr-bank-1.kicad_sch")
 		(units
@@ -21248,7 +21245,6 @@
 			)
 		)
 		(property ki_fp_filters "C_*")
-		(path "/87443631-e2d6-4bf3-9047-419296ee953b/0128bf31-d548-4085-bece-af388c250765")
 		(sheetname "/SDR-BANK-1/")
 		(sheetfile "sdr-bank-1.kicad_sch")
 		(units
@@ -28255,7 +28251,6 @@
 			)
 		)
 		(property ki_fp_filters "C_*")
-		(path "/ea9e5958-6df2-4973-b365-7ad6c75e8680/abdebb37-b982-472d-955b-9e7bdb217444")
 		(sheetname "/SDR-BANK-2/")
 		(sheetfile "sdr-bank-1.kicad_sch")
 		(units
@@ -35262,7 +35257,6 @@
 			)
 		)
 		(property ki_fp_filters "C_*")
-		(path "/87443631-e2d6-4bf3-9047-419296ee953b/30d0bf68-9db1-40c0-b186-0485b5dd126c")
 		(sheetname "/SDR-BANK-1/")
 		(sheetfile "sdr-bank-1.kicad_sch")
 		(units
@@ -42269,7 +42263,6 @@
 			)
 		)
 		(property ki_fp_filters "C_*")
-		(path "/ea9e5958-6df2-4973-b365-7ad6c75e8680/468922b6-bbf7-46b9-8009-568ccc6c4507")
 		(sheetname "/SDR-BANK-2/")
 		(sheetfile "sdr-bank-1.kicad_sch")
 		(units
@@ -49276,7 +49269,6 @@
 			)
 		)
 		(property ki_fp_filters "C_*")
-		(path "/87443631-e2d6-4bf3-9047-419296ee953b/15ea34da-55d9-4e8c-adb6-00f44eabe3ba")
 		(sheetname "/SDR-BANK-1/")
 		(sheetfile "sdr-bank-1.kicad_sch")
 		(units
@@ -56283,7 +56275,6 @@
 			)
 		)
 		(property ki_fp_filters "C_*")
-		(path "/ea9e5958-6df2-4973-b365-7ad6c75e8680/64b1b93c-9045-4c08-89fd-7fd43d0e7819")
 		(sheetname "/SDR-BANK-2/")
 		(sheetfile "sdr-bank-1.kicad_sch")
 		(units
@@ -63290,7 +63281,6 @@
 			)
 		)
 		(property ki_fp_filters "DIP* SOIC* R*Array*Concave* R*Array*Convex* MSOP*")
-		(path "/a820161a-1d1d-45ac-b063-210306f675af")
 		(sheetname "/")
 		(sheetfile "stm32h7-hdmi-board-sodimm-module-hw.kicad_sch")
 		(units
@@ -63552,7 +63542,6 @@
 			)
 		)
 		(property ki_fp_filters "C_*")
-		(path "/87443631-e2d6-4bf3-9047-419296ee953b/262703de-400d-4294-90e0-c4fbccd5ffc1")
 		(sheetname "/SDR-BANK-1/")
 		(sheetfile "sdr-bank-1.kicad_sch")
 		(units
@@ -70559,7 +70548,6 @@
 			)
 		)
 		(property ki_fp_filters "C_*")
-		(path "/87443631-e2d6-4bf3-9047-419296ee953b/02dadc59-5bd3-47ca-aca5-ae602e32813d")
 		(sheetname "/SDR-BANK-1/")
 		(sheetfile "sdr-bank-1.kicad_sch")
 		(units
@@ -77566,7 +77554,6 @@
 			)
 		)
 		(property ki_fp_filters "C_*")
-		(path "/ea9e5958-6df2-4973-b365-7ad6c75e8680/02dadc59-5bd3-47ca-aca5-ae602e32813d")
 		(sheetname "/SDR-BANK-2/")
 		(sheetfile "sdr-bank-1.kicad_sch")
 		(units
@@ -84573,7 +84560,6 @@
 			)
 		)
 		(property ki_fp_filters "DIP* SOIC* R*Array*Concave* R*Array*Convex* MSOP*")
-		(path "/17d4947f-7291-4cbd-8080-1d087aef386b")
 		(sheetname "/")
 		(sheetfile "stm32h7-hdmi-board-sodimm-module-hw.kicad_sch")
 		(units
@@ -84888,7 +84874,6 @@
 				)
 			)
 		)
-		(path "/87443631-e2d6-4bf3-9047-419296ee953b/768e14f6-2210-43ea-920f-395d3038b343")
 		(sheetname "/SDR-BANK-1/")
 		(sheetfile "sdr-bank-1.kicad_sch")
 		(units
@@ -86372,7 +86357,6 @@
 			)
 		)
 		(property ki_fp_filters "C_*")
-		(path "/ea9e5958-6df2-4973-b365-7ad6c75e8680/f1f2802c-c877-4be1-b0b3-160262d7a60a")
 		(sheetname "/SDR-BANK-2/")
 		(sheetfile "sdr-bank-1.kicad_sch")
 		(units
@@ -93379,7 +93363,6 @@
 			)
 		)
 		(property ki_fp_filters "C_*")
-		(path "/ea9e5958-6df2-4973-b365-7ad6c75e8680/8f404486-1896-4b69-ae77-2ab2bad71a0a")
 		(sheetname "/SDR-BANK-2/")
 		(sheetfile "sdr-bank-1.kicad_sch")
 		(units
@@ -100386,7 +100369,6 @@
 			)
 		)
 		(property ki_fp_filters "C_*")
-		(path "/ea9e5958-6df2-4973-b365-7ad6c75e8680/a4e17768-b139-4109-9a4a-3baadda63001")
 		(sheetname "/SDR-BANK-2/")
 		(sheetfile "sdr-bank-1.kicad_sch")
 		(units
@@ -107393,7 +107375,6 @@
 			)
 		)
 		(property ki_fp_filters "C_*")
-		(path "/87443631-e2d6-4bf3-9047-419296ee953b/e246c5ff-c883-49c3-8470-f1a39e16ecee")
 		(sheetname "/SDR-BANK-1/")
 		(sheetfile "sdr-bank-1.kicad_sch")
 		(units
@@ -114400,7 +114381,6 @@
 			)
 		)
 		(property ki_fp_filters "C_*")
-		(path "/87443631-e2d6-4bf3-9047-419296ee953b/def78503-83c4-42ef-87b2-e73172e13ae3")
 		(sheetname "/SDR-BANK-1/")
 		(sheetfile "sdr-bank-1.kicad_sch")
 		(units
@@ -121460,7 +121440,6 @@
 				)
 			)
 		)
-		(path "/87443631-e2d6-4bf3-9047-419296ee953b/f3141608-74cb-4b09-8ac9-f4e525f36259")
 		(sheetname "/SDR-BANK-1/")
 		(sheetfile "sdr-bank-1.kicad_sch")
 		(units
@@ -122944,7 +122923,6 @@
 			)
 		)
 		(property ki_fp_filters "DIP* SOIC* R*Array*Concave* R*Array*Convex* MSOP*")
-		(path "/d2a4cbac-2ff6-4f30-a72c-d2ae590e8261")
 		(sheetname "/")
 		(sheetfile "stm32h7-hdmi-board-sodimm-module-hw.kicad_sch")
 		(units
@@ -123206,7 +123184,6 @@
 			)
 		)
 		(property ki_fp_filters "C_*")
-		(path "/87443631-e2d6-4bf3-9047-419296ee953b/c14c4614-6743-4b93-8b53-ea8af81d2287")
 		(sheetname "/SDR-BANK-1/")
 		(sheetfile "sdr-bank-1.kicad_sch")
 		(units
@@ -130213,7 +130190,6 @@
 			)
 		)
 		(property ki_fp_filters "C_*")
-		(path "/ea9e5958-6df2-4973-b365-7ad6c75e8680/df64d541-9e78-4a50-b5e2-e8b6b3d86781")
 		(sheetname "/SDR-BANK-2/")
 		(sheetfile "sdr-bank-1.kicad_sch")
 		(units
@@ -137220,7 +137196,6 @@
 			)
 		)
 		(property ki_fp_filters "C_*")
-		(path "/ea9e5958-6df2-4973-b365-7ad6c75e8680/e7b35c37-721c-46b0-ae4f-ed46e71c6073")
 		(sheetname "/SDR-BANK-2/")
 		(sheetfile "sdr-bank-1.kicad_sch")
 		(units
@@ -144227,7 +144202,6 @@
 			)
 		)
 		(property ki_fp_filters "C_*")
-		(path "/ea9e5958-6df2-4973-b365-7ad6c75e8680/b733e6bf-d265-4bc9-81f4-ddc936885def")
 		(sheetname "/SDR-BANK-2/")
 		(sheetfile "sdr-bank-1.kicad_sch")
 		(units
@@ -151234,7 +151208,6 @@
 			)
 		)
 		(property ki_fp_filters "C_*")
-		(path "/ea9e5958-6df2-4973-b365-7ad6c75e8680/0128bf31-d548-4085-bece-af388c250765")
 		(sheetname "/SDR-BANK-2/")
 		(sheetfile "sdr-bank-1.kicad_sch")
 		(units
@@ -158241,7 +158214,6 @@
 			)
 		)
 		(property ki_fp_filters "C_*")
-		(path "/ea9e5958-6df2-4973-b365-7ad6c75e8680/c14c4614-6743-4b93-8b53-ea8af81d2287")
 		(sheetname "/SDR-BANK-2/")
 		(sheetfile "sdr-bank-1.kicad_sch")
 		(units
@@ -165248,7 +165220,6 @@
 			)
 		)
 		(property ki_fp_filters "C_*")
-		(path "/ea9e5958-6df2-4973-b365-7ad6c75e8680/062e3343-1323-449e-81be-deacf9a38f9b")
 		(sheetname "/SDR-BANK-2/")
 		(sheetfile "sdr-bank-1.kicad_sch")
 		(units
@@ -172255,7 +172226,6 @@
 			)
 		)
 		(property ki_fp_filters "C_*")
-		(path "/ea9e5958-6df2-4973-b365-7ad6c75e8680/c16ff35c-b215-47c0-afc7-2c4430711974")
 		(sheetname "/SDR-BANK-2/")
 		(sheetfile "sdr-bank-1.kicad_sch")
 		(units
@@ -179262,7 +179232,6 @@
 			)
 		)
 		(property ki_fp_filters "C_*")
-		(path "/87443631-e2d6-4bf3-9047-419296ee953b/a4e17768-b139-4109-9a4a-3baadda63001")
 		(sheetname "/SDR-BANK-1/")
 		(sheetfile "sdr-bank-1.kicad_sch")
 		(units
@@ -186322,7 +186291,6 @@
 				)
 			)
 		)
-		(path "/87443631-e2d6-4bf3-9047-419296ee953b/d7621f8a-d470-43fe-8e60-6d3e3fb5c7e5")
 		(sheetname "/SDR-BANK-1/")
 		(sheetfile "sdr-bank-1.kicad_sch")
 		(units
@@ -187806,7 +187774,6 @@
 			)
 		)
 		(property ki_fp_filters "C_*")
-		(path "/87443631-e2d6-4bf3-9047-419296ee953b/13f34b51-d639-4531-ad7b-be116448175f")
 		(sheetname "/SDR-BANK-1/")
 		(sheetfile "sdr-bank-1.kicad_sch")
 		(units
@@ -194813,7 +194780,6 @@
 			)
 		)
 		(property ki_fp_filters "C_*")
-		(path "/ea9e5958-6df2-4973-b365-7ad6c75e8680/7ce2132c-6c4a-4c4c-b9ba-9b7564b315af")
 		(sheetname "/SDR-BANK-2/")
 		(sheetfile "sdr-bank-1.kicad_sch")
 		(units
@@ -201820,7 +201786,6 @@
 			)
 		)
 		(property ki_fp_filters "DIP* SOIC* R*Array*Concave* R*Array*Convex* MSOP*")
-		(path "/26103f84-b73c-4148-90af-b10c3c12a99e")
 		(sheetname "/")
 		(sheetfile "stm32h7-hdmi-board-sodimm-module-hw.kicad_sch")
 		(units
@@ -202082,7 +202047,6 @@
 			)
 		)
 		(property ki_fp_filters "C_*")
-		(path "/87443631-e2d6-4bf3-9047-419296ee953b/11cbc885-27e6-453b-a605-d9b887bf0d7d")
 		(sheetname "/SDR-BANK-1/")
 		(sheetfile "sdr-bank-1.kicad_sch")
 		(units
@@ -209089,7 +209053,6 @@
 			)
 		)
 		(property ki_fp_filters "C_*")
-		(path "/87443631-e2d6-4bf3-9047-419296ee953b/2876e5c1-9110-4b2b-b733-3440bc814f3b")
 		(sheetname "/SDR-BANK-1/")
 		(sheetfile "sdr-bank-1.kicad_sch")
 		(units
@@ -216096,7 +216059,6 @@
 			)
 		)
 		(property ki_fp_filters "C_*")
-		(path "/87443631-e2d6-4bf3-9047-419296ee953b/1c45b4ef-c251-405e-9bbd-c9eee9d5947a")
 		(sheetname "/SDR-BANK-1/")
 		(sheetfile "sdr-bank-1.kicad_sch")
 		(units
@@ -224762,7 +224724,6 @@
 			)
 		)
 		(property ki_fp_filters "C_*")
-		(path "/87443631-e2d6-4bf3-9047-419296ee953b/e7067584-c659-4a8d-bff5-7b5233232c08")
 		(sheetname "/SDR-BANK-1/")
 		(sheetfile "sdr-bank-1.kicad_sch")
 		(units
@@ -231769,7 +231730,6 @@
 			)
 		)
 		(property ki_fp_filters "C_*")
-		(path "/87443631-e2d6-4bf3-9047-419296ee953b/8f404486-1896-4b69-ae77-2ab2bad71a0a")
 		(sheetname "/SDR-BANK-1/")
 		(sheetfile "sdr-bank-1.kicad_sch")
 		(units
@@ -238776,7 +238736,6 @@
 			)
 		)
 		(property ki_fp_filters "C_*")
-		(path "/87443631-e2d6-4bf3-9047-419296ee953b/62d46911-8d60-4e61-9f39-80b01a1aec4e")
 		(sheetname "/SDR-BANK-1/")
 		(sheetfile "sdr-bank-1.kicad_sch")
 		(units
@@ -245783,7 +245742,6 @@
 			)
 		)
 		(property ki_fp_filters "C_*")
-		(path "/87443631-e2d6-4bf3-9047-419296ee953b/f1f2802c-c877-4be1-b0b3-160262d7a60a")
 		(sheetname "/SDR-BANK-1/")
 		(sheetfile "sdr-bank-1.kicad_sch")
 		(units
@@ -252790,7 +252748,6 @@
 			)
 		)
 		(property ki_fp_filters "C_*")
-		(path "/87443631-e2d6-4bf3-9047-419296ee953b/e7b35c37-721c-46b0-ae4f-ed46e71c6073")
 		(sheetname "/SDR-BANK-1/")
 		(sheetfile "sdr-bank-1.kicad_sch")
 		(units
@@ -259797,7 +259754,6 @@
 			)
 		)
 		(property ki_fp_filters "C_*")
-		(path "/ea9e5958-6df2-4973-b365-7ad6c75e8680/e7067584-c659-4a8d-bff5-7b5233232c08")
 		(sheetname "/SDR-BANK-2/")
 		(sheetfile "sdr-bank-1.kicad_sch")
 		(units
@@ -266804,7 +266760,6 @@
 			)
 		)
 		(property ki_fp_filters "C_*")
-		(path "/87443631-e2d6-4bf3-9047-419296ee953b/174dd978-86d7-4d67-84b4-ae7473bbf6dd")
 		(sheetname "/SDR-BANK-1/")
 		(sheetfile "sdr-bank-1.kicad_sch")
 		(units
@@ -273811,7 +273766,6 @@
 			)
 		)
 		(property ki_fp_filters "C_*")
-		(path "/87443631-e2d6-4bf3-9047-419296ee953b/468922b6-bbf7-46b9-8009-568ccc6c4507")
 		(sheetname "/SDR-BANK-1/")
 		(sheetfile "sdr-bank-1.kicad_sch")
 		(units
@@ -280818,7 +280772,6 @@
 			)
 		)
 		(property ki_fp_filters "C_*")
-		(path "/ea9e5958-6df2-4973-b365-7ad6c75e8680/6b8055f1-6594-4fc5-be2f-14b52cd384a6")
 		(sheetname "/SDR-BANK-2/")
 		(sheetfile "sdr-bank-1.kicad_sch")
 		(units
@@ -287825,7 +287778,6 @@
 			)
 		)
 		(property ki_fp_filters "DIP* SOIC* R*Array*Concave* R*Array*Convex* MSOP*")
-		(path "/2e2483c7-f9d8-4851-844c-8a998ec63aae")
 		(sheetname "/")
 		(sheetfile "stm32h7-hdmi-board-sodimm-module-hw.kicad_sch")
 		(units
@@ -288087,7 +288039,6 @@
 			)
 		)
 		(property ki_fp_filters "DIP* SOIC* R*Array*Concave* R*Array*Convex* MSOP*")
-		(path "/63fd97fb-7548-4342-b8f0-58a647645167")
 		(sheetname "/")
 		(sheetfile "stm32h7-hdmi-board-sodimm-module-hw.kicad_sch")
 		(units
@@ -288349,7 +288300,6 @@
 			)
 		)
 		(property ki_fp_filters "C_*")
-		(path "/87443631-e2d6-4bf3-9047-419296ee953b/6b8055f1-6594-4fc5-be2f-14b52cd384a6")
 		(sheetname "/SDR-BANK-1/")
 		(sheetfile "sdr-bank-1.kicad_sch")
 		(units
@@ -295356,7 +295306,6 @@
 			)
 		)
 		(property ki_fp_filters "C_*")
-		(path "/87443631-e2d6-4bf3-9047-419296ee953b/df64d541-9e78-4a50-b5e2-e8b6b3d86781")
 		(sheetname "/SDR-BANK-1/")
 		(sheetfile "sdr-bank-1.kicad_sch")
 		(units
@@ -302363,7 +302312,6 @@
 			)
 		)
 		(property ki_fp_filters "C_*")
-		(path "/ea9e5958-6df2-4973-b365-7ad6c75e8680/2876e5c1-9110-4b2b-b733-3440bc814f3b")
 		(sheetname "/SDR-BANK-2/")
 		(sheetfile "sdr-bank-1.kicad_sch")
 		(units
@@ -309370,7 +309318,6 @@
 			)
 		)
 		(property ki_fp_filters "C_*")
-		(path "/ea9e5958-6df2-4973-b365-7ad6c75e8680/4c8b08c8-3e89-4590-836a-d796ec21f646")
 		(sheetname "/SDR-BANK-2/")
 		(sheetfile "sdr-bank-1.kicad_sch")
 		(units
@@ -316377,7 +316324,6 @@
 			)
 		)
 		(property ki_fp_filters "C_*")
-		(path "/ea9e5958-6df2-4973-b365-7ad6c75e8680/1c45b4ef-c251-405e-9bbd-c9eee9d5947a")
 		(sheetname "/SDR-BANK-2/")
 		(sheetfile "sdr-bank-1.kicad_sch")
 		(units
@@ -323384,7 +323330,6 @@
 			)
 		)
 		(property ki_fp_filters "C_*")
-		(path "/ea9e5958-6df2-4973-b365-7ad6c75e8680/e246c5ff-c883-49c3-8470-f1a39e16ecee")
 		(sheetname "/SDR-BANK-2/")
 		(sheetfile "sdr-bank-1.kicad_sch")
 		(units
@@ -330391,7 +330336,6 @@
 			)
 		)
 		(property ki_fp_filters "C_*")
-		(path "/87443631-e2d6-4bf3-9047-419296ee953b/abdebb37-b982-472d-955b-9e7bdb217444")
 		(sheetname "/SDR-BANK-1/")
 		(sheetfile "sdr-bank-1.kicad_sch")
 		(units
@@ -337398,7 +337342,6 @@
 			)
 		)
 		(property ki_fp_filters "C_*")
-		(path "/87443631-e2d6-4bf3-9047-419296ee953b/f3ae7ef6-33e7-4d7a-87d1-61a9142c9cfa")
 		(sheetname "/SDR-BANK-1/")
 		(sheetfile "sdr-bank-1.kicad_sch")
 		(units
@@ -344405,7 +344348,6 @@
 			)
 		)
 		(property ki_fp_filters "C_*")
-		(path "/87443631-e2d6-4bf3-9047-419296ee953b/7ce2132c-6c4a-4c4c-b9ba-9b7564b315af")
 		(sheetname "/SDR-BANK-1/")
 		(sheetfile "sdr-bank-1.kicad_sch")
 		(units
@@ -351412,7 +351354,6 @@
 			)
 		)
 		(property ki_fp_filters "C_*")
-		(path "/ea9e5958-6df2-4973-b365-7ad6c75e8680/c3c52caa-4f15-41fc-ae9d-6ccfc494f262")
 		(sheetname "/SDR-BANK-2/")
 		(sheetfile "sdr-bank-1.kicad_sch")
 		(units
@@ -358419,7 +358360,6 @@
 			)
 		)
 		(property ki_fp_filters "DIP* SOIC* R*Array*Concave* R*Array*Convex* MSOP*")
-		(path "/89000931-e6c3-4f95-bee0-474c64a4351e")
 		(sheetname "/")
 		(sheetfile "stm32h7-hdmi-board-sodimm-module-hw.kicad_sch")
 		(units
@@ -358681,7 +358621,6 @@
 			)
 		)
 		(property ki_fp_filters "C_*")
-		(path "/ea9e5958-6df2-4973-b365-7ad6c75e8680/262703de-400d-4294-90e0-c4fbccd5ffc1")
 		(sheetname "/SDR-BANK-2/")
 		(sheetfile "sdr-bank-1.kicad_sch")
 		(units
@@ -365688,7 +365627,6 @@
 			)
 		)
 		(property ki_fp_filters "C_*")
-		(path "/ea9e5958-6df2-4973-b365-7ad6c75e8680/15ea34da-55d9-4e8c-adb6-00f44eabe3ba")
 		(sheetname "/SDR-BANK-2/")
 		(sheetfile "sdr-bank-1.kicad_sch")
 		(units
@@ -372695,7 +372633,6 @@
 			)
 		)
 		(property ki_fp_filters "C_*")
-		(path "/87443631-e2d6-4bf3-9047-419296ee953b/4c8b08c8-3e89-4590-836a-d796ec21f646")
 		(sheetname "/SDR-BANK-1/")
 		(sheetfile "sdr-bank-1.kicad_sch")
 		(units
@@ -379702,7 +379639,6 @@
 			)
 		)
 		(property ki_fp_filters "C_*")
-		(path "/ea9e5958-6df2-4973-b365-7ad6c75e8680/f3ae7ef6-33e7-4d7a-87d1-61a9142c9cfa")
 		(sheetname "/SDR-BANK-2/")
 		(sheetfile "sdr-bank-1.kicad_sch")
 		(units
@@ -386709,7 +386645,6 @@
 			)
 		)
 		(property ki_fp_filters "DIP* SOIC* R*Array*Concave* R*Array*Convex* MSOP*")
-		(path "/3ffeec1a-4f1e-48a6-929b-5c20116cffb0")
 		(sheetname "/")
 		(sheetfile "stm32h7-hdmi-board-sodimm-module-hw.kicad_sch")
 		(units
@@ -386971,7 +386906,6 @@
 			)
 		)
 		(property ki_fp_filters "C_*")
-		(path "/87443631-e2d6-4bf3-9047-419296ee953b/062e3343-1323-449e-81be-deacf9a38f9b")
 		(sheetname "/SDR-BANK-1/")
 		(sheetfile "sdr-bank-1.kicad_sch")
 		(units
@@ -393978,7 +393912,6 @@
 			)
 		)
 		(property ki_fp_filters "C_*")
-		(path "/87443631-e2d6-4bf3-9047-419296ee953b/c16ff35c-b215-47c0-afc7-2c4430711974")
 		(sheetname "/SDR-BANK-1/")
 		(sheetfile "sdr-bank-1.kicad_sch")
 		(units
@@ -401038,7 +400971,6 @@
 				)
 			)
 		)
-		(path "/87443631-e2d6-4bf3-9047-419296ee953b/c07afe2e-e446-44e1-9661-849984755d2e")
 		(sheetname "/SDR-BANK-1/")
 		(sheetfile "sdr-bank-1.kicad_sch")
 		(units
@@ -402522,7 +402454,6 @@
 			)
 		)
 		(property ki_fp_filters "C_*")
-		(path "/ea9e5958-6df2-4973-b365-7ad6c75e8680/11cbc885-27e6-453b-a605-d9b887bf0d7d")
 		(sheetname "/SDR-BANK-2/")
 		(sheetfile "sdr-bank-1.kicad_sch")
 		(units
@@ -409529,7 +409460,6 @@
 			)
 		)
 		(property ki_fp_filters "C_*")
-		(path "/87443631-e2d6-4bf3-9047-419296ee953b/64b1b93c-9045-4c08-89fd-7fd43d0e7819")
 		(sheetname "/SDR-BANK-1/")
 		(sheetfile "sdr-bank-1.kicad_sch")
 		(units
@@ -416536,7 +416466,6 @@
 			)
 		)
 		(property ki_fp_filters "C_*")
-		(path "/ea9e5958-6df2-4973-b365-7ad6c75e8680/174dd978-86d7-4d67-84b4-ae7473bbf6dd")
 		(sheetname "/SDR-BANK-2/")
 		(sheetfile "sdr-bank-1.kicad_sch")
 		(units
@@ -423543,7 +423472,6 @@
 			)
 		)
 		(property ki_fp_filters "C_*")
-		(path "/ea9e5958-6df2-4973-b365-7ad6c75e8680/def78503-83c4-42ef-87b2-e73172e13ae3")
 		(sheetname "/SDR-BANK-2/")
 		(sheetfile "sdr-bank-1.kicad_sch")
 		(units
@@ -430550,7 +430478,6 @@
 			)
 		)
 		(property ki_fp_filters "C_*")
-		(path "/ea9e5958-6df2-4973-b365-7ad6c75e8680/30d0bf68-9db1-40c0-b186-0485b5dd126c")
 		(sheetname "/SDR-BANK-2/")
 		(sheetfile "sdr-bank-1.kicad_sch")
 		(units
@@ -437557,7 +437484,6 @@
 			)
 		)
 		(property ki_fp_filters "C_*")
-		(path "/87443631-e2d6-4bf3-9047-419296ee953b/c3c52caa-4f15-41fc-ae9d-6ccfc494f262")
 		(sheetname "/SDR-BANK-1/")
 		(sheetfile "sdr-bank-1.kicad_sch")
 		(units
@@ -444564,7 +444490,6 @@
 			)
 		)
 		(property ki_fp_filters "C_*")
-		(path "/87443631-e2d6-4bf3-9047-419296ee953b/223bf5dd-1b19-4f98-ac9d-2613611f5e54")
 		(sheetname "/SDR-BANK-1/")
 		(sheetfile "sdr-bank-1.kicad_sch")
 		(units
@@ -451571,7 +451496,6 @@
 			)
 		)
 		(property ki_fp_filters "C_*")
-		(path "/ea9e5958-6df2-4973-b365-7ad6c75e8680/13f34b51-d639-4531-ad7b-be116448175f")
 		(sheetname "/SDR-BANK-2/")
 		(sheetfile "sdr-bank-1.kicad_sch")
 		(units
@@ -458635,7 +458559,6 @@
 				(justify mirror)
 			)
 		)
-		(path "/ea9e5958-6df2-4973-b365-7ad6c75e8680/768e14f6-2210-43ea-920f-395d3038b343")
 		(sheetname "/SDR-BANK-2/")
 		(sheetfile "sdr-bank-1.kicad_sch")
 		(units
@@ -460176,7 +460099,6 @@
 				(justify mirror)
 			)
 		)
-		(path "/ea9e5958-6df2-4973-b365-7ad6c75e8680/d7621f8a-d470-43fe-8e60-6d3e3fb5c7e5")
 		(sheetname "/SDR-BANK-2/")
 		(sheetfile "sdr-bank-1.kicad_sch")
 		(units
@@ -461717,7 +461639,6 @@
 				(justify mirror)
 			)
 		)
-		(path "/ea9e5958-6df2-4973-b365-7ad6c75e8680/f3141608-74cb-4b09-8ac9-f4e525f36259")
 		(sheetname "/SDR-BANK-2/")
 		(sheetfile "sdr-bank-1.kicad_sch")
 		(units
@@ -463258,7 +463179,6 @@
 				(justify mirror)
 			)
 		)
-		(path "/ea9e5958-6df2-4973-b365-7ad6c75e8680/c07afe2e-e446-44e1-9661-849984755d2e")
 		(sheetname "/SDR-BANK-2/")
 		(sheetfile "sdr-bank-1.kicad_sch")
 		(units
