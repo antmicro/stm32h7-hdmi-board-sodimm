@@ -411,7 +411,7 @@
 	)
 	(text "RN1-RN8 according to 144 Pin PC133\nSDRAM SO-DIMM Reference Design"
 		(exclude_from_sim no)
-		(at 112.014 181.61 0)
+		(at 113.284 184.15 0)
 		(effects
 			(font
 				(size 1.778 1.778)
@@ -421,7 +421,7 @@
 	)
 	(text "Physical Bank 2\n4 x IS42S86400F-7TL\n4x16Mx32bit (256MB)"
 		(exclude_from_sim no)
-		(at 323.596 73.406 0)
+		(at 323.85 73.152 0)
 		(effects
 			(font
 				(size 2.54 2.54)

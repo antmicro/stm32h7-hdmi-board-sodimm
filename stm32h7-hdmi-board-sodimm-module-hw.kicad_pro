@@ -518,7 +518,16 @@
     },
     "net_colors": null,
     "netclass_assignments": null,
-    "netclass_patterns": []
+    "netclass_patterns": [
+      {
+        "netclass": "Default",
+        "pattern": "/Ctrl"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "Ctrl"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
@@ -607,7 +616,19 @@
       "sort_asc": true,
       "sort_field": "Reference"
     },
-    "bus_aliases": {},
+    "bus_aliases": {
+      "Ctrl": [
+        "BA0",
+        "BA1",
+        "WE",
+        "CAS",
+        "RAS",
+        "DQMB0",
+        "DQMB1",
+        "DQMB2",
+        "DQMB3"
+      ]
+    },
     "connection_grid_size": 50.0,
     "drawing": {
       "dashed_lines_dash_length_ratio": 12.0,
