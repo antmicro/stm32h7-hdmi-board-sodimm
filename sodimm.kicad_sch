@@ -6,135 +6,12 @@
 	(paper "A3")
 	(title_block
 		(title "STM32H7 HDMI Board SODIMM")
-		(date "2026-07-13")
+		(date "2026-07-14")
 		(rev "1.0.0")
 		(company "Antmicro Ltd")
 		(comment 1 "www.antmicro.com")
 	)
 	(lib_symbols
-		(symbol "Connector:TestPoint"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.762)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "TP"
-				(at 0 6.858 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "TestPoint"
-				(at 0 5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 5.08 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 5.08 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "test point"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "test point tp"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "Pin* Test*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "TestPoint_0_1"
-				(circle
-					(center 0 3.302)
-					(radius 0.762)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "TestPoint_1_1"
-				(pin passive line
-					(at 0 0 90)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "antmicroEdgeConnectors:PCB-Edge_SODIMM_144_SDR"
 			(exclude_from_sim no)
 			(in_bom no)
@@ -5357,6 +5234,16 @@
 	)
 	(wire
 		(pts
+			(xy 59.69 217.17) (xy 62.23 217.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48514f47-83ac-4878-88fd-0701a7aeb50c")
+	)
+	(wire
+		(pts
 			(xy 173.99 194.31) (xy 191.77 194.31)
 		)
 		(stroke
@@ -6204,6 +6091,16 @@
 			(type default)
 		)
 		(uuid "bf70e2e3-c144-4544-b700-1fe84c3404e1")
+	)
+	(wire
+		(pts
+			(xy 59.69 219.71) (xy 62.23 219.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf7c63f1-a3fb-4cf9-a6cc-ae9a192571ab")
 	)
 	(wire
 		(pts
@@ -7265,6 +7162,17 @@
 		)
 		(uuid "566c2c5e-9362-4526-889c-bb9682592a5c")
 	)
+	(hierarchical_label "SCL"
+		(shape output)
+		(at 59.69 219.71 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5f718be5-ad18-405b-96e8-08d35cde06d5")
+	)
 	(hierarchical_label "DQMB2"
 		(shape output)
 		(at 200.66 237.49 180)
@@ -7297,6 +7205,17 @@
 			(justify right)
 		)
 		(uuid "7f83262b-a4c3-4eaf-946c-3b3a868a03ce")
+	)
+	(hierarchical_label "SDA"
+		(shape bidirectional)
+		(at 59.69 217.17 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "92e03adf-ceb3-4948-b143-cef1cc30ee57")
 	)
 	(hierarchical_label "DQMB3"
 		(shape output)
@@ -7374,184 +7293,6 @@
 			(justify right)
 		)
 		(uuid "cda77b8a-65e0-4dc0-a036-fdb41f14e96e")
-	)
-	(rule_area
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(polyline
-			(pts
-				(xy 7.62 7.62) (xy 24.13 7.62) (xy 24.13 25.4) (xy 7.62 25.4)
-			)
-			(stroke
-				(width 0)
-				(type dash)
-			)
-			(fill
-				(type none)
-			)
-			(uuid "16da0e77-a360-402b-9b7e-f614bae5fd36")
-		)
-	)
-	(rule_area
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(polyline
-			(pts
-				(xy 0 0) (xy 20.32 0) (xy 20.32 6.35) (xy 0 6.35)
-			)
-			(stroke
-				(width 0)
-				(type dash)
-			)
-			(fill
-				(type none)
-			)
-			(uuid "974ab135-c3ab-4170-97d8-9612a0f9d78f")
-		)
-	)
-	(netclass_flag ""
-		(length 2.54)
-		(shape round)
-		(at 37.4174 40.3916 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "01600565-db7b-4abf-ac78-c8ddecb088d3")
-		(property "Netclass" "55Ohm-se_S"
-			(at 38.1159 37.8516 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Component Class" ""
-			(at -15.9226 -115.8184 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-	)
-	(netclass_flag ""
-		(length 2.54)
-		(shape round)
-		(at 33.6074 36.5816 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "658d846a-4f14-458f-87e9-e87f72ee7a2b")
-		(property "Netclass" "55Ohm-se_CK"
-			(at 34.3059 34.0416 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Component Class" ""
-			(at -134.0326 -96.7684 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-	)
-	(netclass_flag ""
-		(length 2.54)
-		(shape round)
-		(at 29.7974 32.7716 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "e1ee4e31-c6fd-412d-8d82-59104fda36eb")
-		(property "Netclass" "55Ohm-se_S"
-			(at 30.4959 30.2316 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Component Class" ""
-			(at -99.7426 -100.5784 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-	)
-	(netclass_flag ""
-		(length 2.54)
-		(shape round)
-		(at 25.9874 28.9616 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "edb9e51a-00d0-4891-8eee-d170b5855641")
-		(property "Netclass" "55Ohm-se_ADDR"
-			(at 26.6859 26.4216 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Component Class" ""
-			(at -76.8826 -73.9084 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify right)
-			)
-		)
 	)
 	(symbol
 		(lib_id "power:+3.3V")
@@ -8424,82 +8165,6 @@
 			(project "stm32h7-hdmi-board-sodimm-module-hw"
 				(path "/92fcd7c5-798f-49cd-ae80-ce2fa78a6354/6154d4a7-189d-4cbe-b2ef-ab7a8327ac2a"
 					(reference "R6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 62.23 217.17 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "4bf4527d-442a-4560-8b53-373adef9478e")
-		(property "Reference" "TP1"
-			(at 52.324 214.376 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 52.324 216.916 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 62.23 212.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 62.23 212.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 62.23 217.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "6699a920-023e-44c5-9430-67a9247d25f1")
-		)
-		(instances
-			(project "stm32h7-hdmi-board-sodimm-module-hw"
-				(path "/92fcd7c5-798f-49cd-ae80-ce2fa78a6354/6154d4a7-189d-4cbe-b2ef-ab7a8327ac2a"
-					(reference "TP1")
 					(unit 1)
 				)
 			)
@@ -11661,82 +11326,6 @@
 			(project "stm32h7-hdmi-board-sodimm-module-hw"
 				(path "/92fcd7c5-798f-49cd-ae80-ce2fa78a6354/6154d4a7-189d-4cbe-b2ef-ab7a8327ac2a"
 					(reference "R1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 62.23 219.71 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "f410d53d-abf4-4058-937d-e871b0ff126a")
-		(property "Reference" "TP2"
-			(at 52.324 219.202 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 52.324 221.742 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 62.23 214.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 62.23 214.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "test point"
-			(at 62.23 219.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "4ebfc215-782b-43b9-a5d0-e679cf87dc53")
-		)
-		(instances
-			(project "stm32h7-hdmi-board-sodimm-module-hw"
-				(path "/92fcd7c5-798f-49cd-ae80-ce2fa78a6354/6154d4a7-189d-4cbe-b2ef-ab7a8327ac2a"
-					(reference "TP2")
 					(unit 1)
 				)
 			)

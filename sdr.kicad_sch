@@ -6,18 +6,18 @@
 	(paper "A3")
 	(title_block
 		(title "STM32H7 HDMI Board SODIMM")
-		(date "2026-07-13")
+		(date "2026-07-14")
 		(rev "1.0.0")
 		(company "Antmicro Ltd")
 		(comment 1 "www.antmicro.com")
 	)
 	(lib_symbols
-		(symbol "Device:C"
+		(symbol "antmicroCapacitors0402:C_100n_0402"
 			(pin_numbers
 				(hide yes)
 			)
 			(pin_names
-				(offset 0.254)
+				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -25,29 +25,58 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "C"
-				(at 0.635 2.54 0)
+				(at 20.32 -5.08 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
+						(thickness 0.15)
 					)
-					(justify left)
+					(justify left bottom)
 				)
 			)
-			(property "Value" "C"
-				(at 0.635 -2.54 0)
+			(property "Value" "C_100n_0402"
+				(at 20.32 -10.16 0)
 				(show_name no)
 				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
+						(thickness 0.15)
 					)
-					(justify left)
+					(justify left bottom)
 				)
 			)
-			(property "Footprint" ""
-				(at 0.9652 -3.81 0)
+			(property "Footprint" "antmicro-footprints:C_0402_1005Metric"
+				(at 20.32 -12.7 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Datasheet" "https://www.murata.com/products/productdetail?partno=GRM155R61H104KE14%23"
+				(at 20.32 -15.24 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Description" "SMD Multilayer Ceramic Capacitor, 0.1 µF, 50 V, 0402 [1005 Metric], ± 10%, X5R, GRM Series"
+				(at 20.32 -33.02 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -55,9 +84,98 @@
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left bottom)
 				)
 			)
-			(property "Datasheet" ""
+			(property "MPN" "GRM155R61H104KE14D"
+				(at 20.32 -17.78 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Manufacturer" "Murata"
+				(at 20.32 -20.32 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "License" "Apache-2.0"
+				(at 20.32 -22.86 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Author" "Antmicro"
+				(at 20.32 -25.4 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Val" "100n"
+				(at 20.32 -7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Voltage" "50V"
+				(at 20.32 -27.94 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Dielectric" "X5R"
+				(at 20.32 -30.48 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "ki_keywords" "0402, SMT, CAPACITOR, PASSIVE, CERAMIC, MLCC, RoHS"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -68,46 +186,13 @@
 					)
 				)
 			)
-			(property "Description" "Unpolarized capacitor"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "cap capacitor"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "C_*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "C_0_1"
+			(symbol "C_100n_0402_0_1"
 				(polyline
 					(pts
-						(xy -2.032 0.762) (xy 2.032 0.762)
+						(xy 2.032 -1.524) (xy 2.032 1.524)
 					)
 					(stroke
-						(width 0.508)
+						(width 0.3048)
 						(type default)
 					)
 					(fill
@@ -116,10 +201,10 @@
 				)
 				(polyline
 					(pts
-						(xy -2.032 -0.762) (xy 2.032 -0.762)
+						(xy 3.048 -1.524) (xy 3.048 1.524)
 					)
 					(stroke
-						(width 0.508)
+						(width 0.3302)
 						(type default)
 					)
 					(fill
@@ -127,10 +212,10 @@
 					)
 				)
 			)
-			(symbol "C_1_1"
+			(symbol "C_100n_0402_1_1"
 				(pin passive line
-					(at 0 3.81 270)
-					(length 2.794)
+					(at 0 0 0)
+					(length 2.032)
 					(name ""
 						(effects
 							(font
@@ -147,8 +232,248 @@
 					)
 				)
 				(pin passive line
-					(at 0 -3.81 90)
-					(length 2.794)
+					(at 5.08 0 180)
+					(length 2.032)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "antmicroCapacitors0402:C_1u_0402"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 20.32 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Value" "C_1u_0402"
+				(at 20.32 -10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "antmicro-footprints:C_0402_1005Metric"
+				(at 20.32 -12.7 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Datasheet" "https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=C1005X6S1A105K050BC"
+				(at 20.32 -15.24 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Description" "SMD Multilayer Ceramic Capacitor, 1 µF, 10 V, 0402 [1005 Metric], ± 10%, X6S, C"
+				(at 20.32 -33.02 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "MPN" "C1005X6S1A105K050BC"
+				(at 20.32 -17.78 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Manufacturer" "TDK"
+				(at 20.32 -20.32 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "License" "Apache-2.0"
+				(at 20.32 -22.86 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Author" "Antmicro"
+				(at 20.32 -25.4 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Val" "1u"
+				(at 20.32 -7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Voltage" ""
+				(at 20.32 -27.94 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Dielectric" ""
+				(at 20.32 -30.48 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "ki_keywords" "0402, SMT, CAPACITOR, PASSIVE, CERAMIC, MLCC, RoHS"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "C_1u_0402_0_1"
+				(polyline
+					(pts
+						(xy 2.032 -1.524) (xy 2.032 1.524)
+					)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.048 -1.524) (xy 3.048 1.524)
+					)
+					(stroke
+						(width 0.3302)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_1u_0402_1_1"
+				(pin passive line
+					(at 0 0 0)
+					(length 2.032)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.032)
 					(name ""
 						(effects
 							(font
@@ -1660,7 +1985,7 @@
 		(at 219.71 171.45)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "b8549eb2-68ab-4213-9af3-6bb3e29470c3")
+		(uuid "bb5ee6b2-bf08-4640-b80f-f69c4bd5842e")
 	)
 	(junction
 		(at 254 171.45)
@@ -1897,7 +2222,7 @@
 	)
 	(wire
 		(pts
-			(xy 219.71 171.45) (xy 219.71 172.72)
+			(xy 219.71 171.45) (xy 219.71 173.99)
 		)
 		(stroke
 			(width 0)
@@ -1924,6 +2249,16 @@
 			(type default)
 		)
 		(uuid "16325fa8-57b7-4913-9f97-8989971fc3c4")
+	)
+	(wire
+		(pts
+			(xy 242.57 171.45) (xy 242.57 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b15927f-69be-4149-b2d7-095fc4562ee8")
 	)
 	(wire
 		(pts
@@ -1967,7 +2302,7 @@
 	)
 	(wire
 		(pts
-			(xy 242.57 180.34) (xy 242.57 181.61)
+			(xy 242.57 179.07) (xy 242.57 181.61)
 		)
 		(stroke
 			(width 0)
@@ -1997,13 +2332,13 @@
 	)
 	(wire
 		(pts
-			(xy 265.43 172.72) (xy 265.43 171.45)
+			(xy 219.71 179.07) (xy 219.71 181.61)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "314af8ac-d0b6-4cc1-b089-fe30e3881bf8")
+		(uuid "2ef9c1e5-bc90-4aa3-ac43-24e896ee2f25")
 	)
 	(wire
 		(pts
@@ -2017,16 +2352,6 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 172.72) (xy 231.14 171.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3187c9f4-6ae1-4390-9ba1-3ed08778e6b3")
-	)
-	(wire
-		(pts
 			(xy 299.72 181.61) (xy 288.29 181.61)
 		)
 		(stroke
@@ -2037,17 +2362,7 @@
 	)
 	(wire
 		(pts
-			(xy 219.71 180.34) (xy 219.71 181.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "39ffe44a-45cc-4bbd-83e5-0f780bf786cb")
-	)
-	(wire
-		(pts
-			(xy 299.72 172.72) (xy 299.72 171.45)
+			(xy 299.72 171.45) (xy 299.72 173.99)
 		)
 		(stroke
 			(width 0)
@@ -2064,6 +2379,16 @@
 			(type default)
 		)
 		(uuid "426f3439-3e19-490d-b5e4-f2b813e8424a")
+	)
+	(wire
+		(pts
+			(xy 231.14 179.07) (xy 231.14 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45492fd9-b824-451f-af47-c33bf5dba0bd")
 	)
 	(wire
 		(pts
@@ -2097,13 +2422,13 @@
 	)
 	(wire
 		(pts
-			(xy 242.57 172.72) (xy 242.57 171.45)
+			(xy 231.14 171.45) (xy 231.14 173.99)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4edc5ca5-2932-44c4-bbe4-caf3c7d98d59")
+		(uuid "4cd4a279-0579-40c1-82d4-7f839039427c")
 	)
 	(wire
 		(pts
@@ -2197,7 +2522,7 @@
 	)
 	(wire
 		(pts
-			(xy 254 180.34) (xy 254 181.61)
+			(xy 254 179.07) (xy 254 181.61)
 		)
 		(stroke
 			(width 0)
@@ -2217,13 +2542,13 @@
 	)
 	(wire
 		(pts
-			(xy 265.43 180.34) (xy 265.43 181.61)
+			(xy 265.43 171.45) (xy 265.43 173.99)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8f9ff018-a3c1-42bd-a232-fb9a7123f35f")
+		(uuid "88e11ebf-6db9-44a1-918e-92b87f7b01d3")
 	)
 	(wire
 		(pts
@@ -2234,6 +2559,16 @@
 			(type default)
 		)
 		(uuid "905b814a-5a72-42e2-a509-f21e30aaf017")
+	)
+	(wire
+		(pts
+			(xy 276.86 171.45) (xy 276.86 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "959fe53b-113b-4030-80b2-ca81a9e69a07")
 	)
 	(wire
 		(pts
@@ -2297,7 +2632,7 @@
 	)
 	(wire
 		(pts
-			(xy 288.29 180.34) (xy 288.29 181.61)
+			(xy 288.29 179.07) (xy 288.29 181.61)
 		)
 		(stroke
 			(width 0)
@@ -2324,6 +2659,16 @@
 			(type default)
 		)
 		(uuid "b95b49a2-faad-41cc-b26f-59229dafbb8e")
+	)
+	(wire
+		(pts
+			(xy 265.43 179.07) (xy 265.43 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bafd8aed-9a51-46aa-8e42-d7bf9b948f57")
 	)
 	(wire
 		(pts
@@ -2397,7 +2742,7 @@
 	)
 	(wire
 		(pts
-			(xy 276.86 180.34) (xy 276.86 181.61)
+			(xy 276.86 179.07) (xy 276.86 181.61)
 		)
 		(stroke
 			(width 0)
@@ -2415,16 +2760,6 @@
 		)
 		(uuid "d0bf0c0d-d9e0-4a43-aadb-131a7b62d1b4")
 	)
-	(wire
-		(pts
-			(xy 288.29 172.72) (xy 288.29 171.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d1789e0e-8697-462c-8fce-6f90d925034f")
-	)
 	(bus
 		(pts
 			(xy 209.55 114.3) (xy 215.9 114.3)
@@ -2434,6 +2769,16 @@
 			(type default)
 		)
 		(uuid "d2adf00a-79d2-4a03-b932-e905c02c3872")
+	)
+	(wire
+		(pts
+			(xy 288.29 171.45) (xy 288.29 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2b6d271-4992-4cdc-a414-5ff06a39c37f")
 	)
 	(wire
 		(pts
@@ -2447,7 +2792,7 @@
 	)
 	(wire
 		(pts
-			(xy 254 172.72) (xy 254 171.45)
+			(xy 254 171.45) (xy 254 173.99)
 		)
 		(stroke
 			(width 0)
@@ -2497,16 +2842,6 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 180.34) (xy 231.14 181.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e03e89e8-5b72-4ca0-89c6-19d73d5127f0")
-	)
-	(wire
-		(pts
 			(xy 170.18 153.67) (xy 172.72 153.67)
 		)
 		(stroke
@@ -2547,7 +2882,7 @@
 	)
 	(wire
 		(pts
-			(xy 299.72 180.34) (xy 299.72 181.61)
+			(xy 299.72 179.07) (xy 299.72 181.61)
 		)
 		(stroke
 			(width 0)
@@ -2564,16 +2899,6 @@
 			(type default)
 		)
 		(uuid "f1c8f255-39b5-4a96-83a0-d9abb9811626")
-	)
-	(wire
-		(pts
-			(xy 276.86 172.72) (xy 276.86 171.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f7183dd9-f152-4e39-b930-65c2c826a3bd")
 	)
 	(wire
 		(pts
@@ -2947,8 +3272,8 @@
 		(uuid "e661c1f0-3835-4cda-ac7a-27b37d807836")
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 231.14 176.53 0)
+		(lib_id "antmicroCapacitors0402:C_100n_0402")
+		(at 276.86 173.99 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2957,31 +3282,60 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "13fafa61-3fb4-43fc-8a6d-2b2a13995b78")
-		(property "Reference" "C2"
-			(at 234.95 175.2599 0)
+		(uuid "04c49bb2-89b4-4993-b5fc-961836eef08d")
+		(property "Reference" "C6"
+			(at 279.4 175.2663 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
-			(at 234.95 177.7999 0)
+		(property "Value" "C_100n_0402"
+			(at 266.7 194.31 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
-				(justify left)
+				(justify left bottom)
 			)
 		)
 		(property "Footprint" "antmicro-footprints:C_0402_1005Metric"
-			(at 232.1052 180.34 0)
+			(at 264.16 194.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Datasheet" "https://www.murata.com/products/productdetail?partno=GRM155R61H104KE14%23"
+			(at 261.62 194.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Description" "SMD Multilayer Ceramic Capacitor, 0.1 µF, 50 V, 0402 [1005 Metric], ± 10%, X5R, GRM Series"
+			(at 243.84 194.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2989,10 +3343,75 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left bottom)
 			)
 		)
-		(property "Datasheet" ""
-			(at 231.14 176.53 0)
+		(property "MPN" "GRM155R61H104KE14D"
+			(at 259.08 194.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Manufacturer" "Murata"
+			(at 256.54 194.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 254 194.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 251.46 194.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Val" "100n"
+			(at 279.4 177.8063 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left)
+			)
+		)
+		(property "Voltage" "50V"
+			(at 248.92 194.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3000,10 +3419,11 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left bottom)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
-			(at 231.14 176.53 0)
+		(property "Dielectric" "X5R"
+			(at 246.38 194.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3011,13 +3431,220 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left bottom)
 			)
-		)
-		(pin "2"
-			(uuid "e1f71f06-408a-4b9c-bdf4-8d61e093ba73")
 		)
 		(pin "1"
-			(uuid "0c34ac51-446c-40a0-bd68-f3eb67399bb2")
+			(uuid "bd519bbe-081c-48c7-80ed-51d00657e716")
+		)
+		(pin "2"
+			(uuid "36f97edc-3377-46ba-a058-c2c7fdb98e27")
+		)
+		(instances
+			(project "stm32h7-hdmi-board-sodimm-module-hw"
+				(path "/92fcd7c5-798f-49cd-ae80-ce2fa78a6354/5dc00c1d-6d73-4075-9f40-456de291661b"
+					(reference "C14")
+					(unit 1)
+				)
+				(path "/92fcd7c5-798f-49cd-ae80-ce2fa78a6354/64f9e65c-9d05-4be1-9e31-4d16c11f0fb0"
+					(reference "C22")
+					(unit 1)
+				)
+				(path "/92fcd7c5-798f-49cd-ae80-ce2fa78a6354/8065b630-3bb7-47f1-baca-00560e3eccce"
+					(reference "C6")
+					(unit 1)
+				)
+				(path "/92fcd7c5-798f-49cd-ae80-ce2fa78a6354/87a2e1a4-69b4-4323-9d30-934d29179e2b"
+					(reference "C54")
+					(unit 1)
+				)
+				(path "/92fcd7c5-798f-49cd-ae80-ce2fa78a6354/b4e055d1-7bf1-4790-ab55-efe4bf9542a5"
+					(reference "C62")
+					(unit 1)
+				)
+				(path "/92fcd7c5-798f-49cd-ae80-ce2fa78a6354/b905e1ec-7c3f-48f7-ae55-d927b88852a9"
+					(reference "C46")
+					(unit 1)
+				)
+				(path "/92fcd7c5-798f-49cd-ae80-ce2fa78a6354/cd52d890-d841-4c0b-b74f-cecd82eab78c"
+					(reference "C38")
+					(unit 1)
+				)
+				(path "/92fcd7c5-798f-49cd-ae80-ce2fa78a6354/ddf45e09-ef7c-4334-8682-44a40fb9ac25"
+					(reference "C30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "antmicroCapacitors0402:C_100n_0402")
+		(at 231.14 173.99 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0941d9c1-aec0-424a-bf4f-7398b8e36d7d")
+		(property "Reference" "C2"
+			(at 233.68 175.2663 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C_100n_0402"
+			(at 220.98 194.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "antmicro-footprints:C_0402_1005Metric"
+			(at 218.44 194.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Datasheet" "https://www.murata.com/products/productdetail?partno=GRM155R61H104KE14%23"
+			(at 215.9 194.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Description" "SMD Multilayer Ceramic Capacitor, 0.1 µF, 50 V, 0402 [1005 Metric], ± 10%, X5R, GRM Series"
+			(at 198.12 194.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "MPN" "GRM155R61H104KE14D"
+			(at 213.36 194.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Manufacturer" "Murata"
+			(at 210.82 194.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 208.28 194.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 205.74 194.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Val" "100n"
+			(at 233.68 177.8063 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left)
+			)
+		)
+		(property "Voltage" "50V"
+			(at 203.2 194.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Dielectric" "X5R"
+			(at 200.66 194.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(pin "1"
+			(uuid "28d0e3f2-647c-4c46-80ae-09b7bbe770c9")
+		)
+		(pin "2"
+			(uuid "42afada0-f09e-4a14-adc4-c080dff48ad7")
 		)
 		(instances
 			(project "stm32h7-hdmi-board-sodimm-module-hw"
@@ -3051,6 +3678,212 @@
 				)
 				(path "/92fcd7c5-798f-49cd-ae80-ce2fa78a6354/ddf45e09-ef7c-4334-8682-44a40fb9ac25"
 					(reference "C26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "antmicroCapacitors0402:C_1u_0402")
+		(at 299.72 173.99 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "16295c02-59e9-4b65-a65f-b7afda417311")
+		(property "Reference" "C8"
+			(at 302.26 175.2663 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C_1u_0402"
+			(at 289.56 194.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "antmicro-footprints:C_0402_1005Metric"
+			(at 287.02 194.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Datasheet" "https://product.tdk.com/en/search/capacitor/ceramic/mlcc/info?part_no=C1005X6S1A105K050BC"
+			(at 284.48 194.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Description" "SMD Multilayer Ceramic Capacitor, 1 µF, 10 V, 0402 [1005 Metric], ± 10%, X6S, C"
+			(at 266.7 194.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "MPN" "C1005X6S1A105K050BC"
+			(at 281.94 194.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Manufacturer" "TDK"
+			(at 279.4 194.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 276.86 194.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 274.32 194.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Val" "1u"
+			(at 302.26 177.8063 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left)
+			)
+		)
+		(property "Voltage" ""
+			(at 271.78 194.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Dielectric" ""
+			(at 269.24 194.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(pin "1"
+			(uuid "fc1f2cd0-fdbf-43a1-bce0-c6f68ff9cfac")
+		)
+		(pin "2"
+			(uuid "c206a9e7-e242-4988-a131-84d8066fc620")
+		)
+		(instances
+			(project "stm32h7-hdmi-board-sodimm-module-hw"
+				(path "/92fcd7c5-798f-49cd-ae80-ce2fa78a6354/5dc00c1d-6d73-4075-9f40-456de291661b"
+					(reference "C16")
+					(unit 1)
+				)
+				(path "/92fcd7c5-798f-49cd-ae80-ce2fa78a6354/64f9e65c-9d05-4be1-9e31-4d16c11f0fb0"
+					(reference "C24")
+					(unit 1)
+				)
+				(path "/92fcd7c5-798f-49cd-ae80-ce2fa78a6354/8065b630-3bb7-47f1-baca-00560e3eccce"
+					(reference "C8")
+					(unit 1)
+				)
+				(path "/92fcd7c5-798f-49cd-ae80-ce2fa78a6354/87a2e1a4-69b4-4323-9d30-934d29179e2b"
+					(reference "C56")
+					(unit 1)
+				)
+				(path "/92fcd7c5-798f-49cd-ae80-ce2fa78a6354/b4e055d1-7bf1-4790-ab55-efe4bf9542a5"
+					(reference "C64")
+					(unit 1)
+				)
+				(path "/92fcd7c5-798f-49cd-ae80-ce2fa78a6354/b905e1ec-7c3f-48f7-ae55-d927b88852a9"
+					(reference "C48")
+					(unit 1)
+				)
+				(path "/92fcd7c5-798f-49cd-ae80-ce2fa78a6354/cd52d890-d841-4c0b-b74f-cecd82eab78c"
+					(reference "C40")
+					(unit 1)
+				)
+				(path "/92fcd7c5-798f-49cd-ae80-ce2fa78a6354/ddf45e09-ef7c-4334-8682-44a40fb9ac25"
+					(reference "C32")
 					(unit 1)
 				)
 			)
@@ -3163,8 +3996,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 288.29 176.53 0)
+		(lib_id "antmicroCapacitors0402:C_100n_0402")
+		(at 219.71 173.99 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3173,31 +4006,60 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "2466b57f-ece1-4d02-a1ac-1d279ef81058")
-		(property "Reference" "C7"
-			(at 292.1 175.2599 0)
+		(uuid "2ffc0652-6ffe-4696-beec-4710e5643cb6")
+		(property "Reference" "C1"
+			(at 222.25 175.2663 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
-			(at 292.1 177.7999 0)
+		(property "Value" "C_100n_0402"
+			(at 209.55 194.31 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
-				(justify left)
+				(justify left bottom)
 			)
 		)
 		(property "Footprint" "antmicro-footprints:C_0402_1005Metric"
-			(at 289.2552 180.34 0)
+			(at 207.01 194.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Datasheet" "https://www.murata.com/products/productdetail?partno=GRM155R61H104KE14%23"
+			(at 204.47 194.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Description" "SMD Multilayer Ceramic Capacitor, 0.1 µF, 50 V, 0402 [1005 Metric], ± 10%, X5R, GRM Series"
+			(at 186.69 194.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3205,10 +4067,75 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left bottom)
 			)
 		)
-		(property "Datasheet" ""
-			(at 288.29 176.53 0)
+		(property "MPN" "GRM155R61H104KE14D"
+			(at 201.93 194.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Manufacturer" "Murata"
+			(at 199.39 194.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 196.85 194.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 194.31 194.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Val" "100n"
+			(at 222.25 177.8063 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left)
+			)
+		)
+		(property "Voltage" "50V"
+			(at 191.77 194.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3216,10 +4143,11 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left bottom)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
-			(at 288.29 176.53 0)
+		(property "Dielectric" "X5R"
+			(at 189.23 194.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3227,46 +4155,253 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left bottom)
 			)
-		)
-		(pin "2"
-			(uuid "89bc3453-73a5-4594-9c1f-87d2c2406245")
 		)
 		(pin "1"
-			(uuid "53c311b8-0e8c-4c9a-8149-ad154e48504f")
+			(uuid "953bbe0e-73c1-4ea7-9447-558f0ed78df9")
+		)
+		(pin "2"
+			(uuid "6c4f55fc-8e05-4eb2-8374-bffe0321d424")
 		)
 		(instances
 			(project "stm32h7-hdmi-board-sodimm-module-hw"
 				(path "/92fcd7c5-798f-49cd-ae80-ce2fa78a6354/5dc00c1d-6d73-4075-9f40-456de291661b"
-					(reference "C15")
+					(reference "C9")
 					(unit 1)
 				)
 				(path "/92fcd7c5-798f-49cd-ae80-ce2fa78a6354/64f9e65c-9d05-4be1-9e31-4d16c11f0fb0"
-					(reference "C23")
+					(reference "C17")
 					(unit 1)
 				)
 				(path "/92fcd7c5-798f-49cd-ae80-ce2fa78a6354/8065b630-3bb7-47f1-baca-00560e3eccce"
-					(reference "C7")
+					(reference "C1")
 					(unit 1)
 				)
 				(path "/92fcd7c5-798f-49cd-ae80-ce2fa78a6354/87a2e1a4-69b4-4323-9d30-934d29179e2b"
-					(reference "C55")
+					(reference "C49")
 					(unit 1)
 				)
 				(path "/92fcd7c5-798f-49cd-ae80-ce2fa78a6354/b4e055d1-7bf1-4790-ab55-efe4bf9542a5"
-					(reference "C63")
+					(reference "C57")
 					(unit 1)
 				)
 				(path "/92fcd7c5-798f-49cd-ae80-ce2fa78a6354/b905e1ec-7c3f-48f7-ae55-d927b88852a9"
-					(reference "C47")
+					(reference "C41")
 					(unit 1)
 				)
 				(path "/92fcd7c5-798f-49cd-ae80-ce2fa78a6354/cd52d890-d841-4c0b-b74f-cecd82eab78c"
-					(reference "C39")
+					(reference "C33")
 					(unit 1)
 				)
 				(path "/92fcd7c5-798f-49cd-ae80-ce2fa78a6354/ddf45e09-ef7c-4334-8682-44a40fb9ac25"
-					(reference "C31")
+					(reference "C25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "antmicroCapacitors0402:C_100n_0402")
+		(at 265.43 173.99 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "383cfd8f-d1e8-4b93-a3ca-3c72483ea612")
+		(property "Reference" "C5"
+			(at 267.97 175.2663 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "C_100n_0402"
+			(at 255.27 194.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "antmicro-footprints:C_0402_1005Metric"
+			(at 252.73 194.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Datasheet" "https://www.murata.com/products/productdetail?partno=GRM155R61H104KE14%23"
+			(at 250.19 194.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Description" "SMD Multilayer Ceramic Capacitor, 0.1 µF, 50 V, 0402 [1005 Metric], ± 10%, X5R, GRM Series"
+			(at 232.41 194.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "MPN" "GRM155R61H104KE14D"
+			(at 247.65 194.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Manufacturer" "Murata"
+			(at 245.11 194.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 242.57 194.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 240.03 194.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Val" "100n"
+			(at 267.97 177.8063 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left)
+			)
+		)
+		(property "Voltage" "50V"
+			(at 237.49 194.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Dielectric" "X5R"
+			(at 234.95 194.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(pin "1"
+			(uuid "fde58a75-4ba0-4104-b4a0-3509fc8959c0")
+		)
+		(pin "2"
+			(uuid "3280d8fb-f89e-48c8-bac4-2aa2a1a3016a")
+		)
+		(instances
+			(project "stm32h7-hdmi-board-sodimm-module-hw"
+				(path "/92fcd7c5-798f-49cd-ae80-ce2fa78a6354/5dc00c1d-6d73-4075-9f40-456de291661b"
+					(reference "C13")
+					(unit 1)
+				)
+				(path "/92fcd7c5-798f-49cd-ae80-ce2fa78a6354/64f9e65c-9d05-4be1-9e31-4d16c11f0fb0"
+					(reference "C21")
+					(unit 1)
+				)
+				(path "/92fcd7c5-798f-49cd-ae80-ce2fa78a6354/8065b630-3bb7-47f1-baca-00560e3eccce"
+					(reference "C5")
+					(unit 1)
+				)
+				(path "/92fcd7c5-798f-49cd-ae80-ce2fa78a6354/87a2e1a4-69b4-4323-9d30-934d29179e2b"
+					(reference "C53")
+					(unit 1)
+				)
+				(path "/92fcd7c5-798f-49cd-ae80-ce2fa78a6354/b4e055d1-7bf1-4790-ab55-efe4bf9542a5"
+					(reference "C61")
+					(unit 1)
+				)
+				(path "/92fcd7c5-798f-49cd-ae80-ce2fa78a6354/b905e1ec-7c3f-48f7-ae55-d927b88852a9"
+					(reference "C45")
+					(unit 1)
+				)
+				(path "/92fcd7c5-798f-49cd-ae80-ce2fa78a6354/cd52d890-d841-4c0b-b74f-cecd82eab78c"
+					(reference "C37")
+					(unit 1)
+				)
+				(path "/92fcd7c5-798f-49cd-ae80-ce2fa78a6354/ddf45e09-ef7c-4334-8682-44a40fb9ac25"
+					(reference "C29")
 					(unit 1)
 				)
 			)
@@ -3485,8 +4620,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 219.71 176.53 0)
+		(lib_id "antmicroCapacitors0402:C_100n_0402")
+		(at 254 173.99 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3495,141 +4630,60 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "4768a67e-652b-43d3-8bb9-5aee2eec41d6")
-		(property "Reference" "C1"
-			(at 223.52 175.2599 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100n"
-			(at 223.52 177.7999 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "antmicro-footprints:C_0402_1005Metric"
-			(at 220.6752 180.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 219.71 176.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 219.71 176.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "f9622820-fdb9-4ae9-a7cf-a5f1a71aadda")
-		)
-		(pin "1"
-			(uuid "67de7881-c33a-4966-a687-9ded106492f0")
-		)
-		(instances
-			(project "stm32h7-hdmi-board-sodimm-module-hw"
-				(path "/92fcd7c5-798f-49cd-ae80-ce2fa78a6354/5dc00c1d-6d73-4075-9f40-456de291661b"
-					(reference "C9")
-					(unit 1)
-				)
-				(path "/92fcd7c5-798f-49cd-ae80-ce2fa78a6354/64f9e65c-9d05-4be1-9e31-4d16c11f0fb0"
-					(reference "C17")
-					(unit 1)
-				)
-				(path "/92fcd7c5-798f-49cd-ae80-ce2fa78a6354/8065b630-3bb7-47f1-baca-00560e3eccce"
-					(reference "C1")
-					(unit 1)
-				)
-				(path "/92fcd7c5-798f-49cd-ae80-ce2fa78a6354/87a2e1a4-69b4-4323-9d30-934d29179e2b"
-					(reference "C49")
-					(unit 1)
-				)
-				(path "/92fcd7c5-798f-49cd-ae80-ce2fa78a6354/b4e055d1-7bf1-4790-ab55-efe4bf9542a5"
-					(reference "C57")
-					(unit 1)
-				)
-				(path "/92fcd7c5-798f-49cd-ae80-ce2fa78a6354/b905e1ec-7c3f-48f7-ae55-d927b88852a9"
-					(reference "C41")
-					(unit 1)
-				)
-				(path "/92fcd7c5-798f-49cd-ae80-ce2fa78a6354/cd52d890-d841-4c0b-b74f-cecd82eab78c"
-					(reference "C33")
-					(unit 1)
-				)
-				(path "/92fcd7c5-798f-49cd-ae80-ce2fa78a6354/ddf45e09-ef7c-4334-8682-44a40fb9ac25"
-					(reference "C25")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 254 176.53 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5be83721-bf22-4a4c-8308-3adaba4054a2")
+		(uuid "8442bad7-72f6-40e1-a7b7-8078e83d430d")
 		(property "Reference" "C4"
-			(at 257.81 175.2599 0)
+			(at 256.54 175.2663 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
-			(at 257.81 177.7999 0)
+		(property "Value" "C_100n_0402"
+			(at 243.84 194.31 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
-				(justify left)
+				(justify left bottom)
 			)
 		)
 		(property "Footprint" "antmicro-footprints:C_0402_1005Metric"
-			(at 254.9652 180.34 0)
+			(at 241.3 194.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Datasheet" "https://www.murata.com/products/productdetail?partno=GRM155R61H104KE14%23"
+			(at 238.76 194.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Description" "SMD Multilayer Ceramic Capacitor, 0.1 µF, 50 V, 0402 [1005 Metric], ± 10%, X5R, GRM Series"
+			(at 220.98 194.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3637,10 +4691,75 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left bottom)
 			)
 		)
-		(property "Datasheet" ""
-			(at 254 176.53 0)
+		(property "MPN" "GRM155R61H104KE14D"
+			(at 236.22 194.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Manufacturer" "Murata"
+			(at 233.68 194.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 231.14 194.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 228.6 194.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Val" "100n"
+			(at 256.54 177.8063 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left)
+			)
+		)
+		(property "Voltage" "50V"
+			(at 226.06 194.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3648,10 +4767,11 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left bottom)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
-			(at 254 176.53 0)
+		(property "Dielectric" "X5R"
+			(at 223.52 194.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3659,13 +4779,14 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left bottom)
 			)
-		)
-		(pin "2"
-			(uuid "6acd45e1-26aa-4fa0-9fc1-979a63195dc9")
 		)
 		(pin "1"
-			(uuid "1abaa960-d456-4753-bdc5-97d87e77fe86")
+			(uuid "ba3b3181-0a88-403c-b539-d84829a3ae2f")
+		)
+		(pin "2"
+			(uuid "e9063cdb-a123-477d-8ee2-fa433fcaeadc")
 		)
 		(instances
 			(project "stm32h7-hdmi-board-sodimm-module-hw"
@@ -3699,116 +4820,6 @@
 				)
 				(path "/92fcd7c5-798f-49cd-ae80-ce2fa78a6354/ddf45e09-ef7c-4334-8682-44a40fb9ac25"
 					(reference "C28")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 299.72 176.53 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7bb19815-541d-4d30-a94f-d7ee569d71e1")
-		(property "Reference" "C8"
-			(at 303.53 175.2599 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1u"
-			(at 303.53 177.7999 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "antmicro-footprints:C_0402_1005Metric"
-			(at 300.6852 180.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 299.72 176.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 299.72 176.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "890dd6cd-4661-4247-ac12-a72d58f85229")
-		)
-		(pin "1"
-			(uuid "966712fc-e748-4222-ae6b-b719208adec1")
-		)
-		(instances
-			(project "stm32h7-hdmi-board-sodimm-module-hw"
-				(path "/92fcd7c5-798f-49cd-ae80-ce2fa78a6354/5dc00c1d-6d73-4075-9f40-456de291661b"
-					(reference "C16")
-					(unit 1)
-				)
-				(path "/92fcd7c5-798f-49cd-ae80-ce2fa78a6354/64f9e65c-9d05-4be1-9e31-4d16c11f0fb0"
-					(reference "C24")
-					(unit 1)
-				)
-				(path "/92fcd7c5-798f-49cd-ae80-ce2fa78a6354/8065b630-3bb7-47f1-baca-00560e3eccce"
-					(reference "C8")
-					(unit 1)
-				)
-				(path "/92fcd7c5-798f-49cd-ae80-ce2fa78a6354/87a2e1a4-69b4-4323-9d30-934d29179e2b"
-					(reference "C56")
-					(unit 1)
-				)
-				(path "/92fcd7c5-798f-49cd-ae80-ce2fa78a6354/b4e055d1-7bf1-4790-ab55-efe4bf9542a5"
-					(reference "C64")
-					(unit 1)
-				)
-				(path "/92fcd7c5-798f-49cd-ae80-ce2fa78a6354/b905e1ec-7c3f-48f7-ae55-d927b88852a9"
-					(reference "C48")
-					(unit 1)
-				)
-				(path "/92fcd7c5-798f-49cd-ae80-ce2fa78a6354/cd52d890-d841-4c0b-b74f-cecd82eab78c"
-					(reference "C40")
-					(unit 1)
-				)
-				(path "/92fcd7c5-798f-49cd-ae80-ce2fa78a6354/ddf45e09-ef7c-4334-8682-44a40fb9ac25"
-					(reference "C32")
 					(unit 1)
 				)
 			)
@@ -4142,8 +5153,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 265.43 176.53 0)
+		(lib_id "antmicroCapacitors0402:C_100n_0402")
+		(at 288.29 173.99 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4152,31 +5163,60 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "d33345fb-6e9e-4259-9c5b-7bc64cdff65b")
-		(property "Reference" "C5"
-			(at 269.24 175.2599 0)
+		(uuid "b4076dfe-cd46-40ab-b054-94b16d80b759")
+		(property "Reference" "C7"
+			(at 290.83 175.2663 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
-			(at 269.24 177.7999 0)
+		(property "Value" "C_100n_0402"
+			(at 278.13 194.31 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
-				(justify left)
+				(justify left bottom)
 			)
 		)
 		(property "Footprint" "antmicro-footprints:C_0402_1005Metric"
-			(at 266.3952 180.34 0)
+			(at 275.59 194.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Datasheet" "https://www.murata.com/products/productdetail?partno=GRM155R61H104KE14%23"
+			(at 273.05 194.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Description" "SMD Multilayer Ceramic Capacitor, 0.1 µF, 50 V, 0402 [1005 Metric], ± 10%, X5R, GRM Series"
+			(at 255.27 194.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4184,10 +5224,75 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left bottom)
 			)
 		)
-		(property "Datasheet" ""
-			(at 265.43 176.53 0)
+		(property "MPN" "GRM155R61H104KE14D"
+			(at 270.51 194.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Manufacturer" "Murata"
+			(at 267.97 194.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 265.43 194.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 262.89 194.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Val" "100n"
+			(at 290.83 177.8063 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left)
+			)
+		)
+		(property "Voltage" "50V"
+			(at 260.35 194.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4195,10 +5300,11 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left bottom)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
-			(at 265.43 176.53 0)
+		(property "Dielectric" "X5R"
+			(at 257.81 194.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4206,54 +5312,55 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left bottom)
 			)
-		)
-		(pin "2"
-			(uuid "9d2b80da-92ea-40a8-9005-a100fd7f1af4")
 		)
 		(pin "1"
-			(uuid "386cd04d-a2fa-428a-8f5f-ac76f10296d2")
+			(uuid "533c34e8-7536-4685-a294-fd9ee2e3f60b")
+		)
+		(pin "2"
+			(uuid "bd2f8d12-52e7-4f90-9003-ceed2851b00f")
 		)
 		(instances
 			(project "stm32h7-hdmi-board-sodimm-module-hw"
 				(path "/92fcd7c5-798f-49cd-ae80-ce2fa78a6354/5dc00c1d-6d73-4075-9f40-456de291661b"
-					(reference "C13")
+					(reference "C15")
 					(unit 1)
 				)
 				(path "/92fcd7c5-798f-49cd-ae80-ce2fa78a6354/64f9e65c-9d05-4be1-9e31-4d16c11f0fb0"
-					(reference "C21")
+					(reference "C23")
 					(unit 1)
 				)
 				(path "/92fcd7c5-798f-49cd-ae80-ce2fa78a6354/8065b630-3bb7-47f1-baca-00560e3eccce"
-					(reference "C5")
+					(reference "C7")
 					(unit 1)
 				)
 				(path "/92fcd7c5-798f-49cd-ae80-ce2fa78a6354/87a2e1a4-69b4-4323-9d30-934d29179e2b"
-					(reference "C53")
+					(reference "C55")
 					(unit 1)
 				)
 				(path "/92fcd7c5-798f-49cd-ae80-ce2fa78a6354/b4e055d1-7bf1-4790-ab55-efe4bf9542a5"
-					(reference "C61")
+					(reference "C63")
 					(unit 1)
 				)
 				(path "/92fcd7c5-798f-49cd-ae80-ce2fa78a6354/b905e1ec-7c3f-48f7-ae55-d927b88852a9"
-					(reference "C45")
+					(reference "C47")
 					(unit 1)
 				)
 				(path "/92fcd7c5-798f-49cd-ae80-ce2fa78a6354/cd52d890-d841-4c0b-b74f-cecd82eab78c"
-					(reference "C37")
+					(reference "C39")
 					(unit 1)
 				)
 				(path "/92fcd7c5-798f-49cd-ae80-ce2fa78a6354/ddf45e09-ef7c-4334-8682-44a40fb9ac25"
-					(reference "C29")
+					(reference "C31")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 276.86 176.53 0)
+		(lib_id "antmicroCapacitors0402:C_100n_0402")
+		(at 242.57 173.99 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4262,141 +5369,60 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "e88fdcaf-f732-4b52-b4d4-1d0cc0b84ae3")
-		(property "Reference" "C6"
-			(at 280.67 175.2599 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100n"
-			(at 280.67 177.7999 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "antmicro-footprints:C_0402_1005Metric"
-			(at 277.8252 180.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 276.86 176.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 276.86 176.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "86b62736-fd36-4fde-a830-002f6d877eb5")
-		)
-		(pin "1"
-			(uuid "f517e5d4-33a5-46af-8600-7211a989ae45")
-		)
-		(instances
-			(project "stm32h7-hdmi-board-sodimm-module-hw"
-				(path "/92fcd7c5-798f-49cd-ae80-ce2fa78a6354/5dc00c1d-6d73-4075-9f40-456de291661b"
-					(reference "C14")
-					(unit 1)
-				)
-				(path "/92fcd7c5-798f-49cd-ae80-ce2fa78a6354/64f9e65c-9d05-4be1-9e31-4d16c11f0fb0"
-					(reference "C22")
-					(unit 1)
-				)
-				(path "/92fcd7c5-798f-49cd-ae80-ce2fa78a6354/8065b630-3bb7-47f1-baca-00560e3eccce"
-					(reference "C6")
-					(unit 1)
-				)
-				(path "/92fcd7c5-798f-49cd-ae80-ce2fa78a6354/87a2e1a4-69b4-4323-9d30-934d29179e2b"
-					(reference "C54")
-					(unit 1)
-				)
-				(path "/92fcd7c5-798f-49cd-ae80-ce2fa78a6354/b4e055d1-7bf1-4790-ab55-efe4bf9542a5"
-					(reference "C62")
-					(unit 1)
-				)
-				(path "/92fcd7c5-798f-49cd-ae80-ce2fa78a6354/b905e1ec-7c3f-48f7-ae55-d927b88852a9"
-					(reference "C46")
-					(unit 1)
-				)
-				(path "/92fcd7c5-798f-49cd-ae80-ce2fa78a6354/cd52d890-d841-4c0b-b74f-cecd82eab78c"
-					(reference "C38")
-					(unit 1)
-				)
-				(path "/92fcd7c5-798f-49cd-ae80-ce2fa78a6354/ddf45e09-ef7c-4334-8682-44a40fb9ac25"
-					(reference "C30")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 242.57 176.53 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e89388b2-d1fc-4655-b0ea-2a40fbc8de60")
+		(uuid "e1af46f4-af06-49bc-ace2-23e9bda64850")
 		(property "Reference" "C3"
-			(at 246.38 175.2599 0)
+			(at 245.11 175.2663 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 				(justify left)
 			)
 		)
-		(property "Value" "100n"
-			(at 246.38 177.7999 0)
+		(property "Value" "C_100n_0402"
+			(at 232.41 194.31 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
-				(justify left)
+				(justify left bottom)
 			)
 		)
 		(property "Footprint" "antmicro-footprints:C_0402_1005Metric"
-			(at 243.5352 180.34 0)
+			(at 229.87 194.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Datasheet" "https://www.murata.com/products/productdetail?partno=GRM155R61H104KE14%23"
+			(at 227.33 194.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Description" "SMD Multilayer Ceramic Capacitor, 0.1 µF, 50 V, 0402 [1005 Metric], ± 10%, X5R, GRM Series"
+			(at 209.55 194.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4404,10 +5430,75 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left bottom)
 			)
 		)
-		(property "Datasheet" ""
-			(at 242.57 176.53 0)
+		(property "MPN" "GRM155R61H104KE14D"
+			(at 224.79 194.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Manufacturer" "Murata"
+			(at 222.25 194.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 219.71 194.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 217.17 194.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Val" "100n"
+			(at 245.11 177.8063 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left)
+			)
+		)
+		(property "Voltage" "50V"
+			(at 214.63 194.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4415,10 +5506,11 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left bottom)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
-			(at 242.57 176.53 0)
+		(property "Dielectric" "X5R"
+			(at 212.09 194.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4426,13 +5518,14 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left bottom)
 			)
-		)
-		(pin "2"
-			(uuid "e287d70a-30fe-4607-bb35-b70f5aa0ef37")
 		)
 		(pin "1"
-			(uuid "b4b489a2-c26f-4004-892f-a4f7eb61bfde")
+			(uuid "ac03b88e-554b-4991-ac13-33e4eb1fa608")
+		)
+		(pin "2"
+			(uuid "5634febb-f905-43c0-8342-14ed73f6b6cd")
 		)
 		(instances
 			(project "stm32h7-hdmi-board-sodimm-module-hw"

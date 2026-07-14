@@ -6,7 +6,7 @@
 	(paper "A3")
 	(title_block
 		(title "STM32H7 HDMI Board SODIMM")
-		(date "2026-07-13")
+		(date "2026-07-14")
 		(rev "1.0.0")
 		(company "Antmicro Ltd")
 		(comment 1 "www.antmicro.com")
@@ -76,6 +76,16 @@
 			)
 		)
 		(uuid "7b0c6939-c2a6-49d3-81b7-2801eb88ca2b")
+	)
+	(text "EEPROM for \nSerial Presence Detection"
+		(exclude_from_sim no)
+		(at 75.438 66.04 0)
+		(effects
+			(font
+				(size 2.032 2.032)
+			)
+		)
+		(uuid "d184900c-6e8c-415b-9ad2-ed9ffca097bd")
 	)
 	(junction
 		(at 240.03 165.1)
@@ -511,6 +521,16 @@
 	)
 	(wire
 		(pts
+			(xy 99.06 124.46) (xy 88.9 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "420b6d22-ed37-454d-bc7a-09a1abbd2145")
+	)
+	(wire
+		(pts
 			(xy 27.94 161.29) (xy 36.83 161.29)
 		)
 		(stroke
@@ -611,7 +631,7 @@
 	)
 	(bus
 		(pts
-			(xy 88.9 120.65) (xy 120.65 120.65)
+			(xy 88.9 135.89) (xy 120.65 135.89)
 		)
 		(stroke
 			(width 0)
@@ -779,6 +799,16 @@
 		)
 		(uuid "7e2658e1-d839-4e3f-8a1b-89b0c862094f")
 	)
+	(wire
+		(pts
+			(xy 87.63 80.01) (xy 99.06 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ec0fb92-ad0a-497a-90d0-2860bed466b6")
+	)
 	(bus
 		(pts
 			(xy 88.9 157.48) (xy 119.38 157.48)
@@ -911,7 +941,7 @@
 	)
 	(bus
 		(pts
-			(xy 120.65 120.65) (xy 120.65 63.5)
+			(xy 120.65 135.89) (xy 120.65 63.5)
 		)
 		(stroke
 			(width 0)
@@ -1041,6 +1071,16 @@
 	)
 	(wire
 		(pts
+			(xy 99.06 80.01) (xy 99.06 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac17ea77-16f2-433b-be2e-ec875d54fafe")
+	)
+	(wire
+		(pts
 			(xy 195.58 113.03) (xy 203.2 113.03)
 		)
 		(stroke
@@ -1058,6 +1098,16 @@
 			(type default)
 		)
 		(uuid "b0b2043e-ad42-45b0-8eec-7194bd07a32d")
+	)
+	(wire
+		(pts
+			(xy 96.52 121.92) (xy 96.52 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b92f1de0-a7b8-4eaf-8032-ba364dde400f")
 	)
 	(bus
 		(pts
@@ -1251,6 +1301,16 @@
 	)
 	(wire
 		(pts
+			(xy 96.52 82.55) (xy 87.63 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e09e0d38-7aa1-4ac2-a7b3-c1ad91571964")
+	)
+	(wire
+		(pts
 			(xy 245.11 160.02) (xy 252.73 160.02)
 		)
 		(stroke
@@ -1298,6 +1358,16 @@
 			(type default)
 		)
 		(uuid "e6d0e862-6135-4db5-971f-5031bc214b89")
+	)
+	(wire
+		(pts
+			(xy 88.9 121.92) (xy 96.52 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e861a207-e517-415b-8ae9-93b0b02e4d7d")
 	)
 	(bus
 		(pts
@@ -2400,7 +2470,7 @@
 		(dnp no)
 		(polyline
 			(pts
-				(xy 77.47 118.11) (xy 91.44 118.11) (xy 91.44 128.27) (xy 77.47 128.27)
+				(xy 77.47 133.35) (xy 91.44 133.35) (xy 91.44 143.51) (xy 77.47 143.51)
 			)
 			(stroke
 				(width 0)
@@ -2590,8 +2660,7 @@
 	(netclass_flag ""
 		(length 2.54)
 		(shape round)
-		(at 90.17 118.11 0)
-		(fields_autoplaced yes)
+		(at 90.17 133.35 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2600,7 +2669,7 @@
 		)
 		(uuid "bfa5d494-4987-493a-b1f5-e24bd6eadaa0")
 		(property "Netclass" "55Ohm-se_ADDR"
-			(at 90.8685 115.57 0)
+			(at 90.8685 130.81 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2611,7 +2680,7 @@
 			)
 		)
 		(property "Component Class" ""
-			(at -86.36 0 0)
+			(at -86.36 15.24 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2653,6 +2722,72 @@
 				(font
 					(size 1.27 1.27)
 					(italic yes)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 59.69 73.66)
+		(size 27.94 17.78)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "02eb4e3c-e878-409b-8c26-d4f0756348cb")
+		(property "Sheetname" "EEPROM"
+			(at 59.69 72.9484 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "eeprom.kicad_sch"
+			(at 59.69 92.0246 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "EEPROM.SCL" input
+			(at 87.63 82.55 0)
+			(uuid "ce6e65a1-e67e-4e86-bd74-f33781d0f9fc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "EEPROM.SDA" bidirectional
+			(at 87.63 80.01 0)
+			(uuid "0fbafe18-02df-4275-a11e-987eeabb3e0a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "stm32h7-hdmi-board-sodimm-module-hw"
+				(path "/92fcd7c5-798f-49cd-ae80-ce2fa78a6354"
+					(page "11")
 				)
 			)
 		)
@@ -3002,7 +3137,7 @@
 			)
 		)
 		(pin "A[0..12]" output
-			(at 88.9 120.65 0)
+			(at 88.9 135.89 0)
 			(uuid "61d5599d-dcc8-4488-b827-ae8c49946146")
 			(effects
 				(font
@@ -3044,6 +3179,26 @@
 		(pin "D[24..31]" output
 			(at 88.9 168.91 0)
 			(uuid "9f088722-78dc-459b-ad54-e8e8829b9f58")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SCL" output
+			(at 88.9 121.92 0)
+			(uuid "aec92168-91f1-4a63-b1c7-f30b75e6dd1a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SDA" bidirectional
+			(at 88.9 124.46 0)
+			(uuid "025d3766-516d-4439-bb97-febe64e7dd1c")
 			(effects
 				(font
 					(size 1.27 1.27)
