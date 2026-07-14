@@ -210,7 +210,10 @@
         }
       ],
       "track_widths": [
-        0.0
+        0.0,
+        0.18,
+        0.46,
+        2.0
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -1002,6 +1005,25 @@
     "meta": {
       "version": 0
     },
-    "tuning_profiles_impedance_geometric": []
+    "tuning_profiles_impedance_geometric": [
+      {
+        "enable_time_domain_tuning": true,
+        "layer_entries": [
+          {
+            "bottom_reference_layer": "In1.Cu",
+            "delay": 5808200,
+            "diff_pair_gap": 0,
+            "signal_layer": "F.Cu",
+            "top_reference_layer": "UNDEFINED",
+            "width": 186507
+          }
+        ],
+        "profile_name": "DQ",
+        "target_impedance": 55.0,
+        "type": 0,
+        "via_overrides": [],
+        "via_prop_delay": 0
+      }
+    ]
   }
 }

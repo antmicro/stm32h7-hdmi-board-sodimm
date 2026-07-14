@@ -5122,6 +5122,16 @@
 	)
 	(wire
 		(pts
+			(xy 173.99 224.79) (xy 180.34 224.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a2c2d56-67f3-48af-ab53-f0bfface7629")
+	)
+	(wire
+		(pts
 			(xy 201.93 171.45) (xy 203.2 171.45)
 		)
 		(stroke
@@ -5162,6 +5172,16 @@
 	)
 	(wire
 		(pts
+			(xy 173.99 199.39) (xy 180.34 199.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11505bb1-ac41-40fd-87bb-359bee844523")
+	)
+	(wire
+		(pts
 			(xy 201.93 173.99) (xy 203.2 173.99)
 		)
 		(stroke
@@ -5179,16 +5199,6 @@
 			(type default)
 		)
 		(uuid "1479d2d8-1b61-4def-9459-8c34a2edf50b")
-	)
-	(wire
-		(pts
-			(xy 173.99 179.07) (xy 180.34 179.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "158c6866-06d8-4a28-80ae-bc6ad84fe254")
 	)
 	(bus
 		(pts
@@ -5242,16 +5252,6 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 207.01) (xy 180.34 207.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1a284c1a-3cad-485f-98b7-e6209e900020")
-	)
-	(wire
-		(pts
 			(xy 195.58 62.23) (xy 195.58 59.69)
 		)
 		(stroke
@@ -5272,16 +5272,6 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 163.83) (xy 180.34 163.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1df09c6d-1013-466f-9800-ae439ee6d167")
-	)
-	(wire
-		(pts
 			(xy 201.93 156.21) (xy 203.2 156.21)
 		)
 		(stroke
@@ -5289,16 +5279,6 @@
 			(type default)
 		)
 		(uuid "1e07f9c1-f1b3-48b9-91cf-616d35a748fc")
-	)
-	(wire
-		(pts
-			(xy 173.99 186.69) (xy 180.34 186.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1f2e0f8a-1f1e-4e68-afc9-caa5a02632bd")
 	)
 	(wire
 		(pts
@@ -5392,6 +5372,16 @@
 	)
 	(wire
 		(pts
+			(xy 173.99 163.83) (xy 180.34 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e67f70a-ff81-4eaa-ba33-3a38a4dff211")
+	)
+	(wire
+		(pts
 			(xy 54.61 173.99) (xy 62.23 173.99)
 		)
 		(stroke
@@ -5460,16 +5450,6 @@
 		)
 		(uuid "432f11d1-503c-4f18-a2a6-95f4c09a8e14")
 	)
-	(wire
-		(pts
-			(xy 173.99 204.47) (xy 180.34 204.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "43c1871a-a12b-4e8f-a3f7-ccaa1e5b68d6")
-	)
 	(bus
 		(pts
 			(xy 171.45 184.15) (xy 171.45 166.37)
@@ -5489,6 +5469,16 @@
 			(type default)
 		)
 		(uuid "4709c558-755d-4e4d-8fd8-01d2d96964aa")
+	)
+	(wire
+		(pts
+			(xy 173.99 201.93) (xy 180.34 201.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47cd9241-8c5b-4170-92c7-11607a80b031")
 	)
 	(wire
 		(pts
@@ -5552,13 +5542,13 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 199.39) (xy 180.34 199.39)
+			(xy 173.99 161.29) (xy 180.34 161.29)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "53e7f9ad-251f-4b49-962e-ba22fbd80001")
+		(uuid "515c2c96-2cc7-4557-8de2-ae29a25a712d")
 	)
 	(wire
 		(pts
@@ -5592,16 +5582,6 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 166.37) (xy 180.34 166.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5880e967-38c9-47fd-ae5d-3836b40e3402")
-	)
-	(wire
-		(pts
 			(xy 190.5 204.47) (xy 203.2 204.47)
 		)
 		(stroke
@@ -5609,6 +5589,16 @@
 			(type default)
 		)
 		(uuid "5a6dabb3-a375-4368-9b26-da61ff864f5a")
+	)
+	(wire
+		(pts
+			(xy 173.99 219.71) (xy 180.34 219.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ad98ac1-f17a-4304-b6e8-7a17a0df60bb")
 	)
 	(wire
 		(pts
@@ -5709,6 +5699,16 @@
 			(type default)
 		)
 		(uuid "65bfd415-0b53-436e-9c6f-b589fe05261c")
+	)
+	(wire
+		(pts
+			(xy 173.99 166.37) (xy 180.34 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66742844-bdc4-46b6-91e4-6098fe6d7be9")
 	)
 	(wire
 		(pts
@@ -5872,13 +5872,13 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 184.15) (xy 180.34 184.15)
+			(xy 173.99 158.75) (xy 180.34 158.75)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7dd62e93-2763-4bd6-ac38-495227fc7f7e")
+		(uuid "7b16b426-9c81-4b6c-be8a-d999f5de9fac")
 	)
 	(wire
 		(pts
@@ -6052,26 +6052,6 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 161.29) (xy 180.34 161.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "98517195-e1d3-48b5-9a6d-87e6ec20f338")
-	)
-	(wire
-		(pts
-			(xy 173.99 181.61) (xy 180.34 181.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "99a3b217-6602-44f9-869c-fdeef5639c6e")
-	)
-	(wire
-		(pts
 			(xy 223.52 62.23) (xy 226.06 62.23)
 		)
 		(stroke
@@ -6132,6 +6112,16 @@
 	)
 	(wire
 		(pts
+			(xy 173.99 179.07) (xy 180.34 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a25e28a0-dedd-4e70-80e6-fe2ffe1680c5")
+	)
+	(wire
+		(pts
 			(xy 54.61 166.37) (xy 62.23 166.37)
 		)
 		(stroke
@@ -6139,6 +6129,16 @@
 			(type default)
 		)
 		(uuid "a3bd8764-e138-47be-81ea-5b0518b89aa8")
+	)
+	(wire
+		(pts
+			(xy 173.99 207.01) (xy 180.34 207.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3c59dae-38e5-4990-a021-d678c2753781")
 	)
 	(wire
 		(pts
@@ -6159,6 +6159,16 @@
 			(type default)
 		)
 		(uuid "a829a55b-5575-405e-b689-2c1a108df4cd")
+	)
+	(wire
+		(pts
+			(xy 173.99 222.25) (xy 180.34 222.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aceb8c1e-39e4-491a-84ef-3b94c93f5c2d")
 	)
 	(wire
 		(pts
@@ -6392,6 +6402,16 @@
 	)
 	(wire
 		(pts
+			(xy 173.99 181.61) (xy 180.34 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2c0b16c-9165-41ae-8711-ddc7c4066f3e")
+	)
+	(wire
+		(pts
 			(xy 190.5 224.79) (xy 203.2 224.79)
 		)
 		(stroke
@@ -6422,6 +6442,16 @@
 	)
 	(wire
 		(pts
+			(xy 173.99 204.47) (xy 180.34 204.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c42734f0-c0d9-4861-958a-c6ba52b15e38")
+	)
+	(wire
+		(pts
 			(xy 59.69 229.87) (xy 62.23 229.87)
 		)
 		(stroke
@@ -6429,16 +6459,6 @@
 			(type default)
 		)
 		(uuid "c45916d8-2e62-4861-bd4d-312034f78b03")
-	)
-	(wire
-		(pts
-			(xy 173.99 227.33) (xy 180.34 227.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c86f94bb-d4c3-455a-8e28-0222bfbb3b72")
 	)
 	(wire
 		(pts
@@ -6600,16 +6620,6 @@
 		)
 		(uuid "e34e0f44-4476-4c71-9367-b91179c40739")
 	)
-	(wire
-		(pts
-			(xy 173.99 224.79) (xy 180.34 224.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e5513ece-2e88-4314-81a5-0634bee308af")
-	)
 	(bus
 		(pts
 			(xy 166.37 186.69) (xy 171.45 186.69)
@@ -6642,6 +6652,16 @@
 	)
 	(wire
 		(pts
+			(xy 173.99 184.15) (xy 180.34 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9f7f516-044a-4f9a-88f7-2d925b47c887")
+	)
+	(wire
+		(pts
 			(xy 201.93 189.23) (xy 203.2 189.23)
 		)
 		(stroke
@@ -6652,13 +6672,13 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 222.25) (xy 180.34 222.25)
+			(xy 173.99 186.69) (xy 180.34 186.69)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ed92c76e-b063-414c-b324-458762117a92")
+		(uuid "ed3bd6d2-bc1d-4dda-af91-5bba8ea00d3c")
 	)
 	(wire
 		(pts
@@ -6692,16 +6712,6 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 201.93) (xy 180.34 201.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f338c869-37e9-4959-a6f1-36a4ca3b8d01")
-	)
-	(wire
-		(pts
 			(xy 190.5 181.61) (xy 203.2 181.61)
 		)
 		(stroke
@@ -6719,16 +6729,6 @@
 			(type default)
 		)
 		(uuid "f3730697-45a8-42f2-abf2-244ec4ea64d2")
-	)
-	(wire
-		(pts
-			(xy 173.99 219.71) (xy 180.34 219.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f3a14d51-8c91-4990-92f1-d67f8fc7473e")
 	)
 	(wire
 		(pts
@@ -6802,13 +6802,13 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 158.75) (xy 180.34 158.75)
+			(xy 173.99 227.33) (xy 180.34 227.33)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f7f6a10d-c964-4aa7-a825-c9cb326e59f0")
+		(uuid "f7dc545c-1396-4968-bf03-0f9f1a725035")
 	)
 	(wire
 		(pts
@@ -6880,7 +6880,7 @@
 		)
 		(uuid "ffb3dec2-3282-4baa-9cb1-3fd07b9cff03")
 	)
-	(label "D1"
+	(label "D2"
 		(at 173.99 151.13 0)
 		(effects
 			(font
@@ -6901,7 +6901,7 @@
 		(uuid "0c5dcdaf-d278-4d0c-b306-a9fe797aee18")
 	)
 	(label "D21"
-		(at 173.99 201.93 0)
+		(at 173.99 204.47 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6911,7 +6911,7 @@
 		(uuid "0d7d4267-f449-4de4-9c5f-552fef784358")
 	)
 	(label "D24"
-		(at 173.99 209.55 0)
+		(at 173.99 217.17 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6921,7 +6921,7 @@
 		(uuid "121d933f-42c1-4e9b-88cc-5efb498ab092")
 	)
 	(label "D12"
-		(at 173.99 179.07 0)
+		(at 173.99 186.69 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6931,7 +6931,7 @@
 		(uuid "15b8afad-2ee8-4fca-b230-56d1570111fd")
 	)
 	(label "D22"
-		(at 173.99 204.47 0)
+		(at 173.99 201.93 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6961,7 +6961,7 @@
 		(uuid "28b417d0-360b-47eb-b057-3dcb1683a098")
 	)
 	(label "D10"
-		(at 173.99 173.99 0)
+		(at 173.99 171.45 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6971,7 +6971,7 @@
 		(uuid "307e4862-4d23-40ee-97f5-29312f6e6538")
 	)
 	(label "D17"
-		(at 173.99 191.77 0)
+		(at 173.99 194.31 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6990,7 +6990,7 @@
 		)
 		(uuid "391dab7d-5f8c-42ed-bf43-03e13ecb146b")
 	)
-	(label "D3"
+	(label "D0"
 		(at 173.99 156.21 0)
 		(effects
 			(font
@@ -7000,7 +7000,7 @@
 		)
 		(uuid "466978d9-04d4-47bf-84f1-d5ee7e5a8d2c")
 	)
-	(label "D4"
+	(label "D7"
 		(at 173.99 158.75 0)
 		(effects
 			(font
@@ -7011,7 +7011,7 @@
 		(uuid "4d962791-31e5-47b0-a059-85d4245c63da")
 	)
 	(label "D27"
-		(at 173.99 217.17 0)
+		(at 173.99 209.55 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7020,7 +7020,7 @@
 		)
 		(uuid "534394ac-b88b-4877-99c1-b718d0c3606e")
 	)
-	(label "D6"
+	(label "D5"
 		(at 173.99 163.83 0)
 		(effects
 			(font
@@ -7030,7 +7030,7 @@
 		)
 		(uuid "54214180-0aa1-4eac-90ad-4d92af19cc06")
 	)
-	(label "D2"
+	(label "D1"
 		(at 173.99 153.67 0)
 		(effects
 			(font
@@ -7041,7 +7041,7 @@
 		(uuid "5450f96c-d17e-410b-999c-760943d337d3")
 	)
 	(label "D20"
-		(at 173.99 199.39 0)
+		(at 173.99 207.01 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7061,7 +7061,7 @@
 		(uuid "5936804e-1473-4173-92d5-f68a0383f5ab")
 	)
 	(label "D18"
-		(at 173.99 194.31 0)
+		(at 173.99 191.77 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7081,7 +7081,7 @@
 		(uuid "668e989e-5e45-47fd-9120-36523c1d7485")
 	)
 	(label "D19"
-		(at 173.99 196.85 0)
+		(at 173.99 189.23 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7111,7 +7111,7 @@
 		(uuid "93dc1618-4b0e-4528-9767-fe381dfa3e0a")
 	)
 	(label "D29"
-		(at 173.99 222.25 0)
+		(at 173.99 224.79 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7121,7 +7121,7 @@
 		(uuid "94c7e787-1072-4c89-b316-c623b1721717")
 	)
 	(label "D16"
-		(at 173.99 189.23 0)
+		(at 173.99 196.85 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7131,7 +7131,7 @@
 		(uuid "96a00e85-d1ca-4820-96a7-422ab403af83")
 	)
 	(label "D14"
-		(at 173.99 184.15 0)
+		(at 173.99 181.61 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7141,7 +7141,7 @@
 		(uuid "9741e657-2d9a-4465-ae7f-a5a598087433")
 	)
 	(label "D11"
-		(at 173.99 176.53 0)
+		(at 173.99 168.91 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7161,7 +7161,7 @@
 		(uuid "a5c444f2-dfef-4bd7-8ee7-9c238969a6aa")
 	)
 	(label "D9"
-		(at 173.99 171.45 0)
+		(at 173.99 173.99 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7171,7 +7171,7 @@
 		(uuid "a6e17b48-02ef-46ca-9d3c-e9c6d6da673d")
 	)
 	(label "D13"
-		(at 173.99 181.61 0)
+		(at 173.99 184.15 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7201,7 +7201,7 @@
 		(uuid "b5087259-0dc8-461f-927e-e6980359ee8b")
 	)
 	(label "D26"
-		(at 173.99 214.63 0)
+		(at 173.99 212.09 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7210,7 +7210,7 @@
 		)
 		(uuid "bcfd1b1a-51db-44d1-a764-aaa4a0a4162f")
 	)
-	(label "D0"
+	(label "D3"
 		(at 173.99 148.59 0)
 		(effects
 			(font
@@ -7221,7 +7221,7 @@
 		(uuid "bd74c91b-b266-40c3-aa45-05282e20b5c9")
 	)
 	(label "D15"
-		(at 173.99 186.69 0)
+		(at 173.99 179.07 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7231,7 +7231,7 @@
 		(uuid "ca05ca73-eebd-47d0-b76f-b27c0fd5e7ad")
 	)
 	(label "D28"
-		(at 173.99 219.71 0)
+		(at 173.99 227.33 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7240,7 +7240,7 @@
 		)
 		(uuid "cb0a6c8d-035a-4c48-b4ab-6635a97128ad")
 	)
-	(label "D5"
+	(label "D6"
 		(at 173.99 161.29 0)
 		(effects
 			(font
@@ -7251,7 +7251,7 @@
 		(uuid "d502e699-d502-400f-8cf6-17498f5518a7")
 	)
 	(label "D23"
-		(at 173.99 207.01 0)
+		(at 173.99 199.39 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7261,7 +7261,7 @@
 		(uuid "d95e8e17-1404-4035-9063-2f41e7712053")
 	)
 	(label "D30"
-		(at 173.99 224.79 0)
+		(at 173.99 222.25 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7291,7 +7291,7 @@
 		(uuid "df95491d-2682-4809-abeb-153ac70fcf87")
 	)
 	(label "D8"
-		(at 173.99 168.91 0)
+		(at 173.99 176.53 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7300,7 +7300,7 @@
 		)
 		(uuid "e331effc-d039-4d2d-8732-72220f8e6444")
 	)
-	(label "D7"
+	(label "D4"
 		(at 173.99 166.37 0)
 		(effects
 			(font
@@ -7311,7 +7311,7 @@
 		(uuid "e621e08f-1ce2-4442-a4c5-7c36f5947773")
 	)
 	(label "D25"
-		(at 173.99 212.09 0)
+		(at 173.99 214.63 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7321,7 +7321,7 @@
 		(uuid "ebdd5375-732b-4e74-869a-b66d7e069bab")
 	)
 	(label "D31"
-		(at 173.99 227.33 0)
+		(at 173.99 219.71 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8380,7 +8380,8 @@
 	)
 	(symbol
 		(lib_id "antmicroResistorNetworksArrays:4x1k_0201_array")
-		(at 180.34 199.39 0)
+		(at 190.5 199.39 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8388,7 +8389,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "4789b011-929f-4d82-85c6-02b039b8cc07")
 		(property "Reference" "R6"
 			(at 185.42 193.04 0)
@@ -8402,7 +8402,7 @@
 			)
 		)
 		(property "Value" "4x1k_0201_array"
-			(at 207.01 207.01 0)
+			(at 163.83 207.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8415,7 +8415,7 @@
 			)
 		)
 		(property "Footprint" "antmicro-footprints:R_Array_4x0201_Panasonic_EXB18V"
-			(at 207.01 212.09 0)
+			(at 163.83 212.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8428,7 +8428,7 @@
 			)
 		)
 		(property "Datasheet" "http://industrial.panasonic.com/cdbs/www-data/pdf/AOC0000/AOC0000C14.pdf"
-			(at 207.01 214.63 0)
+			(at 163.83 214.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8441,7 +8441,7 @@
 			)
 		)
 		(property "Description" "Fixed Network Resistor, 1 kohm, Isolated, 4 Resistors, 0502 [1406 Metric], Flat, ± 5%"
-			(at 207.01 227.33 0)
+			(at 163.83 227.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8453,7 +8453,7 @@
 			)
 		)
 		(property "MPN" "EXB-18V102JX"
-			(at 207.01 217.17 0)
+			(at 163.83 217.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8466,7 +8466,7 @@
 			)
 		)
 		(property "Manufacturer" "Panasonic"
-			(at 207.01 219.71 0)
+			(at 163.83 219.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8490,7 +8490,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 207.01 222.25 0)
+			(at 163.83 222.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8503,7 +8503,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 207.01 224.79 0)
+			(at 163.83 224.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8550,7 +8550,8 @@
 	)
 	(symbol
 		(lib_id "antmicroResistorNetworksArrays:4x10R_0201_array")
-		(at 180.34 158.75 0)
+		(at 190.5 158.75 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8558,7 +8559,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "4facbc3c-f37f-45ed-b10f-8cc649136d33")
 		(property "Reference" "R2"
 			(at 185.42 152.4 0)
@@ -8572,7 +8572,7 @@
 			)
 		)
 		(property "Value" "4x10R_0201_array"
-			(at 207.01 166.37 0)
+			(at 163.83 166.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8585,7 +8585,7 @@
 			)
 		)
 		(property "Footprint" "antmicro-footprints:R_Array_4x0201_Panasonic_EXB18V"
-			(at 207.01 171.45 0)
+			(at 163.83 171.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8598,7 +8598,7 @@
 			)
 		)
 		(property "Datasheet" "http://industrial.panasonic.com/cdbs/www-data/pdf/AOC0000/AOC0000C14.pdf"
-			(at 207.01 173.99 0)
+			(at 163.83 173.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8611,7 +8611,7 @@
 			)
 		)
 		(property "Description" "Fixed Network Resistor, 10 ohm, Isolated, 4 Resistors, 0502 [1406 Metric], Flat, ± 5%"
-			(at 207.01 186.69 0)
+			(at 163.83 186.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8623,7 +8623,7 @@
 			)
 		)
 		(property "MPN" "EXB-18V100JX"
-			(at 207.01 176.53 0)
+			(at 163.83 176.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8636,7 +8636,7 @@
 			)
 		)
 		(property "Manufacturer" "Panasonic"
-			(at 207.01 179.07 0)
+			(at 163.83 179.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8660,7 +8660,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 207.01 181.61 0)
+			(at 163.83 181.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8673,7 +8673,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 207.01 184.15 0)
+			(at 163.83 184.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8720,7 +8720,8 @@
 	)
 	(symbol
 		(lib_id "antmicroResistorNetworksArrays:4x1k_0201_array")
-		(at 191.77 209.55 0)
+		(at 201.93 209.55 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8728,7 +8729,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "5561ae3c-abcd-4903-8433-b2dc43427257")
 		(property "Reference" "R7"
 			(at 196.85 203.2 0)
@@ -8742,7 +8742,7 @@
 			)
 		)
 		(property "Value" "4x1k_0201_array"
-			(at 218.44 217.17 0)
+			(at 175.26 217.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8755,7 +8755,7 @@
 			)
 		)
 		(property "Footprint" "antmicro-footprints:R_Array_4x0201_Panasonic_EXB18V"
-			(at 218.44 222.25 0)
+			(at 175.26 222.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8768,7 +8768,7 @@
 			)
 		)
 		(property "Datasheet" "http://industrial.panasonic.com/cdbs/www-data/pdf/AOC0000/AOC0000C14.pdf"
-			(at 218.44 224.79 0)
+			(at 175.26 224.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8781,7 +8781,7 @@
 			)
 		)
 		(property "Description" "Fixed Network Resistor, 1 kohm, Isolated, 4 Resistors, 0502 [1406 Metric], Flat, ± 5%"
-			(at 218.44 237.49 0)
+			(at 175.26 237.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8793,7 +8793,7 @@
 			)
 		)
 		(property "MPN" "EXB-18V102JX"
-			(at 218.44 227.33 0)
+			(at 175.26 227.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8806,7 +8806,7 @@
 			)
 		)
 		(property "Manufacturer" "Panasonic"
-			(at 218.44 229.87 0)
+			(at 175.26 229.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8830,7 +8830,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 218.44 232.41 0)
+			(at 175.26 232.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8843,7 +8843,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 218.44 234.95 0)
+			(at 175.26 234.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10409,7 +10409,8 @@
 	)
 	(symbol
 		(lib_id "antmicroResistorNetworksArrays:4x1k_0201_array")
-		(at 180.34 219.71 0)
+		(at 190.5 219.71 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10417,7 +10418,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "909ca765-3a08-44ae-980b-eba8caf61ab8")
 		(property "Reference" "R8"
 			(at 185.42 213.36 0)
@@ -10431,7 +10431,7 @@
 			)
 		)
 		(property "Value" "4x1k_0201_array"
-			(at 207.01 227.33 0)
+			(at 163.83 227.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10444,7 +10444,7 @@
 			)
 		)
 		(property "Footprint" "antmicro-footprints:R_Array_4x0201_Panasonic_EXB18V"
-			(at 207.01 232.41 0)
+			(at 163.83 232.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10457,7 +10457,7 @@
 			)
 		)
 		(property "Datasheet" "http://industrial.panasonic.com/cdbs/www-data/pdf/AOC0000/AOC0000C14.pdf"
-			(at 207.01 234.95 0)
+			(at 163.83 234.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10470,7 +10470,7 @@
 			)
 		)
 		(property "Description" "Fixed Network Resistor, 1 kohm, Isolated, 4 Resistors, 0502 [1406 Metric], Flat, ± 5%"
-			(at 207.01 247.65 0)
+			(at 163.83 247.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10482,7 +10482,7 @@
 			)
 		)
 		(property "MPN" "EXB-18V102JX"
-			(at 207.01 237.49 0)
+			(at 163.83 237.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10495,7 +10495,7 @@
 			)
 		)
 		(property "Manufacturer" "Panasonic"
-			(at 207.01 240.03 0)
+			(at 163.83 240.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10519,7 +10519,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 207.01 242.57 0)
+			(at 163.83 242.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10532,7 +10532,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 207.01 245.11 0)
+			(at 163.83 245.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10579,7 +10579,8 @@
 	)
 	(symbol
 		(lib_id "antmicroResistorNetworksArrays:4x1k_0201_array")
-		(at 191.77 189.23 0)
+		(at 201.93 189.23 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10587,7 +10588,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "99a397b9-1649-420f-bfcd-00c8a41d9fa8")
 		(property "Reference" "R5"
 			(at 196.85 182.88 0)
@@ -10601,7 +10601,7 @@
 			)
 		)
 		(property "Value" "4x1k_0201_array"
-			(at 218.44 196.85 0)
+			(at 175.26 196.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10614,7 +10614,7 @@
 			)
 		)
 		(property "Footprint" "antmicro-footprints:R_Array_4x0201_Panasonic_EXB18V"
-			(at 218.44 201.93 0)
+			(at 175.26 201.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10627,7 +10627,7 @@
 			)
 		)
 		(property "Datasheet" "http://industrial.panasonic.com/cdbs/www-data/pdf/AOC0000/AOC0000C14.pdf"
-			(at 218.44 204.47 0)
+			(at 175.26 204.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10640,7 +10640,7 @@
 			)
 		)
 		(property "Description" "Fixed Network Resistor, 1 kohm, Isolated, 4 Resistors, 0502 [1406 Metric], Flat, ± 5%"
-			(at 218.44 217.17 0)
+			(at 175.26 217.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10652,7 +10652,7 @@
 			)
 		)
 		(property "MPN" "EXB-18V102JX"
-			(at 218.44 207.01 0)
+			(at 175.26 207.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10665,7 +10665,7 @@
 			)
 		)
 		(property "Manufacturer" "Panasonic"
-			(at 218.44 209.55 0)
+			(at 175.26 209.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10689,7 +10689,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 218.44 212.09 0)
+			(at 175.26 212.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10702,7 +10702,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 218.44 214.63 0)
+			(at 175.26 214.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11380,7 +11380,8 @@
 	)
 	(symbol
 		(lib_id "antmicroResistorNetworksArrays:4x10R_0201_array")
-		(at 191.77 168.91 0)
+		(at 201.93 168.91 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11388,7 +11389,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "d4802f10-2041-4a49-b1ec-2913263356f5")
 		(property "Reference" "R3"
 			(at 196.85 162.56 0)
@@ -11402,7 +11402,7 @@
 			)
 		)
 		(property "Value" "4x10R_0201_array"
-			(at 218.44 176.53 0)
+			(at 175.26 176.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11415,7 +11415,7 @@
 			)
 		)
 		(property "Footprint" "antmicro-footprints:R_Array_4x0201_Panasonic_EXB18V"
-			(at 218.44 181.61 0)
+			(at 175.26 181.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11428,7 +11428,7 @@
 			)
 		)
 		(property "Datasheet" "http://industrial.panasonic.com/cdbs/www-data/pdf/AOC0000/AOC0000C14.pdf"
-			(at 218.44 184.15 0)
+			(at 175.26 184.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11441,7 +11441,7 @@
 			)
 		)
 		(property "Description" "Fixed Network Resistor, 10 ohm, Isolated, 4 Resistors, 0502 [1406 Metric], Flat, ± 5%"
-			(at 218.44 196.85 0)
+			(at 175.26 196.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11453,7 +11453,7 @@
 			)
 		)
 		(property "MPN" "EXB-18V100JX"
-			(at 218.44 186.69 0)
+			(at 175.26 186.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11466,7 +11466,7 @@
 			)
 		)
 		(property "Manufacturer" "Panasonic"
-			(at 218.44 189.23 0)
+			(at 175.26 189.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11490,7 +11490,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 218.44 191.77 0)
+			(at 175.26 191.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11503,7 +11503,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 218.44 194.31 0)
+			(at 175.26 194.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11550,7 +11550,8 @@
 	)
 	(symbol
 		(lib_id "antmicroResistorNetworksArrays:4x10R_0201_array")
-		(at 180.34 179.07 0)
+		(at 190.5 179.07 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11558,7 +11559,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "db578399-7cd6-4803-b837-cf52021fbd6b")
 		(property "Reference" "R4"
 			(at 185.42 172.72 0)
@@ -11572,7 +11572,7 @@
 			)
 		)
 		(property "Value" "4x10R_0201_array"
-			(at 207.01 186.69 0)
+			(at 163.83 186.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11585,7 +11585,7 @@
 			)
 		)
 		(property "Footprint" "antmicro-footprints:R_Array_4x0201_Panasonic_EXB18V"
-			(at 207.01 191.77 0)
+			(at 163.83 191.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11598,7 +11598,7 @@
 			)
 		)
 		(property "Datasheet" "http://industrial.panasonic.com/cdbs/www-data/pdf/AOC0000/AOC0000C14.pdf"
-			(at 207.01 194.31 0)
+			(at 163.83 194.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11611,7 +11611,7 @@
 			)
 		)
 		(property "Description" "Fixed Network Resistor, 10 ohm, Isolated, 4 Resistors, 0502 [1406 Metric], Flat, ± 5%"
-			(at 207.01 207.01 0)
+			(at 163.83 207.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11623,7 +11623,7 @@
 			)
 		)
 		(property "MPN" "EXB-18V100JX"
-			(at 207.01 196.85 0)
+			(at 163.83 196.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11636,7 +11636,7 @@
 			)
 		)
 		(property "Manufacturer" "Panasonic"
-			(at 207.01 199.39 0)
+			(at 163.83 199.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11660,7 +11660,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 207.01 201.93 0)
+			(at 163.83 201.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11673,7 +11673,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 207.01 204.47 0)
+			(at 163.83 204.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11720,7 +11720,8 @@
 	)
 	(symbol
 		(lib_id "antmicroResistorNetworksArrays:4x10R_0201_array")
-		(at 191.77 148.59 0)
+		(at 201.93 148.59 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11728,7 +11729,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "e4d8bf57-3a30-4b34-92b1-c1b556f4e002")
 		(property "Reference" "R1"
 			(at 196.85 142.24 0)
@@ -11742,7 +11742,7 @@
 			)
 		)
 		(property "Value" "4x10R_0201_array"
-			(at 218.44 156.21 0)
+			(at 175.26 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11755,7 +11755,7 @@
 			)
 		)
 		(property "Footprint" "antmicro-footprints:R_Array_4x0201_Panasonic_EXB18V"
-			(at 218.44 161.29 0)
+			(at 175.26 161.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11768,7 +11768,7 @@
 			)
 		)
 		(property "Datasheet" "http://industrial.panasonic.com/cdbs/www-data/pdf/AOC0000/AOC0000C14.pdf"
-			(at 218.44 163.83 0)
+			(at 175.26 163.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11781,7 +11781,7 @@
 			)
 		)
 		(property "Description" "Fixed Network Resistor, 10 ohm, Isolated, 4 Resistors, 0502 [1406 Metric], Flat, ± 5%"
-			(at 218.44 176.53 0)
+			(at 175.26 176.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11793,7 +11793,7 @@
 			)
 		)
 		(property "MPN" "EXB-18V100JX"
-			(at 218.44 166.37 0)
+			(at 175.26 166.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11806,7 +11806,7 @@
 			)
 		)
 		(property "Manufacturer" "Panasonic"
-			(at 218.44 168.91 0)
+			(at 175.26 168.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11830,7 +11830,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 218.44 171.45 0)
+			(at 175.26 171.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11843,7 +11843,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 218.44 173.99 0)
+			(at 175.26 173.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
