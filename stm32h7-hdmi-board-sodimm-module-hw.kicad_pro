@@ -572,7 +572,203 @@
       "version": 5
     },
     "net_colors": null,
-    "netclass_assignments": null,
+    "netclass_assignments": {
+      "/BA0": [
+        "55Ohm-se_ADDR"
+      ],
+      "/BA1": [
+        "55Ohm-se_ADDR"
+      ],
+      "/CAS": [
+        "55Ohm-se_ADDR"
+      ],
+      "/CKE0": [
+        "55Ohm-se_CKE"
+      ],
+      "/CKE1": [
+        "55Ohm-se_CKE"
+      ],
+      "/CLK0": [
+        "55Ohm-se_CK"
+      ],
+      "/CLK1": [
+        "55Ohm-se_CK"
+      ],
+      "/DQMB0": [
+        "55Ohm-se_DQMB"
+      ],
+      "/DQMB1": [
+        "55Ohm-se_DQMB"
+      ],
+      "/DQMB2": [
+        "55Ohm-se_DQMB"
+      ],
+      "/DQMB3": [
+        "55Ohm-se_DQMB"
+      ],
+      "/RAS": [
+        "55Ohm-se_ADDR"
+      ],
+      "/S0": [
+        "55Ohm-se_S"
+      ],
+      "/S1": [
+        "55Ohm-se_S"
+      ],
+      "/SDR/A0": [
+        "55Ohm-se_ADDR"
+      ],
+      "/SDR/A1": [
+        "55Ohm-se_ADDR"
+      ],
+      "/SDR/A10": [
+        "55Ohm-se_ADDR"
+      ],
+      "/SDR/A11": [
+        "55Ohm-se_ADDR"
+      ],
+      "/SDR/A12": [
+        "55Ohm-se_ADDR"
+      ],
+      "/SDR/A2": [
+        "55Ohm-se_ADDR"
+      ],
+      "/SDR/A3": [
+        "55Ohm-se_ADDR"
+      ],
+      "/SDR/A4": [
+        "55Ohm-se_ADDR"
+      ],
+      "/SDR/A5": [
+        "55Ohm-se_ADDR"
+      ],
+      "/SDR/A6": [
+        "55Ohm-se_ADDR"
+      ],
+      "/SDR/A7": [
+        "55Ohm-se_ADDR"
+      ],
+      "/SDR/A8": [
+        "55Ohm-se_ADDR"
+      ],
+      "/SDR/A9": [
+        "55Ohm-se_ADDR"
+      ],
+      "/SDR/A[0..12]": [
+        "55Ohm-se_ADDR"
+      ],
+      "/SDR/D0": [
+        "55Ohm-se_DQ"
+      ],
+      "/SDR/D1": [
+        "55Ohm-se_DQ"
+      ],
+      "/SDR/D2": [
+        "55Ohm-se_DQ"
+      ],
+      "/SDR/D3": [
+        "55Ohm-se_DQ"
+      ],
+      "/SDR/D4": [
+        "55Ohm-se_DQ"
+      ],
+      "/SDR/D5": [
+        "55Ohm-se_DQ"
+      ],
+      "/SDR/D6": [
+        "55Ohm-se_DQ"
+      ],
+      "/SDR/D7": [
+        "55Ohm-se_DQ"
+      ],
+      "/SDR/D[0..7]": [
+        "55Ohm-se_DQ"
+      ],
+      "/SDR1/D0": [
+        "55Ohm-se_DQ"
+      ],
+      "/SDR1/D1": [
+        "55Ohm-se_DQ"
+      ],
+      "/SDR1/D2": [
+        "55Ohm-se_DQ"
+      ],
+      "/SDR1/D3": [
+        "55Ohm-se_DQ"
+      ],
+      "/SDR1/D4": [
+        "55Ohm-se_DQ"
+      ],
+      "/SDR1/D5": [
+        "55Ohm-se_DQ"
+      ],
+      "/SDR1/D6": [
+        "55Ohm-se_DQ"
+      ],
+      "/SDR1/D7": [
+        "55Ohm-se_DQ"
+      ],
+      "/SDR1/D[0..7]": [
+        "55Ohm-se_DQ"
+      ],
+      "/SDR2/D0": [
+        "55Ohm-se_DQ"
+      ],
+      "/SDR2/D1": [
+        "55Ohm-se_DQ"
+      ],
+      "/SDR2/D2": [
+        "55Ohm-se_DQ"
+      ],
+      "/SDR2/D3": [
+        "55Ohm-se_DQ"
+      ],
+      "/SDR2/D4": [
+        "55Ohm-se_DQ"
+      ],
+      "/SDR2/D5": [
+        "55Ohm-se_DQ"
+      ],
+      "/SDR2/D6": [
+        "55Ohm-se_DQ"
+      ],
+      "/SDR2/D7": [
+        "55Ohm-se_DQ"
+      ],
+      "/SDR2/D[0..7]": [
+        "55Ohm-se_DQ"
+      ],
+      "/SDR3/D0": [
+        "55Ohm-se_DQ"
+      ],
+      "/SDR3/D1": [
+        "55Ohm-se_DQ"
+      ],
+      "/SDR3/D2": [
+        "55Ohm-se_DQ"
+      ],
+      "/SDR3/D3": [
+        "55Ohm-se_DQ"
+      ],
+      "/SDR3/D4": [
+        "55Ohm-se_DQ"
+      ],
+      "/SDR3/D5": [
+        "55Ohm-se_DQ"
+      ],
+      "/SDR3/D6": [
+        "55Ohm-se_DQ"
+      ],
+      "/SDR3/D7": [
+        "55Ohm-se_DQ"
+      ],
+      "/SDR3/D[0..7]": [
+        "55Ohm-se_DQ"
+      ],
+      "/WE": [
+        "55Ohm-se_ADDR"
+      ]
+    },
     "netclass_patterns": []
   },
   "pcbnew": {
