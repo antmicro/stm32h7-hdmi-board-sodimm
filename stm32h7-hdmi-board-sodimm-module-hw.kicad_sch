@@ -79,7 +79,7 @@
 	)
 	(text "EEPROM for \nSerial Presence Detection"
 		(exclude_from_sim no)
-		(at 75.438 66.04 0)
+		(at 75.946 66.04 0)
 		(effects
 			(font
 				(size 2.032 2.032)
