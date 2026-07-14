@@ -7375,6 +7375,44 @@
 		)
 		(uuid "cda77b8a-65e0-4dc0-a036-fdb41f14e96e")
 	)
+	(rule_area
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(polyline
+			(pts
+				(xy 7.62 7.62) (xy 24.13 7.62) (xy 24.13 25.4) (xy 7.62 25.4)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid "16da0e77-a360-402b-9b7e-f614bae5fd36")
+		)
+	)
+	(rule_area
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(polyline
+			(pts
+				(xy 0 0) (xy 20.32 0) (xy 20.32 6.35) (xy 0 6.35)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid "974ab135-c3ab-4170-97d8-9612a0f9d78f")
+		)
+	)
 	(symbol
 		(lib_id "power:+3.3V")
 		(at 195.58 39.37 0)

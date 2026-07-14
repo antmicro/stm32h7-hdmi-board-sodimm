@@ -131,7 +131,7 @@
 	)
 	(bus
 		(pts
-			(xy 119.38 153.67) (xy 119.38 182.88)
+			(xy 119.38 157.48) (xy 119.38 182.88)
 		)
 		(stroke
 			(width 0)
@@ -181,7 +181,7 @@
 	)
 	(bus
 		(pts
-			(xy 115.57 157.48) (xy 115.57 187.96)
+			(xy 115.57 161.29) (xy 115.57 187.96)
 		)
 		(stroke
 			(width 0)
@@ -491,7 +491,7 @@
 	)
 	(bus
 		(pts
-			(xy 88.9 161.29) (xy 110.49 161.29)
+			(xy 88.9 165.1) (xy 110.49 165.1)
 		)
 		(stroke
 			(width 0)
@@ -781,7 +781,7 @@
 	)
 	(bus
 		(pts
-			(xy 88.9 153.67) (xy 119.38 153.67)
+			(xy 88.9 157.48) (xy 119.38 157.48)
 		)
 		(stroke
 			(width 0)
@@ -971,7 +971,7 @@
 	)
 	(bus
 		(pts
-			(xy 105.41 165.1) (xy 105.41 198.12)
+			(xy 105.41 168.91) (xy 105.41 198.12)
 		)
 		(stroke
 			(width 0)
@@ -991,7 +991,7 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 163.83) (xy 36.83 163.83)
+			(xy 27.94 166.37) (xy 36.83 166.37)
 		)
 		(stroke
 			(width 0)
@@ -1091,7 +1091,7 @@
 	)
 	(bus
 		(pts
-			(xy 88.9 157.48) (xy 115.57 157.48)
+			(xy 88.9 161.29) (xy 115.57 161.29)
 		)
 		(stroke
 			(width 0)
@@ -1141,7 +1141,7 @@
 	)
 	(bus
 		(pts
-			(xy 88.9 165.1) (xy 105.41 165.1)
+			(xy 88.9 168.91) (xy 105.41 168.91)
 		)
 		(stroke
 			(width 0)
@@ -1301,7 +1301,7 @@
 	)
 	(bus
 		(pts
-			(xy 110.49 161.29) (xy 110.49 193.04)
+			(xy 110.49 165.1) (xy 110.49 193.04)
 		)
 		(stroke
 			(width 0)
@@ -1331,7 +1331,7 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 166.37) (xy 36.83 166.37)
+			(xy 27.94 168.91) (xy 36.83 168.91)
 		)
 		(stroke
 			(width 0)
@@ -1630,7 +1630,7 @@
 		(uuid "361a051e-db1e-40be-9440-e3e88074c126")
 	)
 	(label "CKE0"
-		(at 27.94 163.83 0)
+		(at 27.94 166.37 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1780,7 +1780,7 @@
 		(uuid "68855efb-913d-4b67-9025-8fb7f6bec90d")
 	)
 	(label "CKE1"
-		(at 27.94 166.37 0)
+		(at 27.94 168.91 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2279,6 +2279,101 @@
 		)
 		(uuid "fe74981e-607e-4803-8b84-c96b01446cce")
 	)
+	(rule_area
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(polyline
+			(pts
+				(xy 26.67 156.21) (xy 45.72 156.21) (xy 45.72 162.56) (xy 26.67 162.56)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid "4bae86d6-99fd-4355-9638-f97d996151c1")
+		)
+	)
+	(rule_area
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(polyline
+			(pts
+				(xy 26.67 163.83) (xy 45.72 163.83) (xy 45.72 170.18) (xy 26.67 170.18)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid "64afe235-7ebd-4eec-a51c-2c34766c79f0")
+		)
+	)
+	(rule_area
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(polyline
+			(pts
+				(xy 26.67 135.89) (xy 45.72 135.89) (xy 45.72 147.32) (xy 26.67 147.32)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid "67ea380e-e0c4-4e75-bd93-4c2f4ee60024")
+		)
+	)
+	(rule_area
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(polyline
+			(pts
+				(xy 26.67 148.59) (xy 45.72 148.59) (xy 45.72 154.94) (xy 26.67 154.94)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid "8a25136c-30de-4486-887a-069480ae61e7")
+		)
+	)
+	(rule_area
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(polyline
+			(pts
+				(xy 91.44 170.18) (xy 77.47 170.18) (xy 77.47 154.94) (xy 91.44 154.94)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid "971310a2-93b6-43ba-9892-33b0896465ab")
+		)
+	)
 	(sheet
 		(at 203.2 82.55)
 		(size 26.67 33.02)
@@ -2437,7 +2532,7 @@
 	)
 	(sheet
 		(at 36.83 118.11)
-		(size 52.07 50.8)
+		(size 52.07 53.34)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -2463,7 +2558,7 @@
 			)
 		)
 		(property "Sheetfile" "sodimm.kicad_sch"
-			(at 36.83 169.4946 0)
+			(at 36.83 172.0346 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2504,7 +2599,7 @@
 			)
 		)
 		(pin "CKE0" output
-			(at 36.83 163.83 180)
+			(at 36.83 166.37 180)
 			(uuid "cba9fc77-cce3-47c9-ade9-8ef7421f7a5c")
 			(effects
 				(font
@@ -2514,7 +2609,7 @@
 			)
 		)
 		(pin "CKE1" output
-			(at 36.83 166.37 180)
+			(at 36.83 168.91 180)
 			(uuid "f111b313-a3e6-4b43-9f10-e7a27fec32f0")
 			(effects
 				(font
@@ -2634,7 +2729,7 @@
 			)
 		)
 		(pin "D[0..7]" output
-			(at 88.9 153.67 0)
+			(at 88.9 157.48 0)
 			(uuid "e4b72f96-a543-4304-b2c5-4fa7d2d7096a")
 			(effects
 				(font
@@ -2644,7 +2739,7 @@
 			)
 		)
 		(pin "D[8..15]" output
-			(at 88.9 157.48 0)
+			(at 88.9 161.29 0)
 			(uuid "6a07c139-49cc-4b54-af6f-1ef31a32bf61")
 			(effects
 				(font
@@ -2654,7 +2749,7 @@
 			)
 		)
 		(pin "D[16..23]" output
-			(at 88.9 161.29 0)
+			(at 88.9 165.1 0)
 			(uuid "90966d58-b339-45a3-861d-def5cc0dfbe7")
 			(effects
 				(font
@@ -2664,7 +2759,7 @@
 			)
 		)
 		(pin "D[24..31]" output
-			(at 88.9 165.1 0)
+			(at 88.9 168.91 0)
 			(uuid "9f088722-78dc-459b-ad54-e8e8829b9f58")
 			(effects
 				(font

@@ -573,16 +573,7 @@
     },
     "net_colors": null,
     "netclass_assignments": null,
-    "netclass_patterns": [
-      {
-        "netclass": "Default",
-        "pattern": "/Ctrl"
-      },
-      {
-        "netclass": "Default",
-        "pattern": "Ctrl"
-      }
-    ]
+    "netclass_patterns": []
   },
   "pcbnew": {
     "last_paths": {
