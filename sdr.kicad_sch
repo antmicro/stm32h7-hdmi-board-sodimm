@@ -1650,14 +1650,10 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:+3.3V"
+		(symbol "antmicropower:+3.3V"
 			(power global)
-			(pin_numbers
-				(hide yes)
-			)
 			(pin_names
 				(offset 0)
-				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1707,8 +1703,8 @@
 					)
 				)
 			)
-			(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-				(at 0 0 0)
+			(property "Description" ""
+				(at 0 -6.35 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -1716,17 +1712,7 @@
 					(font
 						(size 1.27 1.27)
 					)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
+					(justify left bottom)
 				)
 			)
 			(symbol "+3.3V_0_1"
@@ -1771,7 +1757,8 @@
 				(pin power_in line
 					(at 0 0 90)
 					(length 0)
-					(name ""
+					(hide yes)
+					(name "+3V3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1789,13 +1776,12 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "power:GND"
+		(symbol "antmicropower:GND"
 			(power global)
 			(pin_numbers
 				(hide yes)
 			)
 			(pin_names
-				(offset 0)
 				(hide yes)
 			)
 			(exclude_from_sim no)
@@ -1804,39 +1790,58 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "#PWR"
-				(at 0 -6.35 0)
+				(at 8.89 -2.54 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
+						(thickness 0.15)
 					)
+					(justify left bottom)
 				)
 			)
 			(property "Value" "GND"
-				(at 0 -3.81 0)
+				(at 8.89 -5.08 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
+						(thickness 0.15)
 					)
+					(justify left bottom)
 				)
 			)
 			(property "Footprint" ""
-				(at 0 0 0)
+				(at 8.89 -7.62 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
+						(thickness 0.15)
 					)
+					(justify left bottom)
 				)
 			)
 			(property "Datasheet" ""
-				(at 0 0 0)
+				(at 8.89 -12.7 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.15)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Description" ""
+				(at 8.89 -15.24 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -1844,31 +1849,36 @@
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left bottom)
 				)
 			)
-			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-				(at 0 0 0)
+			(property "Author" "Antmicro"
+				(at 8.89 -7.62 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
+						(thickness 0.15)
 					)
+					(justify left bottom)
 				)
 			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
+			(property "License" "Apache-2.0"
+				(at 8.89 -10.16 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
+						(thickness 0.15)
 					)
+					(justify left bottom)
 				)
 			)
-			(symbol "GND_0_1"
+			(symbol "GND_1_1"
 				(polyline
 					(pts
 						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
@@ -1881,12 +1891,10 @@
 						(type none)
 					)
 				)
-			)
-			(symbol "GND_1_1"
 				(pin power_in line
 					(at 0 0 270)
 					(length 0)
-					(name ""
+					(name "GND"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2260,6 +2268,16 @@
 		)
 		(uuid "1b15927f-69be-4149-b2d7-095fc4562ee8")
 	)
+	(bus
+		(pts
+			(xy 66.1924 0.1524) (xy 57.3024 0.1524)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d13b175-1425-4146-a61a-3f0448b34bc1")
+	)
 	(wire
 		(pts
 			(xy 170.18 88.9) (xy 172.72 88.9)
@@ -2269,6 +2287,16 @@
 			(type default)
 		)
 		(uuid "203828a0-fbb0-44c1-828e-9b8b6a3c57da")
+	)
+	(bus
+		(pts
+			(xy 66.1924 52.2224) (xy 68.7324 52.2224)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "21c38ded-3f07-44d0-bf88-061fd0aa8b65")
 	)
 	(wire
 		(pts
@@ -2479,6 +2507,16 @@
 			(type default)
 		)
 		(uuid "67dbdbb2-3e76-4a07-b4a8-cd32cf406f95")
+	)
+	(bus
+		(pts
+			(xy 66.1924 52.2224) (xy 66.1924 0.1524)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ea984c1-99b4-49ec-9d07-6ddf83772d73")
 	)
 	(wire
 		(pts
@@ -2832,6 +2870,16 @@
 	)
 	(bus
 		(pts
+			(xy 66.1924 52.2224) (xy 66.1924 70.0024)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dadd3fca-2979-4d5e-9bf5-1fa20d421b56")
+	)
+	(bus
+		(pts
 			(xy 209.55 91.44) (xy 209.55 114.3)
 		)
 		(stroke
@@ -2899,6 +2947,16 @@
 			(type default)
 		)
 		(uuid "f1c8f255-39b5-4a96-83a0-d9abb9811626")
+	)
+	(bus
+		(pts
+			(xy 0.1524 70.0024) (xy 66.1924 70.0024)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f80e1717-b6cf-4583-af3f-98cef5b0e07c")
 	)
 	(wire
 		(pts
@@ -3150,7 +3208,7 @@
 		)
 		(uuid "f4808fee-d81e-4b5d-905f-4cc7908dbe96")
 	)
-	(hierarchical_label "NCAS"
+	(hierarchical_label "~{CAS}"
 		(shape input)
 		(at 170.18 156.21 180)
 		(effects
@@ -3161,7 +3219,7 @@
 		)
 		(uuid "08e4a384-e358-44b0-b19d-88a870c5a9a2")
 	)
-	(hierarchical_label "NRAS"
+	(hierarchical_label "~{RAS}"
 		(shape input)
 		(at 170.18 153.67 180)
 		(effects
@@ -3216,7 +3274,7 @@
 		)
 		(uuid "6a199135-c55d-4b31-8994-a147d3483f06")
 	)
-	(hierarchical_label "NCS"
+	(hierarchical_label "~{CS}"
 		(shape input)
 		(at 170.18 151.13 180)
 		(effects
@@ -3227,7 +3285,7 @@
 		)
 		(uuid "764c6f47-9bc6-4917-9221-03e543beb74a")
 	)
-	(hierarchical_label "NWE"
+	(hierarchical_label "~{WE}"
 		(shape input)
 		(at 170.18 158.75 180)
 		(effects
@@ -3890,112 +3948,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
-		(at 170.18 86.36 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1b9c93be-5202-4c24-bff8-4c786aecd1d3")
-		(property "Reference" "#PWR05"
-			(at 170.18 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 170.18 81.28 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 170.18 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 170.18 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 170.18 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "dbcfba3b-e4db-4db1-9eca-77ca133e7053")
-		)
-		(instances
-			(project "stm32h7-hdmi-board-sodimm-module-hw"
-				(path "/92fcd7c5-798f-49cd-ae80-ce2fa78a6354/5dc00c1d-6d73-4075-9f40-456de291661b"
-					(reference "#PWR09")
-					(unit 1)
-				)
-				(path "/92fcd7c5-798f-49cd-ae80-ce2fa78a6354/64f9e65c-9d05-4be1-9e31-4d16c11f0fb0"
-					(reference "#PWR013")
-					(unit 1)
-				)
-				(path "/92fcd7c5-798f-49cd-ae80-ce2fa78a6354/8065b630-3bb7-47f1-baca-00560e3eccce"
-					(reference "#PWR05")
-					(unit 1)
-				)
-				(path "/92fcd7c5-798f-49cd-ae80-ce2fa78a6354/87a2e1a4-69b4-4323-9d30-934d29179e2b"
-					(reference "#PWR029")
-					(unit 1)
-				)
-				(path "/92fcd7c5-798f-49cd-ae80-ce2fa78a6354/b4e055d1-7bf1-4790-ab55-efe4bf9542a5"
-					(reference "#PWR033")
-					(unit 1)
-				)
-				(path "/92fcd7c5-798f-49cd-ae80-ce2fa78a6354/b905e1ec-7c3f-48f7-ae55-d927b88852a9"
-					(reference "#PWR025")
-					(unit 1)
-				)
-				(path "/92fcd7c5-798f-49cd-ae80-ce2fa78a6354/cd52d890-d841-4c0b-b74f-cecd82eab78c"
-					(reference "#PWR021")
-					(unit 1)
-				)
-				(path "/92fcd7c5-798f-49cd-ae80-ce2fa78a6354/ddf45e09-ef7c-4334-8682-44a40fb9ac25"
-					(reference "#PWR017")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "antmicroCapacitors0402:C_100n_0402")
 		(at 219.71 173.99 270)
 		(unit 1)
@@ -4408,7 +4360,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
+		(lib_id "antmicropower:GND")
 		(at 219.71 182.88 0)
 		(unit 1)
 		(body_style 1)
@@ -4418,16 +4370,18 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "3bea2b0b-7113-4a01-862e-16e4c889850b")
-		(property "Reference" "#PWR08"
-			(at 219.71 189.23 0)
+		(uuid "410175e8-2501-4260-8885-3d6b213aea7e")
+		(property "Reference" "#PWR022"
+			(at 228.6 185.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
+				(justify left bottom)
 			)
 		)
 		(property "Value" "GND"
@@ -4437,33 +4391,38 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
 		(property "Footprint" ""
-			(at 219.71 182.88 0)
+			(at 228.6 190.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
+				(justify left bottom)
 			)
 		)
 		(property "Datasheet" ""
-			(at 219.71 182.88 0)
+			(at 228.6 195.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
+				(justify left bottom)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 219.71 182.88 0)
+		(property "Description" ""
+			(at 228.6 198.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4471,27 +4430,54 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left bottom)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 228.6 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 228.6 193.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
 			)
 		)
 		(pin "1"
-			(uuid "a8715b2a-b67b-4e48-bba5-1d1b3c609648")
+			(uuid "f2b02653-da17-402f-a388-4528618bb729")
 		)
 		(instances
 			(project "stm32h7-hdmi-board-sodimm-module-hw"
 				(path "/92fcd7c5-798f-49cd-ae80-ce2fa78a6354/5dc00c1d-6d73-4075-9f40-456de291661b"
-					(reference "#PWR012")
+					(reference "#PWR024")
 					(unit 1)
 				)
 				(path "/92fcd7c5-798f-49cd-ae80-ce2fa78a6354/64f9e65c-9d05-4be1-9e31-4d16c11f0fb0"
-					(reference "#PWR016")
+					(reference "#PWR026")
 					(unit 1)
 				)
 				(path "/92fcd7c5-798f-49cd-ae80-ce2fa78a6354/8065b630-3bb7-47f1-baca-00560e3eccce"
-					(reference "#PWR08")
+					(reference "#PWR022")
 					(unit 1)
 				)
 				(path "/92fcd7c5-798f-49cd-ae80-ce2fa78a6354/87a2e1a4-69b4-4323-9d30-934d29179e2b"
-					(reference "#PWR032")
+					(reference "#PWR034")
 					(unit 1)
 				)
 				(path "/92fcd7c5-798f-49cd-ae80-ce2fa78a6354/b4e055d1-7bf1-4790-ab55-efe4bf9542a5"
@@ -4499,121 +4485,15 @@
 					(unit 1)
 				)
 				(path "/92fcd7c5-798f-49cd-ae80-ce2fa78a6354/b905e1ec-7c3f-48f7-ae55-d927b88852a9"
-					(reference "#PWR028")
+					(reference "#PWR032")
 					(unit 1)
 				)
 				(path "/92fcd7c5-798f-49cd-ae80-ce2fa78a6354/cd52d890-d841-4c0b-b74f-cecd82eab78c"
-					(reference "#PWR024")
-					(unit 1)
-				)
-				(path "/92fcd7c5-798f-49cd-ae80-ce2fa78a6354/ddf45e09-ef7c-4334-8682-44a40fb9ac25"
-					(reference "#PWR020")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 219.71 170.18 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "43a7e3e0-6e84-4229-a48c-1ae06e8c9ccf")
-		(property "Reference" "#PWR06"
-			(at 219.71 173.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 219.71 165.1 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 219.71 170.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 219.71 170.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 219.71 170.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "b10f0dfb-8bf2-4f52-8453-605218d370e8")
-		)
-		(instances
-			(project "stm32h7-hdmi-board-sodimm-module-hw"
-				(path "/92fcd7c5-798f-49cd-ae80-ce2fa78a6354/5dc00c1d-6d73-4075-9f40-456de291661b"
-					(reference "#PWR010")
-					(unit 1)
-				)
-				(path "/92fcd7c5-798f-49cd-ae80-ce2fa78a6354/64f9e65c-9d05-4be1-9e31-4d16c11f0fb0"
-					(reference "#PWR014")
-					(unit 1)
-				)
-				(path "/92fcd7c5-798f-49cd-ae80-ce2fa78a6354/8065b630-3bb7-47f1-baca-00560e3eccce"
-					(reference "#PWR06")
-					(unit 1)
-				)
-				(path "/92fcd7c5-798f-49cd-ae80-ce2fa78a6354/87a2e1a4-69b4-4323-9d30-934d29179e2b"
 					(reference "#PWR030")
 					(unit 1)
 				)
-				(path "/92fcd7c5-798f-49cd-ae80-ce2fa78a6354/b4e055d1-7bf1-4790-ab55-efe4bf9542a5"
-					(reference "#PWR034")
-					(unit 1)
-				)
-				(path "/92fcd7c5-798f-49cd-ae80-ce2fa78a6354/b905e1ec-7c3f-48f7-ae55-d927b88852a9"
-					(reference "#PWR026")
-					(unit 1)
-				)
-				(path "/92fcd7c5-798f-49cd-ae80-ce2fa78a6354/cd52d890-d841-4c0b-b74f-cecd82eab78c"
-					(reference "#PWR022")
-					(unit 1)
-				)
 				(path "/92fcd7c5-798f-49cd-ae80-ce2fa78a6354/ddf45e09-ef7c-4334-8682-44a40fb9ac25"
-					(reference "#PWR018")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -4820,6 +4700,113 @@
 				)
 				(path "/92fcd7c5-798f-49cd-ae80-ce2fa78a6354/ddf45e09-ef7c-4334-8682-44a40fb9ac25"
 					(reference "C28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "antmicropower:+3.3V")
+		(at 170.18 86.36 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a7446cc2-0dad-4cbb-8a5b-00152b07cf2e")
+		(property "Reference" "#PWR05"
+			(at 170.18 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 170.18 81.28 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 170.18 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 170.18 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 170.18 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(pin "1"
+			(uuid "daca0b28-8a31-469b-a77b-a9c675eb8bbb")
+		)
+		(instances
+			(project "stm32h7-hdmi-board-sodimm-module-hw"
+				(path "/92fcd7c5-798f-49cd-ae80-ce2fa78a6354/5dc00c1d-6d73-4075-9f40-456de291661b"
+					(reference "#PWR09")
+					(unit 1)
+				)
+				(path "/92fcd7c5-798f-49cd-ae80-ce2fa78a6354/64f9e65c-9d05-4be1-9e31-4d16c11f0fb0"
+					(reference "#PWR013")
+					(unit 1)
+				)
+				(path "/92fcd7c5-798f-49cd-ae80-ce2fa78a6354/8065b630-3bb7-47f1-baca-00560e3eccce"
+					(reference "#PWR05")
+					(unit 1)
+				)
+				(path "/92fcd7c5-798f-49cd-ae80-ce2fa78a6354/87a2e1a4-69b4-4323-9d30-934d29179e2b"
+					(reference "#PWR029")
+					(unit 1)
+				)
+				(path "/92fcd7c5-798f-49cd-ae80-ce2fa78a6354/b4e055d1-7bf1-4790-ab55-efe4bf9542a5"
+					(reference "#PWR033")
+					(unit 1)
+				)
+				(path "/92fcd7c5-798f-49cd-ae80-ce2fa78a6354/b905e1ec-7c3f-48f7-ae55-d927b88852a9"
+					(reference "#PWR025")
+					(unit 1)
+				)
+				(path "/92fcd7c5-798f-49cd-ae80-ce2fa78a6354/cd52d890-d841-4c0b-b74f-cecd82eab78c"
+					(reference "#PWR021")
+					(unit 1)
+				)
+				(path "/92fcd7c5-798f-49cd-ae80-ce2fa78a6354/ddf45e09-ef7c-4334-8682-44a40fb9ac25"
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -5359,6 +5346,253 @@
 		)
 	)
 	(symbol
+		(lib_id "antmicropower:GND")
+		(at 170.18 181.61 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cc1e3c46-edef-4cc9-823a-e1f6a4abba8e")
+		(property "Reference" "#PWR07"
+			(at 179.07 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "GND"
+			(at 170.18 186.69 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 179.07 189.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 179.07 194.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Description" ""
+			(at 179.07 196.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 179.07 189.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 179.07 191.77 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(pin "1"
+			(uuid "a523632a-ee5b-4afa-9d1d-6b9d8cbf819a")
+		)
+		(instances
+			(project "stm32h7-hdmi-board-sodimm-module-hw"
+				(path "/92fcd7c5-798f-49cd-ae80-ce2fa78a6354/5dc00c1d-6d73-4075-9f40-456de291661b"
+					(reference "#PWR011")
+					(unit 1)
+				)
+				(path "/92fcd7c5-798f-49cd-ae80-ce2fa78a6354/64f9e65c-9d05-4be1-9e31-4d16c11f0fb0"
+					(reference "#PWR015")
+					(unit 1)
+				)
+				(path "/92fcd7c5-798f-49cd-ae80-ce2fa78a6354/8065b630-3bb7-47f1-baca-00560e3eccce"
+					(reference "#PWR07")
+					(unit 1)
+				)
+				(path "/92fcd7c5-798f-49cd-ae80-ce2fa78a6354/87a2e1a4-69b4-4323-9d30-934d29179e2b"
+					(reference "#PWR031")
+					(unit 1)
+				)
+				(path "/92fcd7c5-798f-49cd-ae80-ce2fa78a6354/b4e055d1-7bf1-4790-ab55-efe4bf9542a5"
+					(reference "#PWR035")
+					(unit 1)
+				)
+				(path "/92fcd7c5-798f-49cd-ae80-ce2fa78a6354/b905e1ec-7c3f-48f7-ae55-d927b88852a9"
+					(reference "#PWR027")
+					(unit 1)
+				)
+				(path "/92fcd7c5-798f-49cd-ae80-ce2fa78a6354/cd52d890-d841-4c0b-b74f-cecd82eab78c"
+					(reference "#PWR023")
+					(unit 1)
+				)
+				(path "/92fcd7c5-798f-49cd-ae80-ce2fa78a6354/ddf45e09-ef7c-4334-8682-44a40fb9ac25"
+					(reference "#PWR019")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "antmicropower:+3.3V")
+		(at 219.71 170.18 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cff449b4-4d7a-4781-b6ee-d90ed8a685ab")
+		(property "Reference" "#PWR06"
+			(at 219.71 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 219.71 165.1 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 219.71 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 219.71 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 219.71 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(pin "1"
+			(uuid "7f2c432e-fd0a-4a60-ae28-e2caed5e3e6d")
+		)
+		(instances
+			(project "stm32h7-hdmi-board-sodimm-module-hw"
+				(path "/92fcd7c5-798f-49cd-ae80-ce2fa78a6354/5dc00c1d-6d73-4075-9f40-456de291661b"
+					(reference "#PWR08")
+					(unit 1)
+				)
+				(path "/92fcd7c5-798f-49cd-ae80-ce2fa78a6354/64f9e65c-9d05-4be1-9e31-4d16c11f0fb0"
+					(reference "#PWR010")
+					(unit 1)
+				)
+				(path "/92fcd7c5-798f-49cd-ae80-ce2fa78a6354/8065b630-3bb7-47f1-baca-00560e3eccce"
+					(reference "#PWR06")
+					(unit 1)
+				)
+				(path "/92fcd7c5-798f-49cd-ae80-ce2fa78a6354/87a2e1a4-69b4-4323-9d30-934d29179e2b"
+					(reference "#PWR018")
+					(unit 1)
+				)
+				(path "/92fcd7c5-798f-49cd-ae80-ce2fa78a6354/b4e055d1-7bf1-4790-ab55-efe4bf9542a5"
+					(reference "#PWR020")
+					(unit 1)
+				)
+				(path "/92fcd7c5-798f-49cd-ae80-ce2fa78a6354/b905e1ec-7c3f-48f7-ae55-d927b88852a9"
+					(reference "#PWR016")
+					(unit 1)
+				)
+				(path "/92fcd7c5-798f-49cd-ae80-ce2fa78a6354/cd52d890-d841-4c0b-b74f-cecd82eab78c"
+					(reference "#PWR014")
+					(unit 1)
+				)
+				(path "/92fcd7c5-798f-49cd-ae80-ce2fa78a6354/ddf45e09-ef7c-4334-8682-44a40fb9ac25"
+					(reference "#PWR012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "antmicroCapacitors0402:C_100n_0402")
 		(at 242.57 173.99 270)
 		(unit 1)
@@ -5559,112 +5793,6 @@
 				)
 				(path "/92fcd7c5-798f-49cd-ae80-ce2fa78a6354/ddf45e09-ef7c-4334-8682-44a40fb9ac25"
 					(reference "C27")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 170.18 181.61 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e93527ff-ec0b-4bfd-be5b-9b506591d61f")
-		(property "Reference" "#PWR07"
-			(at 170.18 187.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 170.18 186.69 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 170.18 181.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 170.18 181.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 170.18 181.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "d05d6367-9a88-4b2f-9351-c3abf9c1c80d")
-		)
-		(instances
-			(project "stm32h7-hdmi-board-sodimm-module-hw"
-				(path "/92fcd7c5-798f-49cd-ae80-ce2fa78a6354/5dc00c1d-6d73-4075-9f40-456de291661b"
-					(reference "#PWR011")
-					(unit 1)
-				)
-				(path "/92fcd7c5-798f-49cd-ae80-ce2fa78a6354/64f9e65c-9d05-4be1-9e31-4d16c11f0fb0"
-					(reference "#PWR015")
-					(unit 1)
-				)
-				(path "/92fcd7c5-798f-49cd-ae80-ce2fa78a6354/8065b630-3bb7-47f1-baca-00560e3eccce"
-					(reference "#PWR07")
-					(unit 1)
-				)
-				(path "/92fcd7c5-798f-49cd-ae80-ce2fa78a6354/87a2e1a4-69b4-4323-9d30-934d29179e2b"
-					(reference "#PWR031")
-					(unit 1)
-				)
-				(path "/92fcd7c5-798f-49cd-ae80-ce2fa78a6354/b4e055d1-7bf1-4790-ab55-efe4bf9542a5"
-					(reference "#PWR035")
-					(unit 1)
-				)
-				(path "/92fcd7c5-798f-49cd-ae80-ce2fa78a6354/b905e1ec-7c3f-48f7-ae55-d927b88852a9"
-					(reference "#PWR027")
-					(unit 1)
-				)
-				(path "/92fcd7c5-798f-49cd-ae80-ce2fa78a6354/cd52d890-d841-4c0b-b74f-cecd82eab78c"
-					(reference "#PWR023")
-					(unit 1)
-				)
-				(path "/92fcd7c5-798f-49cd-ae80-ce2fa78a6354/ddf45e09-ef7c-4334-8682-44a40fb9ac25"
-					(reference "#PWR019")
 					(unit 1)
 				)
 			)

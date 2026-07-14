@@ -765,6 +765,33 @@
       "/SDR3/D[0..7]": [
         "55Ohm-se_DQ"
       ],
+      "/SODIMM/D0": [
+        "55Ohm-se_DQ"
+      ],
+      "/SODIMM/D1": [
+        "55Ohm-se_DQ"
+      ],
+      "/SODIMM/D2": [
+        "55Ohm-se_DQ"
+      ],
+      "/SODIMM/D3": [
+        "55Ohm-se_DQ"
+      ],
+      "/SODIMM/D4": [
+        "55Ohm-se_DQ"
+      ],
+      "/SODIMM/D5": [
+        "55Ohm-se_DQ"
+      ],
+      "/SODIMM/D6": [
+        "55Ohm-se_DQ"
+      ],
+      "/SODIMM/D7": [
+        "55Ohm-se_DQ"
+      ],
+      "/SODIMM/D[0..7]": [
+        "55Ohm-se_DQ"
+      ],
       "/WE": [
         "55Ohm-se_ADDR"
       ]
@@ -869,6 +896,16 @@
         "DQMB1",
         "DQMB2",
         "DQMB3"
+      ],
+      "DQ": [
+        "D0",
+        "D1",
+        "D2",
+        "D3",
+        "D4",
+        "D5",
+        "D6",
+        "D7"
       ]
     },
     "connection_grid_size": 50.0,
