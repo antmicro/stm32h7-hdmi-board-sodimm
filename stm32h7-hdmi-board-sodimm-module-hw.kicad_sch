@@ -88,6 +88,12 @@
 		(uuid "d184900c-6e8c-415b-9ad2-ed9ffca097bd")
 	)
 	(junction
+		(at 242.57 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "078b0c97-bd5a-4028-85b7-e581f5050a0b")
+	)
+	(junction
 		(at 242.57 63.5)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -759,6 +765,16 @@
 		)
 		(uuid "04d06d65-033f-4f30-90bd-701eaed6a1be")
 	)
+	(bus
+		(pts
+			(xy 242.57 85.09) (xy 252.73 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05c856b1-1bcc-4d68-acbb-19c0163b0faf")
+	)
 	(wire
 		(pts
 			(xy 176.53 149.86) (xy 182.88 149.86)
@@ -1311,7 +1327,7 @@
 	)
 	(bus
 		(pts
-			(xy 242.57 63.5) (xy 242.57 137.16)
+			(xy 242.57 63.5) (xy 242.57 85.09)
 		)
 		(stroke
 			(width 0)
@@ -1338,6 +1354,16 @@
 			(type default)
 		)
 		(uuid "4a39fc81-38f8-409b-b259-1f530c67e8a6")
+	)
+	(bus
+		(pts
+			(xy 242.57 85.09) (xy 242.57 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4df39942-0b36-40c2-aa1a-2badce4bce3b")
 	)
 	(wire
 		(pts
@@ -2669,7 +2695,7 @@
 		)
 		(uuid "028f0254-c6e3-4ea6-8dd0-c81caef9b756")
 	)
-	(label "DQMB0"
+	(label "DQMB2"
 		(at 287.02 137.16 180)
 		(effects
 			(font
@@ -3139,7 +3165,7 @@
 		)
 		(uuid "5817fc0f-84df-416f-a8f5-187dff89ba83")
 	)
-	(label "DQMB0"
+	(label "DQMB3"
 		(at 337.82 137.16 180)
 		(effects
 			(font
@@ -3179,7 +3205,7 @@
 		)
 		(uuid "5e27aa33-b5ef-42a4-9d1f-c6eeddebb9c5")
 	)
-	(label "DQMB0"
+	(label "DQMB1"
 		(at 237.49 137.16 180)
 		(effects
 			(font
@@ -3569,7 +3595,7 @@
 		)
 		(uuid "98af2eb0-23c2-4cf5-a131-668c23674ce9")
 	)
-	(label "DQMB0"
+	(label "DQMB2"
 		(at 287.02 85.09 180)
 		(effects
 			(font
@@ -3699,7 +3725,7 @@
 		)
 		(uuid "aaf93d35-25c2-4844-ad35-3c807b79f1dc")
 	)
-	(label "DQMB0"
+	(label "DQMB1"
 		(at 237.49 85.09 180)
 		(effects
 			(font
@@ -3789,7 +3815,7 @@
 		)
 		(uuid "b87ede72-dcba-41a7-93ef-a1d9f7aad521")
 	)
-	(label "DQMB0"
+	(label "DQMB3"
 		(at 337.82 85.09 180)
 		(effects
 			(font
