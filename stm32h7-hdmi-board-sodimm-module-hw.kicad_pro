@@ -245,6 +245,10 @@
         {
           "diameter": 0.0,
           "drill": 0.0
+        },
+        {
+          "diameter": 0.5,
+          "drill": 0.2
         }
       ],
       "zones_allow_external_fillets": false
@@ -597,6 +601,78 @@
       "/CLK1": [
         "55Ohm-se_CK"
       ],
+      "/D10": [
+        "55Ohm-se_DQ"
+      ],
+      "/D11": [
+        "55Ohm-se_DQ"
+      ],
+      "/D12": [
+        "55Ohm-se_DQ"
+      ],
+      "/D13": [
+        "55Ohm-se_DQ"
+      ],
+      "/D14": [
+        "55Ohm-se_DQ"
+      ],
+      "/D15": [
+        "55Ohm-se_DQ"
+      ],
+      "/D16_1": [
+        "55Ohm-se_DQ"
+      ],
+      "/D17_1": [
+        "55Ohm-se_DQ"
+      ],
+      "/D18_1": [
+        "55Ohm-se_DQ"
+      ],
+      "/D19_1": [
+        "55Ohm-se_DQ"
+      ],
+      "/D20_1": [
+        "55Ohm-se_DQ"
+      ],
+      "/D21_1": [
+        "55Ohm-se_DQ"
+      ],
+      "/D22_1": [
+        "55Ohm-se_DQ"
+      ],
+      "/D23_1": [
+        "55Ohm-se_DQ"
+      ],
+      "/D24_1": [
+        "55Ohm-se_DQ"
+      ],
+      "/D25_1": [
+        "55Ohm-se_DQ"
+      ],
+      "/D26_1": [
+        "55Ohm-se_DQ"
+      ],
+      "/D27_1": [
+        "55Ohm-se_DQ"
+      ],
+      "/D28_1": [
+        "55Ohm-se_DQ"
+      ],
+      "/D29_1": [
+        "55Ohm-se_DQ"
+      ],
+      "/D30_1": [
+        "55Ohm-se_DQ"
+      ],
+      "/D31_1": [
+        "55Ohm-se_DQ"
+      ],
+      "/D8": [
+        "55Ohm-se_DQ"
+      ],
+      "/D9": [
+        "55Ohm-se_DQ"
+      ],
       "/DQMB0": [
         "55Ohm-se_DQMB"
       ],
@@ -608,6 +684,15 @@
       ],
       "/DQMB3": [
         "55Ohm-se_DQMB"
+      ],
+      "/D[16..23]_1": [
+        "55Ohm-se_DQ"
+      ],
+      "/D[24..31]_1": [
+        "55Ohm-se_DQ"
+      ],
+      "/D[8..15]": [
+        "55Ohm-se_DQ"
       ],
       "/RAS": [
         "55Ohm-se_ADDR"
@@ -771,13 +856,187 @@
       "/SODIMM/D0": [
         "55Ohm-se_DQ"
       ],
+      "/SODIMM/D0.D0": [
+        "55Ohm-se_DQ"
+      ],
+      "/SODIMM/D0.D1": [
+        "55Ohm-se_DQ"
+      ],
+      "/SODIMM/D0.D2": [
+        "55Ohm-se_DQ"
+      ],
+      "/SODIMM/D0.D3": [
+        "55Ohm-se_DQ"
+      ],
+      "/SODIMM/D0.D4": [
+        "55Ohm-se_DQ"
+      ],
+      "/SODIMM/D0.D5": [
+        "55Ohm-se_DQ"
+      ],
+      "/SODIMM/D0.D6": [
+        "55Ohm-se_DQ"
+      ],
+      "/SODIMM/D0.D7": [
+        "55Ohm-se_DQ"
+      ],
+      "/SODIMM/D0{DQ}": [
+        "55Ohm-se_DQ"
+      ],
       "/SODIMM/D1": [
+        "55Ohm-se_DQ"
+      ],
+      "/SODIMM/D1.D0": [
+        "55Ohm-se_DQ"
+      ],
+      "/SODIMM/D1.D1": [
+        "55Ohm-se_DQ"
+      ],
+      "/SODIMM/D1.D2": [
+        "55Ohm-se_DQ"
+      ],
+      "/SODIMM/D1.D3": [
+        "55Ohm-se_DQ"
+      ],
+      "/SODIMM/D1.D4": [
+        "55Ohm-se_DQ"
+      ],
+      "/SODIMM/D1.D5": [
+        "55Ohm-se_DQ"
+      ],
+      "/SODIMM/D1.D6": [
+        "55Ohm-se_DQ"
+      ],
+      "/SODIMM/D1.D7": [
+        "55Ohm-se_DQ"
+      ],
+      "/SODIMM/D10": [
+        "55Ohm-se_DQ"
+      ],
+      "/SODIMM/D11": [
+        "55Ohm-se_DQ"
+      ],
+      "/SODIMM/D12": [
+        "55Ohm-se_DQ"
+      ],
+      "/SODIMM/D13": [
+        "55Ohm-se_DQ"
+      ],
+      "/SODIMM/D14": [
+        "55Ohm-se_DQ"
+      ],
+      "/SODIMM/D15": [
+        "55Ohm-se_DQ"
+      ],
+      "/SODIMM/D16": [
+        "55Ohm-se_DQ"
+      ],
+      "/SODIMM/D17": [
+        "55Ohm-se_DQ"
+      ],
+      "/SODIMM/D18": [
+        "55Ohm-se_DQ"
+      ],
+      "/SODIMM/D19": [
+        "55Ohm-se_DQ"
+      ],
+      "/SODIMM/D1{DQ}": [
         "55Ohm-se_DQ"
       ],
       "/SODIMM/D2": [
         "55Ohm-se_DQ"
       ],
+      "/SODIMM/D2.D0": [
+        "55Ohm-se_DQ"
+      ],
+      "/SODIMM/D2.D1": [
+        "55Ohm-se_DQ"
+      ],
+      "/SODIMM/D2.D2": [
+        "55Ohm-se_DQ"
+      ],
+      "/SODIMM/D2.D3": [
+        "55Ohm-se_DQ"
+      ],
+      "/SODIMM/D2.D4": [
+        "55Ohm-se_DQ"
+      ],
+      "/SODIMM/D2.D5": [
+        "55Ohm-se_DQ"
+      ],
+      "/SODIMM/D2.D6": [
+        "55Ohm-se_DQ"
+      ],
+      "/SODIMM/D2.D7": [
+        "55Ohm-se_DQ"
+      ],
+      "/SODIMM/D20": [
+        "55Ohm-se_DQ"
+      ],
+      "/SODIMM/D21": [
+        "55Ohm-se_DQ"
+      ],
+      "/SODIMM/D22": [
+        "55Ohm-se_DQ"
+      ],
+      "/SODIMM/D23": [
+        "55Ohm-se_DQ"
+      ],
+      "/SODIMM/D24": [
+        "55Ohm-se_DQ"
+      ],
+      "/SODIMM/D25": [
+        "55Ohm-se_DQ"
+      ],
+      "/SODIMM/D26": [
+        "55Ohm-se_DQ"
+      ],
+      "/SODIMM/D27": [
+        "55Ohm-se_DQ"
+      ],
+      "/SODIMM/D28": [
+        "55Ohm-se_DQ"
+      ],
+      "/SODIMM/D29": [
+        "55Ohm-se_DQ"
+      ],
+      "/SODIMM/D2{DQ}": [
+        "55Ohm-se_DQ"
+      ],
       "/SODIMM/D3": [
+        "55Ohm-se_DQ"
+      ],
+      "/SODIMM/D3.D0": [
+        "55Ohm-se_DQ"
+      ],
+      "/SODIMM/D3.D1": [
+        "55Ohm-se_DQ"
+      ],
+      "/SODIMM/D3.D2": [
+        "55Ohm-se_DQ"
+      ],
+      "/SODIMM/D3.D3": [
+        "55Ohm-se_DQ"
+      ],
+      "/SODIMM/D3.D4": [
+        "55Ohm-se_DQ"
+      ],
+      "/SODIMM/D3.D5": [
+        "55Ohm-se_DQ"
+      ],
+      "/SODIMM/D3.D6": [
+        "55Ohm-se_DQ"
+      ],
+      "/SODIMM/D3.D7": [
+        "55Ohm-se_DQ"
+      ],
+      "/SODIMM/D30": [
+        "55Ohm-se_DQ"
+      ],
+      "/SODIMM/D31": [
+        "55Ohm-se_DQ"
+      ],
+      "/SODIMM/D3{DQ}": [
         "55Ohm-se_DQ"
       ],
       "/SODIMM/D4": [
@@ -792,7 +1051,22 @@
       "/SODIMM/D7": [
         "55Ohm-se_DQ"
       ],
+      "/SODIMM/D8": [
+        "55Ohm-se_DQ"
+      ],
+      "/SODIMM/D9": [
+        "55Ohm-se_DQ"
+      ],
       "/SODIMM/D[0..7]": [
+        "55Ohm-se_DQ"
+      ],
+      "/SODIMM/D[16..23]": [
+        "55Ohm-se_DQ"
+      ],
+      "/SODIMM/D[24..31]": [
+        "55Ohm-se_DQ"
+      ],
+      "/SODIMM/D[8..15]": [
         "55Ohm-se_DQ"
       ],
       "/WE": [
@@ -968,31 +1242,31 @@
       "SDR"
     ],
     [
-      "5dc00c1d-6d73-4075-9f40-456de291661b",
+      "00718bf9-b2bc-41a9-8ef2-aaf34287a0e4",
       "SDR1"
     ],
     [
-      "64f9e65c-9d05-4be1-9e31-4d16c11f0fb0",
+      "3172e308-a2cd-4699-b7f7-52aa5b1e774d",
       "SDR2"
     ],
     [
-      "ddf45e09-ef7c-4334-8682-44a40fb9ac25",
+      "62c27c32-6311-42aa-bf75-c9963b399923",
       "SDR3"
     ],
     [
-      "cd52d890-d841-4c0b-b74f-cecd82eab78c",
+      "05ead750-6d75-4b35-8d56-7be54878703d",
       "SDR4"
     ],
     [
-      "b905e1ec-7c3f-48f7-ae55-d927b88852a9",
+      "e5bdd18c-b691-4edb-93ab-54f3a6e1d2b0",
       "SDR5"
     ],
     [
-      "87a2e1a4-69b4-4323-9d30-934d29179e2b",
+      "586d0a54-a3e4-4698-85e6-a584486f93a0",
       "SDR6"
     ],
     [
-      "b4e055d1-7bf1-4790-ab55-efe4bf9542a5",
+      "6a388f95-9d40-4e9e-a5e2-b8fb6abc2349",
       "SDR7"
     ],
     [
