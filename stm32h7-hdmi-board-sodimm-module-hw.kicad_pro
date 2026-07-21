@@ -1071,6 +1071,102 @@
       ],
       "/WE": [
         "55Ohm-se_ADDR"
+      ],
+      "Net-(J1C-DQ0)": [
+        "55Ohm-se_DQ"
+      ],
+      "Net-(J1C-DQ1)": [
+        "55Ohm-se_DQ"
+      ],
+      "Net-(J1C-DQ10)": [
+        "55Ohm-se_DQ"
+      ],
+      "Net-(J1C-DQ11)": [
+        "55Ohm-se_DQ"
+      ],
+      "Net-(J1C-DQ12)": [
+        "55Ohm-se_DQ"
+      ],
+      "Net-(J1C-DQ13)": [
+        "55Ohm-se_DQ"
+      ],
+      "Net-(J1C-DQ14)": [
+        "55Ohm-se_DQ"
+      ],
+      "Net-(J1C-DQ15)": [
+        "55Ohm-se_DQ"
+      ],
+      "Net-(J1C-DQ16)": [
+        "55Ohm-se_DQ"
+      ],
+      "Net-(J1C-DQ17)": [
+        "55Ohm-se_DQ"
+      ],
+      "Net-(J1C-DQ18)": [
+        "55Ohm-se_DQ"
+      ],
+      "Net-(J1C-DQ19)": [
+        "55Ohm-se_DQ"
+      ],
+      "Net-(J1C-DQ2)": [
+        "55Ohm-se_DQ"
+      ],
+      "Net-(J1C-DQ20)": [
+        "55Ohm-se_DQ"
+      ],
+      "Net-(J1C-DQ21)": [
+        "55Ohm-se_DQ"
+      ],
+      "Net-(J1C-DQ22)": [
+        "55Ohm-se_DQ"
+      ],
+      "Net-(J1C-DQ23)": [
+        "55Ohm-se_DQ"
+      ],
+      "Net-(J1C-DQ24)": [
+        "55Ohm-se_DQ"
+      ],
+      "Net-(J1C-DQ25)": [
+        "55Ohm-se_DQ"
+      ],
+      "Net-(J1C-DQ26)": [
+        "55Ohm-se_DQ"
+      ],
+      "Net-(J1C-DQ27)": [
+        "55Ohm-se_DQ"
+      ],
+      "Net-(J1C-DQ28)": [
+        "55Ohm-se_DQ"
+      ],
+      "Net-(J1C-DQ29)": [
+        "55Ohm-se_DQ"
+      ],
+      "Net-(J1C-DQ3)": [
+        "55Ohm-se_DQ"
+      ],
+      "Net-(J1C-DQ30)": [
+        "55Ohm-se_DQ"
+      ],
+      "Net-(J1C-DQ31)": [
+        "55Ohm-se_DQ"
+      ],
+      "Net-(J1C-DQ4)": [
+        "55Ohm-se_DQ"
+      ],
+      "Net-(J1C-DQ5)": [
+        "55Ohm-se_DQ"
+      ],
+      "Net-(J1C-DQ6)": [
+        "55Ohm-se_DQ"
+      ],
+      "Net-(J1C-DQ7)": [
+        "55Ohm-se_DQ"
+      ],
+      "Net-(J1C-DQ8)": [
+        "55Ohm-se_DQ"
+      ],
+      "Net-(J1C-DQ9)": [
+        "55Ohm-se_DQ"
       ]
     },
     "netclass_patterns": []
