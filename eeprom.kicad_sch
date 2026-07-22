@@ -1346,10 +1346,16 @@
 		(uuid "4ba23b5c-33f3-4fc6-ae9f-b340ae4c64f0")
 	)
 	(junction
-		(at 201.93 132.08)
+		(at 189.23 137.16)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "5075fed9-5d56-4f6b-9910-d40c4459c47d")
+		(uuid "76179bfc-a722-4e4d-8f6f-b9cdebf3cad4")
+	)
+	(junction
+		(at 198.12 134.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8f711095-f8c3-4095-b8a2-bbb3f9e67799")
 	)
 	(junction
 		(at 201.93 139.7)
@@ -1384,6 +1390,16 @@
 			(type default)
 		)
 		(uuid "0810302c-216a-442a-8b14-3b4ed579fe18")
+	)
+	(wire
+		(pts
+			(xy 189.23 137.16) (xy 205.74 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1027856c-c247-470d-848b-4ff8f34cbe48")
 	)
 	(wire
 		(pts
@@ -1447,7 +1463,17 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 134.62) (xy 205.74 134.62)
+			(xy 198.12 134.62) (xy 198.12 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d5f9a1a-45cc-4140-9709-be52f1d00edb")
+	)
+	(wire
+		(pts
+			(xy 177.8 134.62) (xy 198.12 134.62)
 		)
 		(stroke
 			(width 0)
@@ -1474,6 +1500,16 @@
 			(type default)
 		)
 		(uuid "365becf7-bb6e-4af9-a149-2c8c9ed175bb")
+	)
+	(wire
+		(pts
+			(xy 198.12 134.62) (xy 205.74 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f1718d1-e932-488a-97a2-a8f2b868842f")
 	)
 	(wire
 		(pts
@@ -1577,7 +1613,7 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 137.16) (xy 205.74 137.16)
+			(xy 186.69 137.16) (xy 189.23 137.16)
 		)
 		(stroke
 			(width 0)
@@ -1624,6 +1660,16 @@
 			(type default)
 		)
 		(uuid "f0985be2-bfae-466d-98cc-8604c8698cc3")
+	)
+	(wire
+		(pts
+			(xy 189.23 142.24) (xy 189.23 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6c381fc-daa7-4a0a-8542-44ddcfaeaf13")
 	)
 	(wire
 		(pts
@@ -1978,6 +2024,139 @@
 			(project "stm32h7-hdmi-board-sodimm-module-hw"
 				(path "/92fcd7c5-798f-49cd-ae80-ce2fa78a6354/02eb4e3c-e878-409b-8c26-d4f0756348cb"
 					(reference "R10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "antmicroTestPoints:TP_1mm_SMD")
+		(at 198.12 144.78 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "29d6673f-7716-4f1d-8c18-21e74f1a68e2")
+		(property "Reference" "TP1"
+			(at 192.278 144.78 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "TP_1mm_SMD"
+			(at 182.88 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "antmicro-footprints:TP_SMD_1mm"
+			(at 182.88 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 180.34 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Description" "Test point 1mm SMD"
+			(at 182.88 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "MPN" ""
+			(at 198.12 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 198.12 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 182.88 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 182.88 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(pin "1"
+			(uuid "3636ac42-6fca-42c0-a1ff-27942375d081")
+		)
+		(instances
+			(project "stm32h7-hdmi-board-sodimm-module-hw"
+				(path "/92fcd7c5-798f-49cd-ae80-ce2fa78a6354/02eb4e3c-e878-409b-8c26-d4f0756348cb"
+					(reference "TP1")
 					(unit 1)
 				)
 			)
@@ -2386,6 +2565,139 @@
 		)
 	)
 	(symbol
+		(lib_id "antmicroTestPoints:TP_1mm_SMD")
+		(at 189.23 142.24 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "8ae2a047-0368-4cbc-b708-48e980958d04")
+		(property "Reference" "TP4"
+			(at 183.388 142.24 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "TP_1mm_SMD"
+			(at 173.99 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "antmicro-footprints:TP_SMD_1mm"
+			(at 173.99 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 171.45 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Description" "Test point 1mm SMD"
+			(at 173.99 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "MPN" ""
+			(at 189.23 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 189.23 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 173.99 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 173.99 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(pin "1"
+			(uuid "6e6b833e-87fe-40b9-ba87-8ded6b408cfa")
+		)
+		(instances
+			(project "stm32h7-hdmi-board-sodimm-module-hw"
+				(path "/92fcd7c5-798f-49cd-ae80-ce2fa78a6354/02eb4e3c-e878-409b-8c26-d4f0756348cb"
+					(reference "TP4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "antmicroCapacitors0402:C_100n_0402")
 		(at 236.22 132.08 270)
 		(unit 1)
@@ -2749,139 +3061,6 @@
 			(project "stm32h7-hdmi-board-sodimm-module-hw"
 				(path "/92fcd7c5-798f-49cd-ae80-ce2fa78a6354/02eb4e3c-e878-409b-8c26-d4f0756348cb"
 					(reference "#PWR039")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "antmicroTestPoints:TP_1mm_SMD")
-		(at 201.93 132.08 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "f211e722-173e-42d9-b092-8fcf780a0bd0")
-		(property "Reference" "TP1"
-			(at 196.088 132.08 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "TP_1mm_SMD"
-			(at 186.69 124.46 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "antmicro-footprints:TP_SMD_1mm"
-			(at 186.69 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Datasheet" ""
-			(at 184.15 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Description" "Test point 1mm SMD"
-			(at 186.69 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "MPN" ""
-			(at 201.93 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 201.93 132.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Author" "Antmicro"
-			(at 186.69 116.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 186.69 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-			)
-		)
-		(pin "1"
-			(uuid "b1c526ae-b0ab-47a4-a7b4-202053f2e2bc")
-		)
-		(instances
-			(project "stm32h7-hdmi-board-sodimm-module-hw"
-				(path "/92fcd7c5-798f-49cd-ae80-ce2fa78a6354/02eb4e3c-e878-409b-8c26-d4f0756348cb"
-					(reference "TP1")
 					(unit 1)
 				)
 			)
