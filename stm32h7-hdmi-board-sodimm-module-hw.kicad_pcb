@@ -28571,6 +28571,7 @@
 		(property "Reference" "R1"
 			(at 0.735 0.6205 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "1f31e23b-40be-4fe9-89e6-dbf9ae77749d")
 			(effects
 				(font
@@ -66398,6 +66399,7 @@
 		(property "Reference" "R6"
 			(at -0.725 1.575 180)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "190f719e-0bf7-4e37-9968-be2efc362e24")
 			(effects
 				(font
@@ -142105,6 +142107,7 @@
 		(property "Reference" "R8"
 			(at -0.725 1.575 180)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "3221159f-f7c3-4dc4-95cf-e980dbd2c74a")
 			(effects
 				(font
@@ -142858,6 +142861,7 @@
 			(at 1.65 -4.38 0)
 			(unlocked yes)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "ea19c014-92cb-49be-98ef-398da520218e")
 			(effects
 				(font
@@ -144926,6 +144930,7 @@
 		(property "Reference" "R4"
 			(at -0.775 1.575 180)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "c03f86f6-bcd1-40e8-99aa-ad4b0eb1b603")
 			(effects
 				(font
@@ -145678,6 +145683,7 @@
 		(property "Reference" "R3"
 			(at -0.725 1.575 180)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "916710d0-7d6c-47bb-88a7-d749a31b23a2")
 			(effects
 				(font
@@ -167724,6 +167730,7 @@
 		(property "Reference" "R2"
 			(at 0.765 0.6205 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "a03c721c-914d-4d82-9822-e269673c2122")
 			(effects
 				(font
@@ -175574,6 +175581,7 @@
 		(property "Reference" "R5"
 			(at -0.75 1.575 180)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "fd0868ac-466c-4dc2-873e-9c3ee79007ab")
 			(effects
 				(font
@@ -243960,6 +243968,7 @@
 		(property "Reference" "R7"
 			(at -0.775 1.575 180)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "016bbf46-550d-4577-9639-d69a6b826d12")
 			(effects
 				(font
@@ -492574,7 +492583,7 @@
 		)
 	)
 	(gr_text "SDA"
-		(at 169.8 113.125 0)
+		(at 169.425 115.35 0)
 		(layer "F.SilkS")
 		(uuid "d8f60bd9-345a-456e-ae19-2f0ec324f824")
 		(effects
@@ -492587,7 +492596,7 @@
 		)
 	)
 	(gr_text "SCL"
-		(at 173.35 115.175 0)
+		(at 173.35 115.35 0)
 		(layer "F.SilkS")
 		(uuid "234c7173-e929-4258-a703-359985afe115")
 		(effects
@@ -492625,7 +492634,7 @@
 		)
 	)
 	(gr_text "PCB SHA ########"
-		(at 148.4 112.625 0)
+		(at 149.9 112.625 0)
 		(layer "F.SilkS")
 		(uuid "824839f4-38a3-421d-9e58-fed3f951ef8f")
 		(effects
