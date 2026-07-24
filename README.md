@@ -1,6 +1,6 @@
 # STM32H7 HDMI Board SODIMM Module
 
-Copyright (c) 2022-2026 [Antmicro](https://www.antmicro.com)
+Copyright (c) 2026 [Antmicro](https://www.antmicro.com)
 
 ![](img/photo1T_paper_black.png)
 
