@@ -7,6 +7,13 @@
 		(legacy_teardrops no)
 	)
 	(paper "A4")
+	(title_block
+		(title "STM32H7 HDMI Board SODIMM")
+		(date "2026-07-24")
+		(rev "1.0.0")
+		(company "Antmicro Ltd")
+		(comment 1 "www.antmicro.com")
+	)
 	(layers
 		(0 "F.Cu" signal)
 		(4 "In1.Cu" power)
