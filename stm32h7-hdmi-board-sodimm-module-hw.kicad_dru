@@ -1,0 +1,5 @@
+(version 1)
+
+(rule "Ignore edge clearance inside SODIMM edge connector"
+    (condition "A.insideArea('pcb-edge-connector')")
+    (constraint edge_clearance (min 0mm)))

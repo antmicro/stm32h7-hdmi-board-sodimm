@@ -60,7 +60,7 @@
           "hatch_smoothing_level": 0,
           "hatch_smoothing_value": 0.1,
           "hatch_thickness": 1.0,
-          "min_clearance": 0.15,
+          "min_clearance": 0.0,
           "min_island_area": 10.0,
           "min_thickness": 0.25,
           "pad_connection": 1,
@@ -76,7 +76,24 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "courtyards_overlap|171187500|88113000|36fd3c19-469a-49a2-abd2-faab9ddcd9e2|4368a39c-ac24-4372-9e6b-57335879c214",
+          "Cant find better place for logo"
+        ],
+        [
+          "courtyards_overlap|172817006|94062567|36fd3c19-469a-49a2-abd2-faab9ddcd9e2|84217c1e-6ffb-4c2a-91c5-c45e8fe3ff41",
+          "Cant find better place for logo"
+        ],
+        [
+          "courtyards_overlap|173315000|88113000|36fd3c19-469a-49a2-abd2-faab9ddcd9e2|a9e264c0-1665-4167-8bae-e9294d0e0ffe",
+          "Cant find better place for logo"
+        ],
+        [
+          "lib_footprint_mismatch|174320000|91380000|36fd3c19-469a-49a2-abd2-faab9ddcd9e2|00000000-0000-0000-0000-000000000000",
+          "Custom logo without text"
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -280,7 +297,56 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      [
+        "duplicate_pins|1752600|1714500|b5507d2c-ba7a-4ea9-8f6d-193a04699f1c|f1913bda-bc62-4782-b4b9-64e9f4f398b3|/92fcd7c5-798f-49cd-ae80-ce2fa78a6354/00718bf9-b2bc-41a9-8ef2-aaf34287a0e4|/92fcd7c5-798f-49cd-ae80-ce2fa78a6354/00718bf9-b2bc-41a9-8ef2-aaf34287a0e4|/92fcd7c5-798f-49cd-ae80-ce2fa78a6354/00718bf9-b2bc-41a9-8ef2-aaf34287a0e4",
+        "Unconnected hidden pad"
+      ],
+      [
+        "duplicate_pins|1752600|1714500|b5507d2c-ba7a-4ea9-8f6d-193a04699f1c|f1913bda-bc62-4782-b4b9-64e9f4f398b3|/92fcd7c5-798f-49cd-ae80-ce2fa78a6354/05ead750-6d75-4b35-8d56-7be54878703d|/92fcd7c5-798f-49cd-ae80-ce2fa78a6354/05ead750-6d75-4b35-8d56-7be54878703d|/92fcd7c5-798f-49cd-ae80-ce2fa78a6354/05ead750-6d75-4b35-8d56-7be54878703d",
+        "Unconnected hidden pad"
+      ],
+      [
+        "duplicate_pins|1752600|1714500|b5507d2c-ba7a-4ea9-8f6d-193a04699f1c|f1913bda-bc62-4782-b4b9-64e9f4f398b3|/92fcd7c5-798f-49cd-ae80-ce2fa78a6354/3172e308-a2cd-4699-b7f7-52aa5b1e774d|/92fcd7c5-798f-49cd-ae80-ce2fa78a6354/3172e308-a2cd-4699-b7f7-52aa5b1e774d|/92fcd7c5-798f-49cd-ae80-ce2fa78a6354/3172e308-a2cd-4699-b7f7-52aa5b1e774d",
+        "Unconnected hidden pad"
+      ],
+      [
+        "duplicate_pins|1752600|1714500|b5507d2c-ba7a-4ea9-8f6d-193a04699f1c|f1913bda-bc62-4782-b4b9-64e9f4f398b3|/92fcd7c5-798f-49cd-ae80-ce2fa78a6354/586d0a54-a3e4-4698-85e6-a584486f93a0|/92fcd7c5-798f-49cd-ae80-ce2fa78a6354/586d0a54-a3e4-4698-85e6-a584486f93a0|/92fcd7c5-798f-49cd-ae80-ce2fa78a6354/586d0a54-a3e4-4698-85e6-a584486f93a0",
+        "Unconnected hidden pad"
+      ],
+      [
+        "duplicate_pins|1752600|1714500|b5507d2c-ba7a-4ea9-8f6d-193a04699f1c|f1913bda-bc62-4782-b4b9-64e9f4f398b3|/92fcd7c5-798f-49cd-ae80-ce2fa78a6354/62c27c32-6311-42aa-bf75-c9963b399923|/92fcd7c5-798f-49cd-ae80-ce2fa78a6354/62c27c32-6311-42aa-bf75-c9963b399923|/92fcd7c5-798f-49cd-ae80-ce2fa78a6354/62c27c32-6311-42aa-bf75-c9963b399923",
+        ""
+      ],
+      [
+        "duplicate_pins|1752600|1714500|b5507d2c-ba7a-4ea9-8f6d-193a04699f1c|f1913bda-bc62-4782-b4b9-64e9f4f398b3|/92fcd7c5-798f-49cd-ae80-ce2fa78a6354/6a388f95-9d40-4e9e-a5e2-b8fb6abc2349|/92fcd7c5-798f-49cd-ae80-ce2fa78a6354/6a388f95-9d40-4e9e-a5e2-b8fb6abc2349|/92fcd7c5-798f-49cd-ae80-ce2fa78a6354/6a388f95-9d40-4e9e-a5e2-b8fb6abc2349",
+        "Unconnected hidden pad"
+      ],
+      [
+        "duplicate_pins|1752600|1714500|b5507d2c-ba7a-4ea9-8f6d-193a04699f1c|f1913bda-bc62-4782-b4b9-64e9f4f398b3|/92fcd7c5-798f-49cd-ae80-ce2fa78a6354/8065b630-3bb7-47f1-baca-00560e3eccce|/92fcd7c5-798f-49cd-ae80-ce2fa78a6354/8065b630-3bb7-47f1-baca-00560e3eccce|/92fcd7c5-798f-49cd-ae80-ce2fa78a6354/8065b630-3bb7-47f1-baca-00560e3eccce",
+        "Unconnected hidden pad"
+      ],
+      [
+        "duplicate_pins|1752600|1714500|b5507d2c-ba7a-4ea9-8f6d-193a04699f1c|f1913bda-bc62-4782-b4b9-64e9f4f398b3|/92fcd7c5-798f-49cd-ae80-ce2fa78a6354/e5bdd18c-b691-4edb-93ab-54f3a6e1d2b0|/92fcd7c5-798f-49cd-ae80-ce2fa78a6354/e5bdd18c-b691-4edb-93ab-54f3a6e1d2b0|/92fcd7c5-798f-49cd-ae80-ce2fa78a6354/e5bdd18c-b691-4edb-93ab-54f3a6e1d2b0",
+        "Unconnected hidden pad"
+      ],
+      [
+        "pin_not_driven|2032000|2324100|149fc3e6-a504-46ef-8bff-262f0da11b50|00000000-0000-0000-0000-000000000000|/92fcd7c5-798f-49cd-ae80-ce2fa78a6354/6154d4a7-189d-4cbe-b2ef-ab7a8327ac2a|/92fcd7c5-798f-49cd-ae80-ce2fa78a6354/6154d4a7-189d-4cbe-b2ef-ab7a8327ac2a|",
+        "My mistake in component pin electrical type"
+      ],
+      [
+        "pin_not_driven|2032000|2349500|dd63d98a-40d5-478f-b3fd-9967ea71f867|00000000-0000-0000-0000-000000000000|/92fcd7c5-798f-49cd-ae80-ce2fa78a6354/6154d4a7-189d-4cbe-b2ef-ab7a8327ac2a|/92fcd7c5-798f-49cd-ae80-ce2fa78a6354/6154d4a7-189d-4cbe-b2ef-ab7a8327ac2a|",
+        "My mistake in component pin electrical type"
+      ],
+      [
+        "pin_not_driven|2032000|2374900|0b147987-3028-4640-b969-c0f2a40d7297|00000000-0000-0000-0000-000000000000|/92fcd7c5-798f-49cd-ae80-ce2fa78a6354/6154d4a7-189d-4cbe-b2ef-ab7a8327ac2a|/92fcd7c5-798f-49cd-ae80-ce2fa78a6354/6154d4a7-189d-4cbe-b2ef-ab7a8327ac2a|",
+        "My mistake in component pin electrical type"
+      ],
+      [
+        "pin_not_driven|2032000|2400300|44399ff6-e9a0-47cb-9fbd-1d57024b3971|00000000-0000-0000-0000-000000000000|/92fcd7c5-798f-49cd-ae80-ce2fa78a6354/6154d4a7-189d-4cbe-b2ef-ab7a8327ac2a|/92fcd7c5-798f-49cd-ae80-ce2fa78a6354/6154d4a7-189d-4cbe-b2ef-ab7a8327ac2a|",
+        "My mistake in component pin electrical type"
+      ]
+    ],
     "meta": {
       "version": 0
     },
@@ -515,7 +581,7 @@
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.2,
+        "clearance": 0.1,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
