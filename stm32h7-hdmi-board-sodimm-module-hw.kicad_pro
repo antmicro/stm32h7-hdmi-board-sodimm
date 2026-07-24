@@ -76,24 +76,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        [
-          "courtyards_overlap|171187500|88113000|36fd3c19-469a-49a2-abd2-faab9ddcd9e2|4368a39c-ac24-4372-9e6b-57335879c214",
-          "Cant find better place for logo"
-        ],
-        [
-          "courtyards_overlap|172817006|94062567|36fd3c19-469a-49a2-abd2-faab9ddcd9e2|84217c1e-6ffb-4c2a-91c5-c45e8fe3ff41",
-          "Cant find better place for logo"
-        ],
-        [
-          "courtyards_overlap|173315000|88113000|36fd3c19-469a-49a2-abd2-faab9ddcd9e2|a9e264c0-1665-4167-8bae-e9294d0e0ffe",
-          "Cant find better place for logo"
-        ],
-        [
-          "lib_footprint_mismatch|174320000|91380000|36fd3c19-469a-49a2-abd2-faab9ddcd9e2|00000000-0000-0000-0000-000000000000",
-          "Custom logo without text"
-        ]
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
