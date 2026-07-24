@@ -3,7 +3,7 @@
 	(generator "pcbnew")
 	(generator_version "10.0")
 	(general
-		(thickness 0.933)
+		(thickness 0.968)
 		(legacy_teardrops no)
 	)
 	(paper "A4")
@@ -49,7 +49,7 @@
 			)
 			(layer "F.Cu"
 				(type "copper")
-				(thickness 0.0175)
+				(thickness 0.035)
 			)
 			(layer "dielectric 1"
 				(type "prepreg")
@@ -104,7 +104,7 @@
 			)
 			(layer "B.Cu"
 				(type "copper")
-				(thickness 0.0175)
+				(thickness 0.035)
 			)
 			(layer "B.Mask"
 				(type "Bottom Solder Mask")
@@ -135,6 +135,7 @@
 		)
 		(capping no)
 		(filling no)
+		(zone_defaults)
 		(pcbplotparams
 			(layerselection 0x00000000_00000000_55555555_5755f5ff)
 			(plot_on_all_layers_selection 0x00000000_00000000_00000000_00000000)
