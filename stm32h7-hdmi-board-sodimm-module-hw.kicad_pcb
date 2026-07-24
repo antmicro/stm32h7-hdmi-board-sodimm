@@ -492579,7 +492579,7 @@
 	)
 	(gr_text "3.3V"
 		(at 164.345 76.45 0)
-		(layer "F.SilkS")
+		(layer "F.SilkS" knockout)
 		(uuid "12956fe6-4d6a-4c67-8937-543b6eda9846")
 		(effects
 			(font
@@ -492589,9 +492589,48 @@
 			(justify left bottom)
 		)
 	)
+	(gr_text "STM32H7 HDMI Board SODIMM Module"
+		(at 103.9 93.4 0)
+		(layer "F.SilkS")
+		(uuid "cf89f9c0-324d-4928-9e89-bef9f811e954")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.15)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "Rev. 1.0.0 07/2026"
+		(at 103.9 94.4 0)
+		(layer "F.SilkS")
+		(uuid "cb2e4a75-d8b6-4a43-abc4-806a70247451")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.15)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "PCB SHA ########"
+		(at 150.7 93.5 0)
+		(layer "F.SilkS")
+		(uuid "824839f4-38a3-421d-9e58-fed3f951ef8f")
+		(effects
+			(font
+				(size 0.7 0.7)
+				(thickness 0.15)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "SDA"
 		(at 160.275 96.67 0)
-		(layer "F.SilkS")
+		(layer "F.SilkS" knockout)
 		(uuid "d8f60bd9-345a-456e-ae19-2f0ec324f824")
 		(effects
 			(font
@@ -492604,7 +492643,7 @@
 	)
 	(gr_text "SCL"
 		(at 164.2 96.67 0)
-		(layer "F.SilkS")
+		(layer "F.SilkS" knockout)
 		(uuid "234c7173-e929-4258-a703-359985afe115")
 		(effects
 			(font
@@ -492617,7 +492656,7 @@
 	)
 	(gr_text "GND"
 		(at 164.395 77.84 0)
-		(layer "F.SilkS")
+		(layer "F.SilkS" knockout)
 		(uuid "3104cd33-f898-4957-8e23-819e25c2fb3c")
 		(effects
 			(font
@@ -492626,42 +492665,6 @@
 				(bold yes)
 			)
 			(justify left bottom)
-		)
-	)
-	(gr_text "STM32H7 HDMI Board SODIMM Module"
-		(at 103.75 93.92 0)
-		(layer "F.SilkS")
-		(uuid "cf89f9c0-324d-4928-9e89-bef9f811e954")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.1)
-			)
-			(justify left bottom)
-		)
-	)
-	(gr_text "Rev. 1.0.0 07/2026"
-		(at 146.475 93.92 0)
-		(layer "F.SilkS")
-		(uuid "cb2e4a75-d8b6-4a43-abc4-806a70247451")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.1)
-			)
-			(justify left bottom)
-		)
-	)
-	(gr_text "PCB SHA ########"
-		(at 161.63 94.94 0)
-		(layer "B.SilkS")
-		(uuid "824839f4-38a3-421d-9e58-fed3f951ef8f")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.1)
-			)
-			(justify left bottom mirror)
 		)
 	)
 	(segment
