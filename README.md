@@ -2,7 +2,7 @@
 
 Copyright (c) 2026 [Antmicro](https://www.antmicro.com)
 
-![](img/photo1T_paper_black.png)
+![](img/topT_transparent.png)
 
 ## Overview
 
@@ -16,7 +16,7 @@ The design files were prepared in KiCad 10.x.
 * 144 Pin SO-DIMM PCB edge connector
 * JEDEC 144-pin SO-DIMM pin-assignment with only DQ[0:31] implemented
 * 512 MB of memory
-* 2Rx8 (32 data bus) organization
+* 2Rx8 (32 data bus) memory organization
 * 8 x ISSI IS42S86400F-7TL SDRAM devices with maximum clock frequency of 200MHz
 * Compatible with STM32H747 FMC
 
