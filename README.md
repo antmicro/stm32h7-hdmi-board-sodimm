@@ -20,6 +20,14 @@ The design files were prepared in KiCad 10.x.
 * 8 x ISSI IS42S86400F-7TL SDRAM devices with maximum clock frequency of 200MHz
 * Compatible with STM32H747 FMC
 
+## Project structure
+
+The main directory contains KiCad PCB project files, a LICENSE and a README.
+The remaining files are stored in the following directories: 
+
+* `doc` - contains board schematic
+* `img` - contains graphics for this README
+
 ## Licensing
 
 This project is published under the [Apache-2.0](LICENSE) license.
