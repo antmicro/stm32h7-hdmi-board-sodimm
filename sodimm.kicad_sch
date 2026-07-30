@@ -12796,7 +12796,7 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "R1-R8 according to 144 Pin PC133\nSDRAM SO-DIMM Reference Design"
+	(text "R1-R8 according to 144 Pin PC133\nSDRAM SODIMM Reference Design"
 		(exclude_from_sim no)
 		(at 194.818 250.952 0)
 		(effects
