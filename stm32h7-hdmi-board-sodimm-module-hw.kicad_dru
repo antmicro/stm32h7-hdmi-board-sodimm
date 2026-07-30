@@ -3,3 +3,54 @@
 (rule "Ignore edge clearance inside SODIMM edge connector"
     (condition "A.insideArea('pcb-edge-connector')")
     (constraint edge_clearance (min 0mm)))
+
+
+(rule "55Ohm-se_ADDR_outer"
+	(layer outer)
+	(condition "A.NetClass == '55Ohm-se_ADDR'")
+	(constraint track_width (min 0.18mm) (max 0.18mm))
+)
+
+(rule "55Ohm-se_ADDR_inner"
+	(layer inner)
+	(condition "A.NetClass == '55Ohm-se_ADDR'")
+	(constraint track_width (min 0.102mm) (max 0.102mm))
+)
+
+(rule "55Ohm-se_CKE_outer"
+	(layer outer)
+	(condition "A.NetClass == '55Ohm-se_CKE'")
+	(constraint track_width (min 0.18mm) (max 0.18mm))
+)
+
+(rule "55Ohm-se_CKE_inner"
+	(layer inner)
+	(condition "A.NetClass == '55Ohm-se_CKE'")
+	(constraint track_width (min 0.102mm) (max 0.102mm))
+)
+
+(rule "55Ohm-se_S_outer"
+	(layer outer)
+	(condition "A.NetClass == '55Ohm-se_S'")
+	(constraint track_width (min 0.18mm) (max 0.18mm))
+)
+
+(rule "55Ohm-se_S_inner"
+	(layer inner)
+	(condition "A.NetClass == '55Ohm-se_S'")
+	(constraint track_width (min 0.102mm) (max 0.102mm))
+)
+
+(rule "55Ohm-se_CK_outer"
+	(layer outer)
+	(condition "A.NetClass == '55Ohm-se_CK'")
+	(constraint track_width (min 0.18mm) (max 0.18mm))
+)
+
+(rule "55Ohm-se_CK_inner"
+	(layer inner)
+	(condition "A.NetClass == '55Ohm-se_CK'")
+	(constraint track_width (min 0.102mm) (max 0.102mm))
+)
+
+
