@@ -2,7 +2,7 @@
 
 Copyright (c) 2026 [Antmicro](https://www.antmicro.com)
 
-![](img/topT_transparent.png)
+![](img/topT_transparent_crop.png)
 
 ## Overview
 
