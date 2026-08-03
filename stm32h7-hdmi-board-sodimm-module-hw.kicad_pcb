@@ -492613,7 +492613,7 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "Rev. 1.0.0 07/2026"
+	(gr_text "Rev. 1.0.0 08/2026"
 		(at 103.9 94.4 0)
 		(layer "F.SilkS")
 		(uuid "cb2e4a75-d8b6-4a43-abc4-806a70247451")
