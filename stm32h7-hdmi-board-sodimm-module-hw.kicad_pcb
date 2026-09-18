@@ -9,8 +9,8 @@
 	(paper "A4")
 	(title_block
 		(title "STM32H7 HDMI Board SODIMM")
-		(date "2026-08-03")
-		(rev "1.0.0")
+		(date "2026-09-18")
+		(rev "1.0.1")
 		(company "Antmicro Ltd")
 		(comment 1 "www.antmicro.com")
 	)
@@ -66407,7 +66407,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "4x1k_0201_array"
+		(property "Value" "4x10R_0201_array"
 			(at -1.1 1.8 0)
 			(layer "F.Fab")
 			(uuid "50e92e85-7a21-48ae-94f3-5f901b5b7921")
@@ -66431,7 +66431,7 @@
 				)
 			)
 		)
-		(property "Description" "Fixed Network Resistor, 1 kohm, Isolated, 4 Resistors, 0502 [1406 Metric], Flat, ± 5%"
+		(property "Description" "Fixed Network Resistor, 10 ohm, Isolated, 4 Resistors, 0502 [1406 Metric], Flat, ± 5%"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -66443,7 +66443,7 @@
 				)
 			)
 		)
-		(property "MPN" "EXB-18V102JX"
+		(property "MPN" "EXB-18V100JX"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -66469,7 +66469,7 @@
 				)
 			)
 		)
-		(property "Val" "4x1k_0201"
+		(property "Val" "4x10R_0201"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -66508,7 +66508,7 @@
 				)
 			)
 		)
-		(path "/6154d4a7-189d-4cbe-b2ef-ab7a8327ac2a/4789b011-929f-4d82-85c6-02b039b8cc07")
+		(path "/6154d4a7-189d-4cbe-b2ef-ab7a8327ac2a/b3c72aa4-f88c-450f-9b50-c8ee6a684aab")
 		(sheetname "/SODIMM/")
 		(sheetfile "sodimm.kicad_sch")
 		(units
@@ -142106,7 +142106,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "4x1k_0201_array"
+		(property "Value" "4x10R_0201_array"
 			(at -1.1 1.8 0)
 			(layer "F.Fab")
 			(uuid "4c45b0d2-1635-4953-ad0c-e02c89399315")
@@ -142130,7 +142130,7 @@
 				)
 			)
 		)
-		(property "Description" "Fixed Network Resistor, 1 kohm, Isolated, 4 Resistors, 0502 [1406 Metric], Flat, ± 5%"
+		(property "Description" "Fixed Network Resistor, 10 ohm, Isolated, 4 Resistors, 0502 [1406 Metric], Flat, ± 5%"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -142142,7 +142142,7 @@
 				)
 			)
 		)
-		(property "MPN" "EXB-18V102JX"
+		(property "MPN" "EXB-18V100JX"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -142168,7 +142168,7 @@
 				)
 			)
 		)
-		(property "Val" "4x1k_0201"
+		(property "Val" "4x10R_0201"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -142207,7 +142207,7 @@
 				)
 			)
 		)
-		(path "/6154d4a7-189d-4cbe-b2ef-ab7a8327ac2a/909ca765-3a08-44ae-980b-eba8caf61ab8")
+		(path "/6154d4a7-189d-4cbe-b2ef-ab7a8327ac2a/79294aaf-7150-4998-876b-26853aa27d24")
 		(sheetname "/SODIMM/")
 		(sheetfile "sodimm.kicad_sch")
 		(units
@@ -143444,7 +143444,7 @@
 			(layers "F.Cu" "F.Mask")
 			(net "/DQMB0")
 			(pinfunction "DQMB0_23")
-			(pintype "input")
+			(pintype "output")
 			(uuid "43202579-132b-4f5d-883d-535f8793cea1")
 		)
 		(pad "24" smd rect
@@ -143453,7 +143453,7 @@
 			(layers "B.Cu" "B.Mask")
 			(net "unconnected-(J1D-DQMB4-Pad24)")
 			(pinfunction "DQMB4_24")
-			(pintype "input+no_connect")
+			(pintype "output+no_connect")
 			(uuid "36750d88-1570-4152-b046-7b0b52d8c478")
 		)
 		(pad "25" smd rect
@@ -143462,7 +143462,7 @@
 			(layers "F.Cu" "F.Mask")
 			(net "/DQMB1")
 			(pinfunction "DQMB1_25")
-			(pintype "input")
+			(pintype "output")
 			(uuid "220345d3-25a3-4a38-91bc-32a5b2221b4f")
 		)
 		(pad "26" smd rect
@@ -143471,7 +143471,7 @@
 			(layers "B.Cu" "B.Mask")
 			(net "unconnected-(J1D-DQMB5-Pad26)")
 			(pinfunction "DQMB5_26")
-			(pintype "input+no_connect")
+			(pintype "output+no_connect")
 			(uuid "561d5cdc-c1e0-4e19-9eab-334a40c12144")
 		)
 		(pad "27" smd rect
@@ -144272,7 +144272,7 @@
 			(layers "F.Cu" "F.Mask")
 			(net "/DQMB2")
 			(pinfunction "DQMB2_115")
-			(pintype "input")
+			(pintype "output")
 			(uuid "59d8d015-f444-457e-8d6f-42a1763c4d84")
 		)
 		(pad "116" smd rect
@@ -144281,7 +144281,7 @@
 			(layers "B.Cu" "B.Mask")
 			(net "unconnected-(J1D-DQMB6-Pad116)")
 			(pinfunction "DQMB6_116")
-			(pintype "input+no_connect")
+			(pintype "output+no_connect")
 			(uuid "cf25101d-59ac-4b24-a5ae-899f757da0e2")
 		)
 		(pad "117" smd rect
@@ -144290,7 +144290,7 @@
 			(layers "F.Cu" "F.Mask")
 			(net "/DQMB3")
 			(pinfunction "DQMB3_117")
-			(pintype "input")
+			(pintype "output")
 			(uuid "c9846785-bfd3-4b37-8369-6631dd344d53")
 		)
 		(pad "118" smd rect
@@ -144299,7 +144299,7 @@
 			(layers "B.Cu" "B.Mask")
 			(net "unconnected-(J1D-DQMB7-Pad118)")
 			(pinfunction "DQMB7_118")
-			(pintype "input+no_connect")
+			(pintype "output+no_connect")
 			(uuid "f4c7c222-3118-4d0b-9821-f56442122751")
 		)
 		(pad "119" smd rect
@@ -175570,7 +175570,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "4x1k_0201_array"
+		(property "Value" "4x10R_0201_array"
 			(at -1.1 1.8 0)
 			(layer "F.Fab")
 			(uuid "b1eb2f05-6313-4213-b242-0fbc0bb2c2b7")
@@ -175594,7 +175594,7 @@
 				)
 			)
 		)
-		(property "Description" "Fixed Network Resistor, 1 kohm, Isolated, 4 Resistors, 0502 [1406 Metric], Flat, ± 5%"
+		(property "Description" "Fixed Network Resistor, 10 ohm, Isolated, 4 Resistors, 0502 [1406 Metric], Flat, ± 5%"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -175606,7 +175606,7 @@
 				)
 			)
 		)
-		(property "MPN" "EXB-18V102JX"
+		(property "MPN" "EXB-18V100JX"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -175632,7 +175632,7 @@
 				)
 			)
 		)
-		(property "Val" "4x1k_0201"
+		(property "Val" "4x10R_0201"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -175671,7 +175671,7 @@
 				)
 			)
 		)
-		(path "/6154d4a7-189d-4cbe-b2ef-ab7a8327ac2a/99a397b9-1649-420f-bfcd-00c8a41d9fa8")
+		(path "/6154d4a7-189d-4cbe-b2ef-ab7a8327ac2a/eeea7b6c-3646-42d6-af73-6f45e5a53f89")
 		(sheetname "/SODIMM/")
 		(sheetfile "sodimm.kicad_sch")
 		(units
@@ -243947,7 +243947,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "4x1k_0201_array"
+		(property "Value" "4x10R_0201_array"
 			(at -1.1 1.8 0)
 			(layer "F.Fab")
 			(uuid "d6dedafb-e7e4-49fd-aada-bad8d40d4a18")
@@ -243971,7 +243971,7 @@
 				)
 			)
 		)
-		(property "Description" "Fixed Network Resistor, 1 kohm, Isolated, 4 Resistors, 0502 [1406 Metric], Flat, ± 5%"
+		(property "Description" "Fixed Network Resistor, 10 ohm, Isolated, 4 Resistors, 0502 [1406 Metric], Flat, ± 5%"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -243983,7 +243983,7 @@
 				)
 			)
 		)
-		(property "MPN" "EXB-18V102JX"
+		(property "MPN" "EXB-18V100JX"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -244009,7 +244009,7 @@
 				)
 			)
 		)
-		(property "Val" "4x1k_0201"
+		(property "Val" "4x10R_0201"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -244048,7 +244048,7 @@
 				)
 			)
 		)
-		(path "/6154d4a7-189d-4cbe-b2ef-ab7a8327ac2a/5561ae3c-abcd-4903-8433-b2dc43427257")
+		(path "/6154d4a7-189d-4cbe-b2ef-ab7a8327ac2a/b0c5c643-e1b6-496b-87e2-90d0d00aed3e")
 		(sheetname "/SODIMM/")
 		(sheetfile "sodimm.kicad_sch")
 		(units
@@ -492613,7 +492613,7 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "Rev. 1.0.0 08/2026"
+	(gr_text "Rev. 1.0.1 09/2026"
 		(at 103.9 94.4 0)
 		(layer "F.SilkS")
 		(uuid "cb2e4a75-d8b6-4a43-abc4-806a70247451")
