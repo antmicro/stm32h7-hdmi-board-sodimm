@@ -11816,454 +11816,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "antmicroResistorNetworksArrays:4x1k_0201_array"
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "R"
-				(at 26.67 -5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" "4x1k_0201_array"
-				(at 26.67 -7.62 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" "antmicro-footprints:R_Array_4x0201_Panasonic_EXB18V"
-				(at 26.67 -12.7 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Datasheet" "http://industrial.panasonic.com/cdbs/www-data/pdf/AOC0000/AOC0000C14.pdf"
-				(at 26.67 -15.24 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Description" "Fixed Network Resistor, 1 kohm, Isolated, 4 Resistors, 0502 [1406 Metric], Flat, ± 5%"
-				(at 26.67 -27.94 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "MPN" "EXB-18V102JX"
-				(at 26.67 -17.78 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Manufacturer" "Panasonic"
-				(at 26.67 -20.32 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Val" "4x1k_0201"
-				(at 26.67 -10.16 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Author" "Antmicro"
-				(at 26.67 -22.86 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "License" "Apache-2.0"
-				(at 26.67 -25.4 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(thickness 0.15)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "ki_keywords" "0201, SMT, RESISTOR, PASSIVE, ARRAY, RoHS"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "4x1k_0201_array_0_1"
-				(polyline
-					(pts
-						(xy 2.54 0) (xy 3.175 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -2.54) (xy 3.175 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -5.08) (xy 3.175 -5.08)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -7.62) (xy 3.175 -7.62)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 2.667 1.27)
-					(end 7.493 -8.89)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(rectangle
-					(start 6.985 0.635)
-					(end 3.175 -0.635)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 6.985 0) (xy 7.62 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 6.985 -1.905)
-					(end 3.175 -3.175)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 6.985 -2.54) (xy 7.62 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 6.985 -4.445)
-					(end 3.175 -5.715)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 6.985 -5.08) (xy 7.62 -5.08)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 6.985 -6.985)
-					(end 3.175 -8.255)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 6.985 -7.62) (xy 7.62 -7.62)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "4x1k_0201_array_1_1"
-				(pin passive line
-					(at 0 0 0)
-					(length 2.54)
-					(name "R1.1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 0)
-					(length 2.54)
-					(name "R2.1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -5.08 0)
-					(length 2.54)
-					(name "R3.1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -7.62 0)
-					(length 2.54)
-					(name "R4.1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 10.16 -7.62 180)
-					(length 2.54)
-					(name "R4.2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 10.16 -5.08 180)
-					(length 2.54)
-					(name "R3.2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 10.16 -2.54 180)
-					(length 2.54)
-					(name "R2.2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 10.16 0 180)
-					(length 2.54)
-					(name "R1.2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "antmicroTestPoints:TP_1mm_SMD"
 			(pin_names
 				(hide yes)
@@ -17173,176 +16725,6 @@
 		)
 	)
 	(symbol
-		(lib_id "antmicroResistorNetworksArrays:4x1k_0201_array")
-		(at 190.5 199.39 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "4789b011-929f-4d82-85c6-02b039b8cc07")
-		(property "Reference" "R6"
-			(at 185.42 193.04 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "4x1k_0201_array"
-			(at 163.83 207.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "antmicro-footprints:R_Array_4x0201_Panasonic_EXB18V"
-			(at 163.83 212.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Datasheet" "http://industrial.panasonic.com/cdbs/www-data/pdf/AOC0000/AOC0000C14.pdf"
-			(at 163.83 214.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Description" "Fixed Network Resistor, 1 kohm, Isolated, 4 Resistors, 0502 [1406 Metric], Flat, ± 5%"
-			(at 163.83 227.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "MPN" "EXB-18V102JX"
-			(at 163.83 217.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Manufacturer" "Panasonic"
-			(at 163.83 219.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Val" "4x1k_0201"
-			(at 185.42 195.58 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Author" "Antmicro"
-			(at 163.83 222.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 163.83 224.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-			)
-		)
-		(pin "8"
-			(uuid "e2f7983e-2eca-4428-9c3d-534b3464c1b2")
-		)
-		(pin "4"
-			(uuid "f89a798c-77f8-4243-b967-89acbb4bbe88")
-		)
-		(pin "6"
-			(uuid "a5c2478e-dd87-4aed-bbd6-2e97cec790e4")
-		)
-		(pin "1"
-			(uuid "81c55e7a-ce6f-4f89-937c-c66aa8c4e428")
-		)
-		(pin "7"
-			(uuid "a58abd2d-db76-4ee0-a450-b9c93212b84a")
-		)
-		(pin "2"
-			(uuid "c8dfe5f8-0249-46d7-9f07-df2232a66c23")
-		)
-		(pin "3"
-			(uuid "e083df49-b9ff-4e27-85d7-f4ef66e45506")
-		)
-		(pin "5"
-			(uuid "fc5a61d2-ab15-43d0-b522-0c83ebae57bd")
-		)
-		(instances
-			(project "stm32h7-hdmi-board-sodimm-module-hw"
-				(path "/92fcd7c5-798f-49cd-ae80-ce2fa78a6354/6154d4a7-189d-4cbe-b2ef-ab7a8327ac2a"
-					(reference "R6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "antmicroResistorNetworksArrays:4x10R_0201_array")
 		(at 190.5 158.75 0)
 		(mirror y)
@@ -17507,176 +16889,6 @@
 			(project "stm32h7-hdmi-board-sodimm-module-hw"
 				(path "/92fcd7c5-798f-49cd-ae80-ce2fa78a6354/6154d4a7-189d-4cbe-b2ef-ab7a8327ac2a"
 					(reference "R2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "antmicroResistorNetworksArrays:4x1k_0201_array")
-		(at 201.93 209.55 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "5561ae3c-abcd-4903-8433-b2dc43427257")
-		(property "Reference" "R7"
-			(at 196.85 203.2 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "4x1k_0201_array"
-			(at 175.26 217.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "antmicro-footprints:R_Array_4x0201_Panasonic_EXB18V"
-			(at 175.26 222.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Datasheet" "http://industrial.panasonic.com/cdbs/www-data/pdf/AOC0000/AOC0000C14.pdf"
-			(at 175.26 224.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Description" "Fixed Network Resistor, 1 kohm, Isolated, 4 Resistors, 0502 [1406 Metric], Flat, ± 5%"
-			(at 175.26 237.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "MPN" "EXB-18V102JX"
-			(at 175.26 227.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Manufacturer" "Panasonic"
-			(at 175.26 229.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Val" "4x1k_0201"
-			(at 196.85 205.74 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Author" "Antmicro"
-			(at 175.26 232.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 175.26 234.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-			)
-		)
-		(pin "8"
-			(uuid "9583dd72-45da-44ac-9365-d9b2c300511c")
-		)
-		(pin "4"
-			(uuid "6cd086ed-a2ae-4672-8b7b-e9872a55dce0")
-		)
-		(pin "6"
-			(uuid "9a6cfec3-9d96-42c5-a660-208c952aedec")
-		)
-		(pin "1"
-			(uuid "326f2c87-fb19-45d6-9f07-e6206f40ead4")
-		)
-		(pin "7"
-			(uuid "f16bd5a9-4a2c-47fb-bb31-eeebadc665ce")
-		)
-		(pin "2"
-			(uuid "664a119d-dc65-43dd-8284-9a55f4ed49bd")
-		)
-		(pin "3"
-			(uuid "6f8d8793-66b7-41a8-9806-86a404c2e398")
-		)
-		(pin "5"
-			(uuid "866c37dd-0f05-4a8e-9902-4fcf69fc5b81")
-		)
-		(instances
-			(project "stm32h7-hdmi-board-sodimm-module-hw"
-				(path "/92fcd7c5-798f-49cd-ae80-ce2fa78a6354/6154d4a7-189d-4cbe-b2ef-ab7a8327ac2a"
-					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -18421,6 +17633,176 @@
 			(project "stm32h7-hdmi-board-sodimm-module-hw"
 				(path "/92fcd7c5-798f-49cd-ae80-ce2fa78a6354/6154d4a7-189d-4cbe-b2ef-ab7a8327ac2a"
 					(reference "#PWR040")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "antmicroResistorNetworksArrays:4x10R_0201_array")
+		(at 190.5 219.71 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "79294aaf-7150-4998-876b-26853aa27d24")
+		(property "Reference" "R8"
+			(at 185.42 213.36 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "4x10R_0201_array"
+			(at 163.83 227.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "antmicro-footprints:R_Array_4x0201_Panasonic_EXB18V"
+			(at 163.83 232.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Datasheet" "http://industrial.panasonic.com/cdbs/www-data/pdf/AOC0000/AOC0000C14.pdf"
+			(at 163.83 234.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Description" "Fixed Network Resistor, 10 ohm, Isolated, 4 Resistors, 0502 [1406 Metric], Flat, ± 5%"
+			(at 163.83 247.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "MPN" "EXB-18V100JX"
+			(at 163.83 237.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Manufacturer" "Panasonic"
+			(at 163.83 240.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Val" "4x10R_0201"
+			(at 185.42 215.9 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 163.83 242.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 163.83 245.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(pin "1"
+			(uuid "9b8d28d0-774a-4aa2-861f-5c327d782bd4")
+		)
+		(pin "4"
+			(uuid "905df754-d665-495f-aa32-18f2dfc71c4e")
+		)
+		(pin "8"
+			(uuid "948d400c-c7a7-4875-82f5-9e548005c658")
+		)
+		(pin "7"
+			(uuid "cb123236-3211-4752-8b1c-c7c9f9b8a245")
+		)
+		(pin "2"
+			(uuid "d205f0f9-e663-4ba5-9fba-0060efa36444")
+		)
+		(pin "5"
+			(uuid "607e134a-5ca8-4fad-a3d4-f7b078959fb9")
+		)
+		(pin "3"
+			(uuid "0dd02137-5ca3-4a95-9066-5ac6f16da956")
+		)
+		(pin "6"
+			(uuid "816cb3ac-3883-40dc-b218-0a8ef66a8265")
+		)
+		(instances
+			(project "stm32h7-hdmi-board-sodimm-module-hw"
+				(path "/92fcd7c5-798f-49cd-ae80-ce2fa78a6354/6154d4a7-189d-4cbe-b2ef-ab7a8327ac2a"
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -19204,8 +18586,8 @@
 		)
 	)
 	(symbol
-		(lib_id "antmicroResistorNetworksArrays:4x1k_0201_array")
-		(at 190.5 219.71 0)
+		(lib_id "antmicroResistorNetworksArrays:4x10R_0201_array")
+		(at 201.93 209.55 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -19214,9 +18596,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "909ca765-3a08-44ae-980b-eba8caf61ab8")
-		(property "Reference" "R8"
-			(at 185.42 213.36 0)
+		(uuid "b0c5c643-e1b6-496b-87e2-90d0d00aed3e")
+		(property "Reference" "R7"
+			(at 196.85 203.2 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19226,216 +18608,7 @@
 				)
 			)
 		)
-		(property "Value" "4x1k_0201_array"
-			(at 163.83 227.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "antmicro-footprints:R_Array_4x0201_Panasonic_EXB18V"
-			(at 163.83 232.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Datasheet" "http://industrial.panasonic.com/cdbs/www-data/pdf/AOC0000/AOC0000C14.pdf"
-			(at 163.83 234.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Description" "Fixed Network Resistor, 1 kohm, Isolated, 4 Resistors, 0502 [1406 Metric], Flat, ± 5%"
-			(at 163.83 247.65 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "MPN" "EXB-18V102JX"
-			(at 163.83 237.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Manufacturer" "Panasonic"
-			(at 163.83 240.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Val" "4x1k_0201"
-			(at 185.42 215.9 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Author" "Antmicro"
-			(at 163.83 242.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "License" "Apache-2.0"
-			(at 163.83 245.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-			)
-		)
-		(pin "8"
-			(uuid "3d0515e2-fca8-414a-9b28-29d7530cf90b")
-		)
-		(pin "4"
-			(uuid "f94fd7e3-ea48-4635-8525-8e3cf04fcb31")
-		)
-		(pin "6"
-			(uuid "08cd08db-d1a1-402e-b8db-86eba6e68766")
-		)
-		(pin "1"
-			(uuid "73782bdb-49f6-4259-b4dd-fd27c1f78670")
-		)
-		(pin "7"
-			(uuid "1e2a10b9-fc54-4688-a2a8-97c5e6258443")
-		)
-		(pin "2"
-			(uuid "51e86932-03b6-4e85-a702-c8f81d3794b4")
-		)
-		(pin "3"
-			(uuid "1f9b32ab-ceb7-4308-bb16-9f2c4d6c84ff")
-		)
-		(pin "5"
-			(uuid "98500728-c76a-46d5-b005-392d58862af4")
-		)
-		(instances
-			(project "stm32h7-hdmi-board-sodimm-module-hw"
-				(path "/92fcd7c5-798f-49cd-ae80-ce2fa78a6354/6154d4a7-189d-4cbe-b2ef-ab7a8327ac2a"
-					(reference "R8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "antmicroResistorNetworksArrays:4x1k_0201_array")
-		(at 201.93 189.23 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "99a397b9-1649-420f-bfcd-00c8a41d9fa8")
-		(property "Reference" "R5"
-			(at 196.85 182.88 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "4x1k_0201_array"
-			(at 175.26 196.85 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "antmicro-footprints:R_Array_4x0201_Panasonic_EXB18V"
-			(at 175.26 201.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Datasheet" "http://industrial.panasonic.com/cdbs/www-data/pdf/AOC0000/AOC0000C14.pdf"
-			(at 175.26 204.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Description" "Fixed Network Resistor, 1 kohm, Isolated, 4 Resistors, 0502 [1406 Metric], Flat, ± 5%"
+		(property "Value" "4x10R_0201_array"
 			(at 175.26 217.17 0)
 			(hide yes)
 			(show_name no)
@@ -19443,12 +18616,51 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 				(justify left bottom)
 			)
 		)
-		(property "MPN" "EXB-18V102JX"
-			(at 175.26 207.01 0)
+		(property "Footprint" "antmicro-footprints:R_Array_4x0201_Panasonic_EXB18V"
+			(at 175.26 222.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Datasheet" "http://industrial.panasonic.com/cdbs/www-data/pdf/AOC0000/AOC0000C14.pdf"
+			(at 175.26 224.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Description" "Fixed Network Resistor, 10 ohm, Isolated, 4 Resistors, 0502 [1406 Metric], Flat, ± 5%"
+			(at 175.26 237.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "MPN" "EXB-18V100JX"
+			(at 175.26 227.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19461,7 +18673,7 @@
 			)
 		)
 		(property "Manufacturer" "Panasonic"
-			(at 175.26 209.55 0)
+			(at 175.26 229.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19473,8 +18685,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Val" "4x1k_0201"
-			(at 196.85 185.42 0)
+		(property "Val" "4x10R_0201"
+			(at 196.85 205.74 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19485,7 +18697,7 @@
 			)
 		)
 		(property "Author" "Antmicro"
-			(at 175.26 212.09 0)
+			(at 175.26 232.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19498,7 +18710,7 @@
 			)
 		)
 		(property "License" "Apache-2.0"
-			(at 175.26 214.63 0)
+			(at 175.26 234.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19510,34 +18722,204 @@
 				(justify left bottom)
 			)
 		)
-		(pin "8"
-			(uuid "a174cea3-3100-4d68-992a-07c46c79d2e3")
+		(pin "1"
+			(uuid "6995175b-ad13-4bb7-8a0a-236ac3958ecc")
 		)
 		(pin "4"
-			(uuid "fb40f99d-1b50-49f2-abfc-ad997cffbb05")
+			(uuid "b9879d3c-d370-40c8-a4c2-6ce15adb8be3")
 		)
-		(pin "6"
-			(uuid "6ce0e20d-85a1-4c04-a7e1-a9468d502d5e")
-		)
-		(pin "1"
-			(uuid "0c0998dd-0a95-45ed-b065-b9b4f1a1c743")
+		(pin "8"
+			(uuid "99f4d595-fd08-400f-8183-4bc9941078cb")
 		)
 		(pin "7"
-			(uuid "35f692e8-06fa-416d-86b2-73be76edee75")
+			(uuid "54a16fdd-22ac-4c13-8b5e-e9af4fd8facc")
 		)
 		(pin "2"
-			(uuid "3b6ca6b7-bfab-4f60-a4c2-e7ae09bddc97")
-		)
-		(pin "3"
-			(uuid "9e7a4a4c-2e63-44d5-b0ad-b28b7193b0b0")
+			(uuid "4c3b8bde-79ec-4f90-b7ff-d83c8599f8b7")
 		)
 		(pin "5"
-			(uuid "7486d139-3c6b-4231-97a2-4eb40a7bd764")
+			(uuid "754d4bf3-3e51-4254-845f-077d02d05901")
+		)
+		(pin "3"
+			(uuid "74de94e3-549c-43d2-8168-92ec963293b4")
+		)
+		(pin "6"
+			(uuid "330f6a44-a15c-4fe1-8ace-5cba5a6c5cfa")
 		)
 		(instances
 			(project "stm32h7-hdmi-board-sodimm-module-hw"
 				(path "/92fcd7c5-798f-49cd-ae80-ce2fa78a6354/6154d4a7-189d-4cbe-b2ef-ab7a8327ac2a"
-					(reference "R5")
+					(reference "R7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "antmicroResistorNetworksArrays:4x10R_0201_array")
+		(at 190.5 199.39 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b3c72aa4-f88c-450f-9b50-c8ee6a684aab")
+		(property "Reference" "R6"
+			(at 185.42 193.04 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "4x10R_0201_array"
+			(at 163.83 207.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "antmicro-footprints:R_Array_4x0201_Panasonic_EXB18V"
+			(at 163.83 212.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Datasheet" "http://industrial.panasonic.com/cdbs/www-data/pdf/AOC0000/AOC0000C14.pdf"
+			(at 163.83 214.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Description" "Fixed Network Resistor, 10 ohm, Isolated, 4 Resistors, 0502 [1406 Metric], Flat, ± 5%"
+			(at 163.83 227.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "MPN" "EXB-18V100JX"
+			(at 163.83 217.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Manufacturer" "Panasonic"
+			(at 163.83 219.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Val" "4x10R_0201"
+			(at 185.42 195.58 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 163.83 222.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 163.83 224.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(pin "1"
+			(uuid "5458e4fe-4b69-4a30-8bb3-1b3d224e5be6")
+		)
+		(pin "4"
+			(uuid "646a5040-487f-427e-94d7-2ab5c613ca25")
+		)
+		(pin "8"
+			(uuid "504f4779-4422-45a1-8c7a-b0e7b2936531")
+		)
+		(pin "7"
+			(uuid "852cd4c2-0362-4e33-a389-0a51f53f74fa")
+		)
+		(pin "2"
+			(uuid "d95de8fb-e5bd-4793-b79a-cf135212d5f8")
+		)
+		(pin "5"
+			(uuid "8e6480cd-262f-40ea-afe5-91475a9a29fb")
+		)
+		(pin "3"
+			(uuid "08133768-0e20-4ae8-a4fd-91494ff89672")
+		)
+		(pin "6"
+			(uuid "0cd554d7-f471-4372-8d49-15cb5a703767")
+		)
+		(instances
+			(project "stm32h7-hdmi-board-sodimm-module-hw"
+				(path "/92fcd7c5-798f-49cd-ae80-ce2fa78a6354/6154d4a7-189d-4cbe-b2ef-ab7a8327ac2a"
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -20679,6 +20061,176 @@
 			(project "stm32h7-hdmi-board-sodimm-module-hw"
 				(path "/92fcd7c5-798f-49cd-ae80-ce2fa78a6354/6154d4a7-189d-4cbe-b2ef-ab7a8327ac2a"
 					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "antmicroResistorNetworksArrays:4x10R_0201_array")
+		(at 201.93 189.23 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "eeea7b6c-3646-42d6-af73-6f45e5a53f89")
+		(property "Reference" "R5"
+			(at 196.85 182.88 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "4x10R_0201_array"
+			(at 175.26 196.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "antmicro-footprints:R_Array_4x0201_Panasonic_EXB18V"
+			(at 175.26 201.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Datasheet" "http://industrial.panasonic.com/cdbs/www-data/pdf/AOC0000/AOC0000C14.pdf"
+			(at 175.26 204.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Description" "Fixed Network Resistor, 10 ohm, Isolated, 4 Resistors, 0502 [1406 Metric], Flat, ± 5%"
+			(at 175.26 217.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "MPN" "EXB-18V100JX"
+			(at 175.26 207.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Manufacturer" "Panasonic"
+			(at 175.26 209.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Val" "4x10R_0201"
+			(at 196.85 185.42 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Author" "Antmicro"
+			(at 175.26 212.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "License" "Apache-2.0"
+			(at 175.26 214.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify left bottom)
+			)
+		)
+		(pin "1"
+			(uuid "76a00860-0743-4b4a-98d9-8d37f30d2990")
+		)
+		(pin "4"
+			(uuid "b70daf11-02d7-48db-8997-07195d1fc15b")
+		)
+		(pin "8"
+			(uuid "6f61b2fc-b9db-40d8-848c-67f6dee7540a")
+		)
+		(pin "7"
+			(uuid "06ae089d-9780-43b0-aafc-ae8be39d0a57")
+		)
+		(pin "2"
+			(uuid "65c68821-9bb8-4831-8202-b30d3df62eb1")
+		)
+		(pin "5"
+			(uuid "e13d3470-f4fb-4af6-891d-962a5fffe6eb")
+		)
+		(pin "3"
+			(uuid "8f046c63-3072-4560-8828-fa3c598c1709")
+		)
+		(pin "6"
+			(uuid "65d4bbc2-ab54-4590-9029-0097f14bf88d")
+		)
+		(instances
+			(project "stm32h7-hdmi-board-sodimm-module-hw"
+				(path "/92fcd7c5-798f-49cd-ae80-ce2fa78a6354/6154d4a7-189d-4cbe-b2ef-ab7a8327ac2a"
+					(reference "R5")
 					(unit 1)
 				)
 			)
