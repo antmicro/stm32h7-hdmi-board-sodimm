@@ -3354,7 +3354,7 @@
 			(uuid "3d330b65-a194-4945-9fb2-eca5592add65")
 		)
 		(instances
-			(project "stm32h7-hdmi-board-sodimm-module-hw"
+			(project "stm32h7-hdmi-board-sodimm-module"
 				(path "/92fcd7c5-798f-49cd-ae80-ce2fa78a6354/00718bf9-b2bc-41a9-8ef2-aaf34287a0e4"
 					(reference "C14")
 					(unit 1)
@@ -3560,7 +3560,7 @@
 			(uuid "ca1621e2-def3-4e79-8a98-8f6e2d50bd35")
 		)
 		(instances
-			(project "stm32h7-hdmi-board-sodimm-module-hw"
+			(project "stm32h7-hdmi-board-sodimm-module"
 				(path "/92fcd7c5-798f-49cd-ae80-ce2fa78a6354/00718bf9-b2bc-41a9-8ef2-aaf34287a0e4"
 					(reference "C10")
 					(unit 1)
@@ -3766,7 +3766,7 @@
 			(uuid "dff1ec21-0992-444d-a934-fa0f472534d9")
 		)
 		(instances
-			(project "stm32h7-hdmi-board-sodimm-module-hw"
+			(project "stm32h7-hdmi-board-sodimm-module"
 				(path "/92fcd7c5-798f-49cd-ae80-ce2fa78a6354/00718bf9-b2bc-41a9-8ef2-aaf34287a0e4"
 					(reference "C16")
 					(unit 1)
@@ -3972,7 +3972,7 @@
 			(uuid "ce440215-da32-415d-9498-47518776e034")
 		)
 		(instances
-			(project "stm32h7-hdmi-board-sodimm-module-hw"
+			(project "stm32h7-hdmi-board-sodimm-module"
 				(path "/92fcd7c5-798f-49cd-ae80-ce2fa78a6354/00718bf9-b2bc-41a9-8ef2-aaf34287a0e4"
 					(reference "C9")
 					(unit 1)
@@ -4178,7 +4178,7 @@
 			(uuid "88bebba5-1941-4edb-8d5b-86e6cf446f74")
 		)
 		(instances
-			(project "stm32h7-hdmi-board-sodimm-module-hw"
+			(project "stm32h7-hdmi-board-sodimm-module"
 				(path "/92fcd7c5-798f-49cd-ae80-ce2fa78a6354/00718bf9-b2bc-41a9-8ef2-aaf34287a0e4"
 					(reference "C13")
 					(unit 1)
@@ -4318,7 +4318,7 @@
 			(uuid "879b5645-d049-49bb-839d-07238111600a")
 		)
 		(instances
-			(project "stm32h7-hdmi-board-sodimm-module-hw"
+			(project "stm32h7-hdmi-board-sodimm-module"
 				(path "/92fcd7c5-798f-49cd-ae80-ce2fa78a6354/00718bf9-b2bc-41a9-8ef2-aaf34287a0e4"
 					(reference "#PWR024")
 					(unit 1)
@@ -4524,7 +4524,7 @@
 			(uuid "7b0d1d88-4300-444a-88a2-3565afa7561d")
 		)
 		(instances
-			(project "stm32h7-hdmi-board-sodimm-module-hw"
+			(project "stm32h7-hdmi-board-sodimm-module"
 				(path "/92fcd7c5-798f-49cd-ae80-ce2fa78a6354/00718bf9-b2bc-41a9-8ef2-aaf34287a0e4"
 					(reference "C12")
 					(unit 1)
@@ -4631,7 +4631,7 @@
 			(uuid "edcb5b7c-eab1-4c87-8a96-9dd86e104f4a")
 		)
 		(instances
-			(project "stm32h7-hdmi-board-sodimm-module-hw"
+			(project "stm32h7-hdmi-board-sodimm-module"
 				(path "/92fcd7c5-798f-49cd-ae80-ce2fa78a6354/00718bf9-b2bc-41a9-8ef2-aaf34287a0e4"
 					(reference "#PWR08")
 					(unit 1)
@@ -4958,7 +4958,7 @@
 			(uuid "2e1a0cf7-91fa-4329-930b-5a97549dcbab")
 		)
 		(instances
-			(project "stm32h7-hdmi-board-sodimm-module-hw"
+			(project "stm32h7-hdmi-board-sodimm-module"
 				(path "/92fcd7c5-798f-49cd-ae80-ce2fa78a6354/00718bf9-b2bc-41a9-8ef2-aaf34287a0e4"
 					(reference "U2")
 					(unit 1)
@@ -5164,7 +5164,7 @@
 			(uuid "3755948b-c4bb-485c-81f7-81eee893c79e")
 		)
 		(instances
-			(project "stm32h7-hdmi-board-sodimm-module-hw"
+			(project "stm32h7-hdmi-board-sodimm-module"
 				(path "/92fcd7c5-798f-49cd-ae80-ce2fa78a6354/00718bf9-b2bc-41a9-8ef2-aaf34287a0e4"
 					(reference "C15")
 					(unit 1)
@@ -5304,7 +5304,7 @@
 			(uuid "65253c09-db6e-4e5f-b6c4-6af31a697d10")
 		)
 		(instances
-			(project "stm32h7-hdmi-board-sodimm-module-hw"
+			(project "stm32h7-hdmi-board-sodimm-module"
 				(path "/92fcd7c5-798f-49cd-ae80-ce2fa78a6354/00718bf9-b2bc-41a9-8ef2-aaf34287a0e4"
 					(reference "#PWR09")
 					(unit 1)
@@ -5411,7 +5411,7 @@
 			(uuid "9cfc23cf-efcf-49c7-a470-dfa972c1044c")
 		)
 		(instances
-			(project "stm32h7-hdmi-board-sodimm-module-hw"
+			(project "stm32h7-hdmi-board-sodimm-module"
 				(path "/92fcd7c5-798f-49cd-ae80-ce2fa78a6354/00718bf9-b2bc-41a9-8ef2-aaf34287a0e4"
 					(reference "#PWR011")
 					(unit 1)
@@ -5617,7 +5617,7 @@
 			(uuid "86e4dc20-c12a-4cea-b2bd-e064658885ff")
 		)
 		(instances
-			(project "stm32h7-hdmi-board-sodimm-module-hw"
+			(project "stm32h7-hdmi-board-sodimm-module"
 				(path "/92fcd7c5-798f-49cd-ae80-ce2fa78a6354/00718bf9-b2bc-41a9-8ef2-aaf34287a0e4"
 					(reference "C11")
 					(unit 1)

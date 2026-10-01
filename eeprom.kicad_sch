@@ -1740,7 +1740,7 @@
 			(uuid "10fb9d3e-afcf-4ac2-8a0b-c2d7b813fc47")
 		)
 		(instances
-			(project "stm32h7-hdmi-board-sodimm-module-hw"
+			(project "stm32h7-hdmi-board-sodimm-module"
 				(path "/92fcd7c5-798f-49cd-ae80-ce2fa78a6354/02eb4e3c-e878-409b-8c26-d4f0756348cb"
 					(reference "U10")
 					(unit 1)
@@ -1906,7 +1906,7 @@
 			(uuid "7c2439cf-4302-43ae-bd84-9e4e9aafae80")
 		)
 		(instances
-			(project "stm32h7-hdmi-board-sodimm-module-hw"
+			(project "stm32h7-hdmi-board-sodimm-module"
 				(path "/92fcd7c5-798f-49cd-ae80-ce2fa78a6354/02eb4e3c-e878-409b-8c26-d4f0756348cb"
 					(reference "R10")
 					(unit 1)
@@ -2039,7 +2039,7 @@
 			(uuid "3636ac42-6fca-42c0-a1ff-27942375d081")
 		)
 		(instances
-			(project "stm32h7-hdmi-board-sodimm-module-hw"
+			(project "stm32h7-hdmi-board-sodimm-module"
 				(path "/92fcd7c5-798f-49cd-ae80-ce2fa78a6354/02eb4e3c-e878-409b-8c26-d4f0756348cb"
 					(reference "TP1")
 					(unit 1)
@@ -2118,7 +2118,7 @@
 			(uuid "ef461029-40d5-410d-9b66-7386e7edb3cb")
 		)
 		(instances
-			(project "stm32h7-hdmi-board-sodimm-module-hw"
+			(project "stm32h7-hdmi-board-sodimm-module"
 				(path "/92fcd7c5-798f-49cd-ae80-ce2fa78a6354/02eb4e3c-e878-409b-8c26-d4f0756348cb"
 					(reference "#PWR04")
 					(unit 1)
@@ -2230,7 +2230,7 @@
 			(uuid "6370d0d5-5506-4d21-a5d1-5f1e8d257fda")
 		)
 		(instances
-			(project "stm32h7-hdmi-board-sodimm-module-hw"
+			(project "stm32h7-hdmi-board-sodimm-module"
 				(path "/92fcd7c5-798f-49cd-ae80-ce2fa78a6354/02eb4e3c-e878-409b-8c26-d4f0756348cb"
 					(reference "#PWR041")
 					(unit 1)
@@ -2396,7 +2396,7 @@
 			(uuid "b2941b11-81f0-4e50-ac92-7e58255368a0")
 		)
 		(instances
-			(project "stm32h7-hdmi-board-sodimm-module-hw"
+			(project "stm32h7-hdmi-board-sodimm-module"
 				(path "/92fcd7c5-798f-49cd-ae80-ce2fa78a6354/02eb4e3c-e878-409b-8c26-d4f0756348cb"
 					(reference "R9")
 					(unit 1)
@@ -2475,7 +2475,7 @@
 			(uuid "e229c632-58a0-42f9-8f0a-0a347ac931be")
 		)
 		(instances
-			(project "stm32h7-hdmi-board-sodimm-module-hw"
+			(project "stm32h7-hdmi-board-sodimm-module"
 				(path "/92fcd7c5-798f-49cd-ae80-ce2fa78a6354/02eb4e3c-e878-409b-8c26-d4f0756348cb"
 					(reference "#PWR03")
 					(unit 1)
@@ -2608,7 +2608,7 @@
 			(uuid "6e6b833e-87fe-40b9-ba87-8ded6b408cfa")
 		)
 		(instances
-			(project "stm32h7-hdmi-board-sodimm-module-hw"
+			(project "stm32h7-hdmi-board-sodimm-module"
 				(path "/92fcd7c5-798f-49cd-ae80-ce2fa78a6354/02eb4e3c-e878-409b-8c26-d4f0756348cb"
 					(reference "TP4")
 					(unit 1)
@@ -2786,7 +2786,7 @@
 			(uuid "66496138-ac2e-4a68-b4a0-241d049dcfe9")
 		)
 		(instances
-			(project "stm32h7-hdmi-board-sodimm-module-hw"
+			(project "stm32h7-hdmi-board-sodimm-module"
 				(path "/92fcd7c5-798f-49cd-ae80-ce2fa78a6354/02eb4e3c-e878-409b-8c26-d4f0756348cb"
 					(reference "C65")
 					(unit 1)
@@ -2865,7 +2865,7 @@
 			(uuid "a8f80cfb-03f4-413b-8dbf-702596847455")
 		)
 		(instances
-			(project "stm32h7-hdmi-board-sodimm-module-hw"
+			(project "stm32h7-hdmi-board-sodimm-module"
 				(path "/92fcd7c5-798f-49cd-ae80-ce2fa78a6354/02eb4e3c-e878-409b-8c26-d4f0756348cb"
 					(reference "#PWR037")
 					(unit 1)
@@ -2977,7 +2977,7 @@
 			(uuid "1a0439b8-a063-4869-85ca-b9425ae8806a")
 		)
 		(instances
-			(project "stm32h7-hdmi-board-sodimm-module-hw"
+			(project "stm32h7-hdmi-board-sodimm-module"
 				(path "/92fcd7c5-798f-49cd-ae80-ce2fa78a6354/02eb4e3c-e878-409b-8c26-d4f0756348cb"
 					(reference "#PWR039")
 					(unit 1)
@@ -3089,7 +3089,7 @@
 			(uuid "4566ccdb-6464-4582-9a0c-2ccfc2789cd9")
 		)
 		(instances
-			(project "stm32h7-hdmi-board-sodimm-module-hw"
+			(project "stm32h7-hdmi-board-sodimm-module"
 				(path "/92fcd7c5-798f-49cd-ae80-ce2fa78a6354/02eb4e3c-e878-409b-8c26-d4f0756348cb"
 					(reference "#PWR038")
 					(unit 1)

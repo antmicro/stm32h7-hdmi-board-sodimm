@@ -576,7 +576,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "stm32h7-hdmi-board-sodimm-module-hw.kicad_pro",
+    "filename": "stm32h7-hdmi-board-sodimm-module.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -1387,7 +1387,7 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "stm32h7-hdmi-board-sodimm-module-hw.kicad_sch",
+        "filename": "stm32h7-hdmi-board-sodimm-module.kicad_sch",
         "name": "Root",
         "uuid": "92fcd7c5-798f-49cd-ae80-ce2fa78a6354"
       }

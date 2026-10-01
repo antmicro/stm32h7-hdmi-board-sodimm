@@ -4781,7 +4781,7 @@
 			)
 		)
 		(instances
-			(project "stm32h7-hdmi-board-sodimm-module-hw"
+			(project "stm32h7-hdmi-board-sodimm-module"
 				(path "/92fcd7c5-798f-49cd-ae80-ce2fa78a6354"
 					(page "4")
 				)
@@ -4847,7 +4847,7 @@
 			)
 		)
 		(instances
-			(project "stm32h7-hdmi-board-sodimm-module-hw"
+			(project "stm32h7-hdmi-board-sodimm-module"
 				(path "/92fcd7c5-798f-49cd-ae80-ce2fa78a6354"
 					(page "11")
 				)
@@ -5073,7 +5073,7 @@
 			)
 		)
 		(instances
-			(project "stm32h7-hdmi-board-sodimm-module-hw"
+			(project "stm32h7-hdmi-board-sodimm-module"
 				(path "/92fcd7c5-798f-49cd-ae80-ce2fa78a6354"
 					(page "7")
 				)
@@ -5299,7 +5299,7 @@
 			)
 		)
 		(instances
-			(project "stm32h7-hdmi-board-sodimm-module-hw"
+			(project "stm32h7-hdmi-board-sodimm-module"
 				(path "/92fcd7c5-798f-49cd-ae80-ce2fa78a6354"
 					(page "5")
 				)
@@ -5525,7 +5525,7 @@
 			)
 		)
 		(instances
-			(project "stm32h7-hdmi-board-sodimm-module-hw"
+			(project "stm32h7-hdmi-board-sodimm-module"
 				(path "/92fcd7c5-798f-49cd-ae80-ce2fa78a6354"
 					(page "9")
 				)
@@ -5791,7 +5791,7 @@
 			)
 		)
 		(instances
-			(project "stm32h7-hdmi-board-sodimm-module-hw"
+			(project "stm32h7-hdmi-board-sodimm-module"
 				(path "/92fcd7c5-798f-49cd-ae80-ce2fa78a6354"
 					(page "2")
 				)
@@ -6017,7 +6017,7 @@
 			)
 		)
 		(instances
-			(project "stm32h7-hdmi-board-sodimm-module-hw"
+			(project "stm32h7-hdmi-board-sodimm-module"
 				(path "/92fcd7c5-798f-49cd-ae80-ce2fa78a6354"
 					(page "6")
 				)
@@ -6243,7 +6243,7 @@
 			)
 		)
 		(instances
-			(project "stm32h7-hdmi-board-sodimm-module-hw"
+			(project "stm32h7-hdmi-board-sodimm-module"
 				(path "/92fcd7c5-798f-49cd-ae80-ce2fa78a6354"
 					(page "10")
 				)
@@ -6469,7 +6469,7 @@
 			)
 		)
 		(instances
-			(project "stm32h7-hdmi-board-sodimm-module-hw"
+			(project "stm32h7-hdmi-board-sodimm-module"
 				(path "/92fcd7c5-798f-49cd-ae80-ce2fa78a6354"
 					(page "3")
 				)
@@ -6695,7 +6695,7 @@
 			)
 		)
 		(instances
-			(project "stm32h7-hdmi-board-sodimm-module-hw"
+			(project "stm32h7-hdmi-board-sodimm-module"
 				(path "/92fcd7c5-798f-49cd-ae80-ce2fa78a6354"
 					(page "8")
 				)
