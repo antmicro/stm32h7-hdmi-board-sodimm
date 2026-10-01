@@ -20,6 +20,7 @@ The design files were prepared in KiCad 10.x.
 * JEDEC 144-pin SODIMM pin-assignment with only half of the data bus implemented (DQ[0..31])
 * Dimensions comply with the MO-190-C SODIMM Mechanical Specifications
 * Fully compatible with STM32H747 FMC
+* 67.6 x 31.75 mm (2.66 x 1.25 inch) PCB outline
 
 ## Project structure
 
