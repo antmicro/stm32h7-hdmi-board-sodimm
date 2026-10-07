@@ -1,4 +1,4 @@
-# STM32H7 HDMI Board SODIMM Module
+# SODIMM for STM32H7 HDMI Board
 
 Copyright (c) 2026 [Antmicro](https://www.antmicro.com)
 
@@ -6,10 +6,13 @@ Copyright (c) 2026 [Antmicro](https://www.antmicro.com)
 
 ## Overview
 
-Antmicro’s STM32H7 HDMI Board SODIMM Module is an SDRAM memory module designed to work with the STM32H7 HDMI Board. It provides 512 MB of SDRAM memory supporting a maximum memory clock frequency of 200 MHz, and exposes a 32-bit data bus for full compatibility with the STM32H747 FMC (Flexible Memory Controller) used in the STM32H7 HDMI Board. The SODIMM Module follows the JEDEC 144-pin SODIMM pin assignment with only half of the data bus implemented (32 bits). It also features an EEPROM memory chip for Serial Presence Detect. The board dimensions comply with the MO-190-C SODIMM Mechanical Specifications.
-
-The design files were prepared in KiCad 10.x.
-
+This project includes PCB design files for a custom SDRAM memory module in SO-DIMM form factor. 
+This module is compatible with [STM32H7 HDMI Board](https://github.com/antmicro/stm32h7-hdmi-board) developed by Antmicro. 
+It provides 512 MB of SDRAM memory supporting a maximum memory clock frequency of 200 MHz, and exposes a 32-bit data bus for full compatibility with the STM32H747 FMC (Flexible Memory Controller) used in the STM32H7 HDMI Board design. 
+The board design follows the JEDEC 144-pin SODIMM pin assignment with only half of the data bus implemented (32 bits).
+It also features an EEPROM memory chip for Serial Presence Detect.
+The board dimensions comply with the MO-190-C SODIMM Mechanical Specifications.
+The PCB design files were prepared in KiCad 10.x.
 
 ## Key features
 
@@ -18,16 +21,13 @@ The design files were prepared in KiCad 10.x.
 * 2Rx8 (32 data bus) memory organization
 * 8 x ISSI IS42S86400F-7TL SDRAM devices with a maximum clock frequency of 200MHz
 * JEDEC 144-pin SODIMM pin-assignment with only half of the data bus implemented (DQ[0..31])
-* Dimensions comply with the MO-190-C SODIMM Mechanical Specifications
-* Fully compatible with STM32H747 FMC
+* Board outline compliant with the MO-190-C SODIMM Mechanical Specifications
+* Compatible with STM32H747 FMC
 * 67.6 x 31.75 mm (2.66 x 1.25 inch) PCB outline
 
 ## Project structure
 
-The main directory contains KiCad PCB project files, a LICENSE and a README.
-The remaining files are stored in the following directories: 
-
-* `img` - contains graphics for this README
+The main directory contains KiCad PCB project files, the LICENSE, and this README, and the img directory contains graphics for this README.
 
 ## Licensing
 
